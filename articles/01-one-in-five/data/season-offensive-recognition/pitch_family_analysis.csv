@@ -1,0 +1,10 @@
+dimension,value,opportunities,recognized,not_recognized,recognition_rate,small_sample_warning,display_rate
+pitch_family,CHANGEUP,751,145,606,0.193075898802,False,19.3%
+pitch_family,CURVEBALL,1003,198,805,0.19740777667,False,19.7%
+pitch_family,CUTTER,1007,180,827,0.178748758689,False,17.9%
+pitch_family,FOUR_SEAM,3429,683,2746,0.199183435404,False,19.9%
+pitch_family,OTHER,65,8,57,0.123076923077,False,12.3%
+pitch_family,SINKER,2181,434,1747,0.1989912884,False,19.9%
+pitch_family,SLIDER,1331,286,1045,0.214876033058,False,21.5%
+pitch_family,SPLITTER,185,38,147,0.205405405405,False,20.5%
+pitch_family,SWEEPER,803,140,663,0.174346201743,False,17.4%

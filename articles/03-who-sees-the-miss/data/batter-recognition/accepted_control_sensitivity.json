@@ -1,0 +1,35 @@
+[
+  {
+    "accepted_feature_block": "C_SITUATION",
+    "delta_brier_score": -0.00449617763105814,
+    "delta_log_loss": -0.012553257236969595,
+    "delta_roc_auc": 0.018595284466546902,
+    "rank_correlation_with_primary": 0.9998129780345927,
+    "ranking_eligible_batters": 123,
+    "tau": 0.7523322813558897,
+    "temporal_tau": 0.7262899319649988,
+    "variant": "C_0.25"
+  },
+  {
+    "accepted_feature_block": "C_SITUATION",
+    "delta_brier_score": -0.004562591071021138,
+    "delta_log_loss": -0.012760445915852958,
+    "delta_roc_auc": 0.01886883622043445,
+    "rank_correlation_with_primary": 1.0,
+    "ranking_eligible_batters": 123,
+    "tau": 0.760840839403174,
+    "temporal_tau": 0.7383964834836587,
+    "variant": "C_1"
+  },
+  {
+    "accepted_feature_block": "C_SITUATION",
+    "delta_brier_score": -0.004579966834189458,
+    "delta_log_loss": -0.01281708465115361,
+    "delta_roc_auc": 0.019062114952526077,
+    "rank_correlation_with_primary": 0.9999226116005212,
+    "ranking_eligible_batters": 123,
+    "tau": 0.7633183175630341,
+    "temporal_tau": 0.7423016075129988,
+    "variant": "C_4"
+  }
+]

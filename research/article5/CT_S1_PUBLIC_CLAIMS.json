@@ -1,0 +1,198 @@
+{
+  "research_identity": "CT-S1",
+  "metric_version": "ct-s1.0",
+  "interpretation_contract": "Challenge Threshold tells you how sure you need to be under a named value model. It does not tell you how sure you are.",
+  "claims": [
+    {
+      "claim_id": "CTS11-C01",
+      "status": "APPROVED_RESTRICTED",
+      "type": "MODELED_DEFINITION",
+      "statement": "Under the CT-S1 fixed-path reference model, Challenge Threshold is the break-even required-confidence percentage C / (V + C), where V is immediate correction value and C is modeled future inventory value.",
+      "denominator": "Not applicable; this is the named model definition.",
+      "sources": [
+        {
+          "artifact": "research/article5/AMENDMENT_005_CT_SUCCESSOR_STANDARD.md",
+          "sha256": "5b4b65147f52869ae9b906461043898fa4787ce15dafb1138488878f0b152906"
+        }
+      ],
+      "required_context": "State that deltaW is zero by construction in the fixed-path implementation and that the reference convention uses p=0.60 with future use at p times correction value of at least 0.05 expected runs.",
+      "prohibited_extension": "Do not call the formula uniquely correct, a measure of player belief, or an optimal policy."
+    },
+    {
+      "claim_id": "CTS11-C02",
+      "status": "APPROVED_RESTRICTED",
+      "type": "MEASURED_SUPPORT",
+      "statement": "The untouched September 11-27 confirmation period supplied 24,880 legal state/inventory candidates. Of those, 22,584 had support in both periods under the frozen common-support hierarchy, or 90.7717%.",
+      "denominator": "All 24,880 confirmation candidate state/inventory rows.",
+      "sources": [
+        {
+          "artifact": "data/ct_s1/temporal/validation.json",
+          "sha256": "94d4e818336aa093bb3c83be843da04ff545011251e2e360f696024772724671",
+          "json_values": {
+            "candidate_states.confirmation": 24880,
+            "temporal_stability.joint.supported_rows": 22584,
+            "support.coverage": 0.907717041800643
+          }
+        }
+      ],
+      "required_context": "Identify the development window as March 25-September 9 and the confirmation window as September 11-27; September 10 is in neither period.",
+      "prohibited_extension": "Do not describe unsupported states as validated or impute values to them."
+    },
+    {
+      "claim_id": "CTS11-C03",
+      "status": "APPROVED_RESTRICTED",
+      "type": "MODELED_TEMPORAL_VALIDATION",
+      "statement": "Across 22,584 supported matched rows, the unchanged CT-S1 reference had median absolute drift 0.007628 (0.76 percentage points), 90th-percentile drift 0.026143 (2.61 percentage points), and Spearman rank correlation 0.995354 between development and confirmation.",
+      "denominator": "All 22,584 finite matched supported reference rows, unweighted.",
+      "sources": [
+        {
+          "artifact": "data/ct_s1/temporal/validation.json",
+          "sha256": "94d4e818336aa093bb3c83be843da04ff545011251e2e360f696024772724671",
+          "json_values": {
+            "temporal_stability.joint.finite_matched_rows": 22584,
+            "temporal_stability.joint.median_absolute_drift": 0.0076279836110852706,
+            "temporal_stability.joint.p90_absolute_drift": 0.02614252362304095,
+            "temporal_stability.joint.spearman_average_rank": 0.9953541975898943
+          }
+        }
+      ],
+      "required_context": "Describe this as temporal stability of one frozen named convention, not agreement among alternatives or proof of validity. Note that drift is generally small relative to the convention-driven spread.",
+      "prohibited_extension": "Do not imply that high rank stability validates player confidence, causal decision quality, or model consensus."
+    },
+    {
+      "claim_id": "CTS11-C04",
+      "status": "APPROVED_RESTRICTED",
+      "type": "MODELED_SENSITIVITY",
+      "statement": "Modeling convention remained the dominant caveat: 21,942 of 22,428 complete supported development rows and 21,929 of 22,428 complete supported confirmation rows had CT Model Spread wider than 0.10, about 98% in each period. Another 156 supported rows per period lacked a complete eight-convention spread.",
+      "denominator": "Complete supported eight-variant grids within each period.",
+      "sources": [
+        {
+          "artifact": "data/ct_s1/temporal/reference_disclosure.csv",
+          "sha256": "ca2cb7bdd6be75fc26f73c49a343b7a870db061bf775a7cd6c99212996b7554a",
+          "csv_counts": [
+            {"filters": {"period": "development", "supported": "True", "model_spread_complete": "True"}, "expected": 22428},
+            {"filters": {"period": "development", "supported": "True", "model_spread_complete": "True", "model_spread_label": "MATERIAL_MODEL_DISAGREEMENT"}, "expected": 21942},
+            {"filters": {"period": "confirmation", "supported": "True", "model_spread_complete": "True"}, "expected": 22428},
+            {"filters": {"period": "confirmation", "supported": "True", "model_spread_complete": "True", "model_spread_label": "MATERIAL_MODEL_DISAGREEMENT"}, "expected": 21929}
+          ]
+        }
+      ],
+      "required_context": "Define CT Model Spread as the range across the eight chosen conventions, not a distribution or coverage interval. Display it beside any affected reference value. Suppress the 156 supported rows per period with incomplete spread from point-value tables or label them explicitly as incomplete.",
+      "prohibited_extension": "Do not present the named reference as assumption-insensitive or merge model spread into a confidence interval."
+    },
+    {
+      "claim_id": "CTS11-C05",
+      "status": "APPROVED_RESTRICTED",
+      "type": "MODELED_REPRESENTATIVE_CONTRAST",
+      "statement": "One of three mechanically selected ordinary representatives met the frozen contrast rule. The CT-S1 reference was 0.668030 at 1-1 and 0.595135 at 1-2 in development, and 0.672804 at 1-1 and 0.600331 at 1-2 in confirmation: a called strike three at 1-2 required about 7.2-7.3 percentage points less confidence under the named model.",
+      "denominator": "One development-selected ordinary contrast meeting the frozen CTS7 eligibility rule in both periods and all eight core implementations.",
+      "sources": [
+        {
+          "artifact": "data/ct_s1/cts7/contrast_audit.csv",
+          "sha256": "fe6d30712a56ab760d70bbddc7a4116ee4ca444c3b88bc3408cae85a3e7bd000",
+          "csv_rows": [
+            {
+              "filters": {"contrast_class": "ordinary", "article_eligible": "True"},
+              "values": {
+                "development_reference_separation": "0.07289489777",
+                "confirmation_reference_separation": "0.072473761738",
+                "member_a_development_reference_ct": "0.668030290291",
+                "member_b_development_reference_ct": "0.595135392521"
+              }
+            }
+          ]
+        },
+        {
+          "artifact": "data/ct_s1/cts7/contrast_cells.csv",
+          "sha256": "7a2b3078124df0f0074e2ef1a67fd894e09705b0f0b54c3e0da05f51891938e5",
+          "csv_rows": [
+            {"filters": {"contrast_class": "ordinary", "scenario_id": "STRIKE|OFFENSE|1|1|0|0|5|bottom|TRAIL_2PLUS|HOME|inventory=2", "member": "A", "variant": "reference_fixed_0.60", "period": "confirmation"}, "values": {"ct": "0.672804488589"}},
+            {"filters": {"contrast_class": "ordinary", "scenario_id": "STRIKE|OFFENSE|1|2|0|0|5|bottom|TRAIL_2PLUS|HOME|inventory=2", "member": "B", "variant": "reference_fixed_0.60", "period": "confirmation"}, "values": {"ct": "0.600330726851"}}
+          ]
+        }
+      ],
+      "required_context": "Give the complete situation: offense, original called strike, bottom fifth, home team trailing by at least two, bases empty, no outs, and two units. State that score state is a state key, not win-value leverage under the fixed-path expected-runs objective. Alternatives preserved only the direction, not the 7.2-7.3-point magnitude. Show the two failed ordinary representatives alongside the survivor and state the frozen rule: same direction in both periods and all eight alternatives, with at least 0.05 reference separation in each period.",
+      "prohibited_extension": "Do not generalize this one contrast into a rule for all two-strike counts or say that a player should challenge."
+    },
+    {
+      "claim_id": "CTS11-C06",
+      "status": "APPROVED_RESTRICTED",
+      "type": "MODELED_SAMPLING_UNCERTAINTY",
+      "statement": "For the surviving contrast, the confirmation 95% game-clustered sampling intervals were 0.648558-0.696556 at 1-1 and 0.574113-0.626422 at 1-2; the corresponding model-spread ranges were 0.587087-0.756986 and 0.509469-0.694697.",
+      "denominator": "The two confirmation-period states in the surviving ordinary contrast; 2,000 game-clustered replicates per state.",
+      "sources": [
+        {
+          "artifact": "data/ct_s1/cts9/reference_sampling_intervals.csv",
+          "sha256": "7e696d9562e762bb3b2c997576ec03731a00c3db89ee153f979cb586fa4d6f3c",
+          "csv_rows": [
+            {
+              "filters": {"period": "confirmation", "scenario_id": "STRIKE|OFFENSE|1|1|0|0|5|bottom|TRAIL_2PLUS|HOME|inventory=2", "inventory": "2"},
+              "values": {"sampling_finite_replicates": "2000", "sampling_ct_lower": "0.64855777702", "sampling_ct_upper": "0.696556143855", "model_spread_low": "0.587086838983", "model_spread_high": "0.756985943641"}
+            },
+            {
+              "filters": {"period": "confirmation", "scenario_id": "STRIKE|OFFENSE|1|2|0|0|5|bottom|TRAIL_2PLUS|HOME|inventory=2", "inventory": "2"},
+              "values": {"sampling_finite_replicates": "2000", "sampling_ct_lower": "0.574113003187", "sampling_ct_upper": "0.626422182288", "model_spread_low": "0.509469335613", "model_spread_high": "0.69469716499"}
+            }
+          ]
+        }
+      ],
+      "required_context": "Label each sampling interval conditional on the frozen reference definition. Label CT Model Spread separately as implementation disagreement. These are per-state intervals; no paired sampling interval was calculated for the difference.",
+      "prohibited_extension": "Do not call model spread a confidence interval or claim the sampling interval contains all relevant uncertainty."
+    },
+    {
+      "claim_id": "CTS11-C07",
+      "status": "APPROVED_RESTRICTED",
+      "type": "MEASURED_REPRODUCIBILITY",
+      "statement": "Two isolated complete CT-S1 builds reproduced 25 generated files byte-for-byte with zero differences or exclusions, left 447 protected inputs unchanged, and passed 99 focused Article 5 tests.",
+      "denominator": "All generated files in the frozen CTS3-CTS9 chain and all files in the protected-input inventory.",
+      "sources": [
+        {
+          "artifact": "data/ct_s1/cts10/validation.json",
+          "sha256": "713593a76613ff8d24a9b34cbb9b5be67394f5cb33789c3131eb2be11d51249c",
+          "json_values": {
+            "comparison.files_compared": 25,
+            "comparison.differences": 0,
+            "protected_inputs.files_hashed": 447,
+            "tests.tests_passed": 99
+          }
+        }
+      ],
+      "required_context": "Describe this as computational reproducibility, not proof that the modeling convention is uniquely correct.",
+      "prohibited_extension": "Do not use reproducibility to override sensitivity findings or failed contrasts."
+    },
+    {
+      "claim_id": "CTS11-C08",
+      "status": "PROHIBITED",
+      "type": "POLICY_TRANSLATION",
+      "statement": "A Pascal ABS Challenge Playbook, an optimal challenge policy, or grades of individual player decisions are not supported by CT-S1.",
+      "denominator": "Not applicable.",
+      "sources": [
+        {
+          "artifact": "research/article5/CT_SUCCESSOR_VALIDATION_PLAN.md",
+          "sha256": "d2753047fa9e7fca98a25e426a32b0c7f49bda5136b97cb47b6323128ad1affe"
+        }
+      ],
+      "required_context": "The player-confidence layer remains unidentified, deltaW is fixed at zero, model spread is material, and only one ordinary representative contrast survived.",
+      "prohibited_extension": "Do not create action-colored bands, challenge/preserve commands, player grades, or universal situational rules."
+    },
+    {
+      "claim_id": "CTS11-C09",
+      "status": "APPROVED_RESTRICTED",
+      "type": "MODELED_CONVENTION_DEFINITION",
+      "statement": "The CT-S1 Model Spread grid contains eight frozen one-factor conventions: reference_fixed_0.60 uses future p=0.60, a 0.05-run future-use cutoff, constrained partially pooled count-aware run expectancy, and extra-inning restoration; fixed_0.50 changes future p to 0.50; fixed_0.70 changes future p to 0.70; cutoff_0.00 changes the future-use cutoff to 0.00 runs; cutoff_0.10 changes it to 0.10 runs; re_pooled_count and re_raw change only the correction-value estimator to the accepted Article 4 pooled-count and raw RE288 estimators; and no_extra_inning_restoration changes only the restoration rule.",
+      "denominator": "The eight core implementations required for every complete CT Model Spread row.",
+      "sources": [
+        {
+          "artifact": "research/article5/CT_S1_MODEL_SCHEMA.md",
+          "sha256": "5bd82fb10ec16b4a6b3ee55dc561db010bae087cdf111ef23a9b59c040a9513a"
+        },
+        {
+          "artifact": "research/article5/build_ct_s1_prepared.py",
+          "sha256": "f8de60177a53cb3424443245d8101ea3bbd18f7f30e925ca44e8fa623edc11f6"
+        }
+      ],
+      "required_context": "Describe the seven alternatives as one-factor-at-a-time sensitivity conventions relative to the reference. Future p is a standardization input for valuing future inventory, not player belief. State that public_tracking and selected_transport are diagnostics outside the eight-convention spread grid.",
+      "prohibited_extension": "Do not describe the eight conventions as an exhaustive set of defensible models, treat CT Model Spread as a confidence interval, or imply that the named reference is uniquely correct."
+    }
+  ]
+}

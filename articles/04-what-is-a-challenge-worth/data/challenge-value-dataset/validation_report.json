@@ -1,0 +1,1171 @@
+{
+  "braves_case": {
+    "braves_games_searched": 158,
+    "candidates_evaluated": 504,
+    "criteria_total": 17,
+    "games_with_5_1_braves_loss": 0,
+    "max_criteria_matched": 11,
+    "top_candidates": [
+      {
+        "attached_event_descriptions": "[]",
+        "attached_event_types": "[]",
+        "away": "NYM",
+        "batter": "Carson Benge",
+        "criteria_matched": 11,
+        "criteria_total": 17,
+        "criterion_braves_fielding": true,
+        "criterion_braves_trailed_5_0_after_first": false,
+        "criterion_called_ball_four": true,
+        "criterion_catcher_throw_recorded": false,
+        "criterion_count_3_2_pre": true,
+        "criterion_final_score_5_1_braves_loss": false,
+        "criterion_first_inning": true,
+        "criterion_geometry_strike": true,
+        "criterion_inning_continued": true,
+        "criterion_later_home_run_in_inning": true,
+        "criterion_later_walk_in_inning": false,
+        "criterion_near_top_of_zone": true,
+        "criterion_not_successfully_challenged": true,
+        "criterion_one_out_pre": true,
+        "criterion_rev_batter_carson_benge": true,
+        "criterion_rev_baty_homer_three_batters_later": true,
+        "criterion_rev_bichette_on_first": true,
+        "criterion_rev_game_2026_08_10_vs_mets": true,
+        "criterion_rev_mets_lead_5_0_after_homer": true,
+        "criterion_rev_pitcher_elder": true,
+        "criterion_runner_on_first_pre": true,
+        "criterion_secondary_play_reviewed": false,
+        "criterion_steal_attempt_on_pitch": false,
+        "derived_abs_call": "STRIKE",
+        "feed_sha256": "4cf9ddd40fb41cfae941459b4664895707bfd1ede2bc8a59051e1acd082f6e16",
+        "final_away": 8,
+        "final_home": 5,
+        "game_date": "2026-08-10",
+        "game_pk": 824887,
+        "half_inning": "top",
+        "home": "ATL",
+        "identification_status": "IDENTIFIED_USER_CONFIRMED_GAME",
+        "inning": 1,
+        "pa_result_description": "Carson Benge walks. Bo Bichette to 2nd.",
+        "pitch_key": "824887:3:7",
+        "pitch_review_overturned": null,
+        "pitch_review_type": null,
+        "pitcher": "Bryce Elder",
+        "plate_x": 0.5892541123865609,
+        "plate_z": 3.206039440533083,
+        "pre_bases": "100",
+        "pre_count": "3-2",
+        "pre_outs": 1,
+        "revised_criteria_matched": 6,
+        "revised_criteria_total": 6,
+        "signed_boundary_distance_inches": -2.085526713603003,
+        "source_scope": "SNAPSHOT",
+        "zone_bottom": 1.645,
+        "zone_top": 3.259
+      },
+      {
+        "attached_event_descriptions": "[]",
+        "attached_event_types": "[]",
+        "away": "ATL",
+        "batter": "Carson Benge",
+        "criteria_matched": 6,
+        "criteria_total": 17,
+        "criterion_braves_fielding": true,
+        "criterion_braves_trailed_5_0_after_first": false,
+        "criterion_called_ball_four": true,
+        "criterion_catcher_throw_recorded": false,
+        "criterion_count_3_2_pre": true,
+        "criterion_final_score_5_1_braves_loss": false,
+        "criterion_first_inning": true,
+        "criterion_geometry_strike": false,
+        "criterion_inning_continued": true,
+        "criterion_later_home_run_in_inning": false,
+        "criterion_later_walk_in_inning": false,
+        "criterion_near_top_of_zone": false,
+        "criterion_not_successfully_challenged": true,
+        "criterion_one_out_pre": false,
+        "criterion_rev_batter_carson_benge": true,
+        "criterion_rev_baty_homer_three_batters_later": false,
+        "criterion_rev_bichette_on_first": false,
+        "criterion_rev_game_2026_08_10_vs_mets": false,
+        "criterion_rev_mets_lead_5_0_after_homer": false,
+        "criterion_rev_pitcher_elder": true,
+        "criterion_runner_on_first_pre": false,
+        "criterion_secondary_play_reviewed": false,
+        "criterion_steal_attempt_on_pitch": false,
+        "derived_abs_call": "BALL",
+        "feed_sha256": "1e3ab8d86735f7f43b963e3c7ef7cb5ee6a9edc0100834e300ed19349e4ae5f9",
+        "final_away": 1,
+        "final_home": 8,
+        "game_date": "2026-06-14",
+        "game_pk": 823615,
+        "half_inning": "bottom",
+        "home": "NYM",
+        "identification_status": "NOT_THE_CASE",
+        "inning": 1,
+        "pa_result_description": "Carson Benge walks.",
+        "pitch_key": "823615:6:6",
+        "pitch_review_overturned": null,
+        "pitch_review_type": null,
+        "pitcher": "Bryce Elder",
+        "plate_x": 1.5940691937333107,
+        "plate_z": 1.4779103729774823,
+        "pre_bases": "000",
+        "pre_count": "3-2",
+        "pre_outs": 0,
+        "revised_criteria_matched": 2,
+        "revised_criteria_total": 6,
+        "signed_boundary_distance_inches": 9.366300750783964,
+        "source_scope": "SNAPSHOT",
+        "zone_bottom": 1.645,
+        "zone_top": 3.259
+      },
+      {
+        "attached_event_descriptions": "[]",
+        "attached_event_types": "[]",
+        "away": "NYM",
+        "batter": "Brett Baty",
+        "criteria_matched": 6,
+        "criteria_total": 17,
+        "criterion_braves_fielding": true,
+        "criterion_braves_trailed_5_0_after_first": false,
+        "criterion_called_ball_four": true,
+        "criterion_catcher_throw_recorded": false,
+        "criterion_count_3_2_pre": true,
+        "criterion_final_score_5_1_braves_loss": false,
+        "criterion_first_inning": false,
+        "criterion_geometry_strike": false,
+        "criterion_inning_continued": true,
+        "criterion_later_home_run_in_inning": false,
+        "criterion_later_walk_in_inning": false,
+        "criterion_near_top_of_zone": false,
+        "criterion_not_successfully_challenged": true,
+        "criterion_one_out_pre": false,
+        "criterion_rev_batter_carson_benge": false,
+        "criterion_rev_baty_homer_three_batters_later": false,
+        "criterion_rev_bichette_on_first": false,
+        "criterion_rev_game_2026_08_10_vs_mets": true,
+        "criterion_rev_mets_lead_5_0_after_homer": false,
+        "criterion_rev_pitcher_elder": true,
+        "criterion_runner_on_first_pre": true,
+        "criterion_secondary_play_reviewed": false,
+        "criterion_steal_attempt_on_pitch": false,
+        "derived_abs_call": "BALL",
+        "feed_sha256": "4cf9ddd40fb41cfae941459b4664895707bfd1ede2bc8a59051e1acd082f6e16",
+        "final_away": 8,
+        "final_home": 5,
+        "game_date": "2026-08-10",
+        "game_pk": 824887,
+        "half_inning": "top",
+        "home": "ATL",
+        "identification_status": "NOT_THE_CASE",
+        "inning": 2,
+        "pa_result_description": "Brett Baty walks. Jared Young to 3rd. Marcus Semien to 2nd.",
+        "pitch_key": "824887:22:7",
+        "pitch_review_overturned": null,
+        "pitch_review_type": null,
+        "pitcher": "Bryce Elder",
+        "plate_x": 0.4412869036543088,
+        "plate_z": -0.3410822749166457,
+        "pre_bases": "110",
+        "pre_count": "3-2",
+        "pre_outs": 2,
+        "revised_criteria_matched": 2,
+        "revised_criteria_total": 6,
+        "signed_boundary_distance_inches": 22.80298729899975,
+        "source_scope": "SNAPSHOT",
+        "zone_bottom": 1.68,
+        "zone_top": 3.328
+      },
+      {
+        "attached_event_descriptions": "[]",
+        "attached_event_types": "[]",
+        "away": "NYM",
+        "batter": "Jorge Polanco",
+        "criteria_matched": 5,
+        "criteria_total": 17,
+        "criterion_braves_fielding": true,
+        "criterion_braves_trailed_5_0_after_first": false,
+        "criterion_called_ball_four": true,
+        "criterion_catcher_throw_recorded": false,
+        "criterion_count_3_2_pre": false,
+        "criterion_final_score_5_1_braves_loss": false,
+        "criterion_first_inning": false,
+        "criterion_geometry_strike": false,
+        "criterion_inning_continued": true,
+        "criterion_later_home_run_in_inning": false,
+        "criterion_later_walk_in_inning": false,
+        "criterion_near_top_of_zone": false,
+        "criterion_not_successfully_challenged": true,
+        "criterion_one_out_pre": true,
+        "criterion_rev_batter_carson_benge": false,
+        "criterion_rev_baty_homer_three_batters_later": false,
+        "criterion_rev_bichette_on_first": false,
+        "criterion_rev_game_2026_08_10_vs_mets": true,
+        "criterion_rev_mets_lead_5_0_after_homer": false,
+        "criterion_rev_pitcher_elder": true,
+        "criterion_runner_on_first_pre": false,
+        "criterion_secondary_play_reviewed": false,
+        "criterion_steal_attempt_on_pitch": false,
+        "derived_abs_call": "BALL",
+        "feed_sha256": "4cf9ddd40fb41cfae941459b4664895707bfd1ede2bc8a59051e1acd082f6e16",
+        "final_away": 8,
+        "final_home": 5,
+        "game_date": "2026-08-10",
+        "game_pk": 824887,
+        "half_inning": "top",
+        "home": "ATL",
+        "identification_status": "NOT_THE_CASE",
+        "inning": 5,
+        "pa_result_description": "Jorge Polanco walks.",
+        "pitch_key": "824887:46:4",
+        "pitch_review_overturned": null,
+        "pitch_review_type": null,
+        "pitcher": "Bryce Elder",
+        "plate_x": -0.9748738174199456,
+        "plate_z": 2.81295689356248,
+        "pre_bases": "000",
+        "pre_count": "3-1",
+        "pre_outs": 1,
+        "revised_criteria_matched": 2,
+        "revised_criteria_total": 6,
+        "signed_boundary_distance_inches": 1.7484858090393467,
+        "source_scope": "SNAPSHOT",
+        "zone_bottom": 1.61,
+        "zone_top": 3.191
+      },
+      {
+        "attached_event_descriptions": "[]",
+        "attached_event_types": "[]",
+        "away": "MIL",
+        "batter": "Cooper Pratt",
+        "criteria_matched": 8,
+        "criteria_total": 17,
+        "criterion_braves_fielding": true,
+        "criterion_braves_trailed_5_0_after_first": false,
+        "criterion_called_ball_four": true,
+        "criterion_catcher_throw_recorded": false,
+        "criterion_count_3_2_pre": true,
+        "criterion_final_score_5_1_braves_loss": false,
+        "criterion_first_inning": false,
+        "criterion_geometry_strike": false,
+        "criterion_inning_continued": true,
+        "criterion_later_home_run_in_inning": false,
+        "criterion_later_walk_in_inning": false,
+        "criterion_near_top_of_zone": true,
+        "criterion_not_successfully_challenged": true,
+        "criterion_one_out_pre": true,
+        "criterion_rev_batter_carson_benge": false,
+        "criterion_rev_baty_homer_three_batters_later": false,
+        "criterion_rev_bichette_on_first": false,
+        "criterion_rev_game_2026_08_10_vs_mets": false,
+        "criterion_rev_mets_lead_5_0_after_homer": false,
+        "criterion_rev_pitcher_elder": true,
+        "criterion_runner_on_first_pre": true,
+        "criterion_secondary_play_reviewed": false,
+        "criterion_steal_attempt_on_pitch": false,
+        "derived_abs_call": "BALL",
+        "feed_sha256": "a9389ac3eea09143d885d0b34902809132f78f3fd65bd69488812da5591b2816",
+        "final_away": 9,
+        "final_home": 4,
+        "game_date": "2026-06-21",
+        "game_pk": 824908,
+        "half_inning": "top",
+        "home": "ATL",
+        "identification_status": "NOT_THE_CASE",
+        "inning": 3,
+        "pa_result_description": "Cooper Pratt walks. Sal Frelick to 2nd.",
+        "pitch_key": "824908:25:9",
+        "pitch_review_overturned": null,
+        "pitch_review_type": null,
+        "pitcher": "Bryce Elder",
+        "plate_x": -1.0420633064526656,
+        "plate_z": 3.5344030434591622,
+        "pre_bases": "100",
+        "pre_count": "3-2",
+        "pre_outs": 1,
+        "revised_criteria_matched": 1,
+        "revised_criteria_total": 6,
+        "signed_boundary_distance_inches": 2.993320347276759,
+        "source_scope": "SNAPSHOT",
+        "zone_bottom": 1.703,
+        "zone_top": 3.374
+      }
+    ]
+  },
+  "competing_attention": {
+    "ca_any_secondary_action": 296,
+    "ca_catcher_pickoff_throw": 30,
+    "ca_catcher_throw_any_evidence": 101,
+    "ca_catcher_throw_recorded": 73,
+    "ca_caught_stealing": 51,
+    "ca_defensive_indifference": 8,
+    "ca_error_on_play": 22,
+    "ca_other_secondary_action": 2,
+    "ca_passed_ball": 6,
+    "ca_pickoff_action": 30,
+    "ca_runner_advance": 220,
+    "ca_runner_out": 53,
+    "ca_secondary_play_reviewed": 16,
+    "ca_stolen_base": 199,
+    "ca_stolen_base_attempt": 250,
+    "ca_wild_pitch": 0
+  },
+  "competing_attention_by_side": {
+    "DEFENSE": {
+      "ca_any_secondary_action": 235,
+      "ca_catcher_pickoff_throw": 30,
+      "ca_catcher_throw_any_evidence": 91,
+      "ca_catcher_throw_recorded": 63,
+      "ca_caught_stealing": 44,
+      "ca_defensive_indifference": 3,
+      "ca_error_on_play": 19,
+      "ca_other_secondary_action": 2,
+      "ca_passed_ball": 6,
+      "ca_pickoff_action": 30,
+      "ca_runner_advance": 165,
+      "ca_runner_out": 46,
+      "ca_secondary_play_reviewed": 15,
+      "ca_stolen_base": 150,
+      "ca_stolen_base_attempt": 194,
+      "ca_wild_pitch": 0
+    },
+    "OFFENSE": {
+      "ca_any_secondary_action": 61,
+      "ca_catcher_pickoff_throw": 0,
+      "ca_catcher_throw_any_evidence": 10,
+      "ca_catcher_throw_recorded": 10,
+      "ca_caught_stealing": 7,
+      "ca_defensive_indifference": 5,
+      "ca_error_on_play": 3,
+      "ca_other_secondary_action": 0,
+      "ca_passed_ball": 0,
+      "ca_pickoff_action": 0,
+      "ca_runner_advance": 55,
+      "ca_runner_out": 7,
+      "ca_secondary_play_reviewed": 1,
+      "ca_stolen_base": 49,
+      "ca_stolen_base_attempt": 56,
+      "ca_wild_pitch": 0
+    }
+  },
+  "competing_attention_traceability": {
+    "flagged_rows_with_raw_source_fields": true,
+    "flagged_without_raw_event_or_movement": 0
+  },
+  "counterfactual": {
+    "actual_state_consistency": {
+      "CONSISTENT": 21831
+    },
+    "ambiguous_eligible": 40,
+    "ambiguous_reasons": {
+      "CONTINUES->STRIKEOUT with live-ball runner action; placement at umpire discretion": 23,
+      "CONTINUES->WALK with live-ball runner action; placement at umpire discretion": 1,
+      "STRIKEOUT->CONTINUES with live-ball runner action; placement at umpire discretion": 2,
+      "STRIKEOUT->WALK with live-ball runner action; placement at umpire discretion": 9,
+      "counterfactual strike three on an uncaught pitch; batter could have attempted first base": 3,
+      "unsupported movement: Catcher Interference": 2
+    },
+    "invalid_corrected_states": 0,
+    "invalid_observed_states": 0,
+    "next_pitch_mismatch_examples": [
+      {
+        "attached_event_types": "[]",
+        "cf_rule": "R5_UNSUPPORTED_MOVEMENT",
+        "pitch_key": "824429:15:3",
+        "unlinked_baserunning_before_next_pitch": "[]"
+      },
+      {
+        "attached_event_types": "[]",
+        "cf_rule": "R5_UNSUPPORTED_MOVEMENT",
+        "pitch_key": "824496:73:0",
+        "unlinked_baserunning_before_next_pitch": "[]"
+      },
+      {
+        "attached_event_types": "[]",
+        "cf_rule": "R5_UNSUPPORTED_MOVEMENT",
+        "pitch_key": "823428:77:0",
+        "unlinked_baserunning_before_next_pitch": "[]"
+      }
+    ],
+    "next_pitch_state_check_all_incorrect": {
+      "INTERVENING_STATE_CHANGING_EVENT": 35,
+      "MATCH": 21256,
+      "MATCH_HALF_ENDED": 504,
+      "MISMATCH": 3,
+      "NEXT_PITCH_IN_OTHER_HALF_GAME_END_OR_WALKOFF": 5,
+      "NO_NEXT_PITCH": 28
+    },
+    "pa_outcome_changes_eligible": [
+      {
+        "cor_pa_status": "CONTINUES",
+        "n": 7343,
+        "obs_pa_status": "CONTINUES",
+        "opportunity_side": "DEFENSE"
+      },
+      {
+        "cor_pa_status": "STRIKEOUT",
+        "n": 1334,
+        "obs_pa_status": "CONTINUES",
+        "opportunity_side": "DEFENSE"
+      },
+      {
+        "cor_pa_status": "CONTINUES",
+        "n": 380,
+        "obs_pa_status": "WALK",
+        "opportunity_side": "DEFENSE"
+      },
+      {
+        "cor_pa_status": "STRIKEOUT",
+        "n": 317,
+        "obs_pa_status": "WALK",
+        "opportunity_side": "DEFENSE"
+      },
+      {
+        "cor_pa_status": "CONTINUES",
+        "n": 8943,
+        "obs_pa_status": "CONTINUES",
+        "opportunity_side": "OFFENSE"
+      },
+      {
+        "cor_pa_status": "WALK",
+        "n": 610,
+        "obs_pa_status": "CONTINUES",
+        "opportunity_side": "OFFENSE"
+      },
+      {
+        "cor_pa_status": "CONTINUES",
+        "n": 919,
+        "obs_pa_status": "STRIKEOUT",
+        "opportunity_side": "OFFENSE"
+      },
+      {
+        "cor_pa_status": "WALK",
+        "n": 278,
+        "obs_pa_status": "STRIKEOUT",
+        "opportunity_side": "OFFENSE"
+      }
+    ],
+    "rules_eligible": [
+      {
+        "cf_confidence": "EXACT",
+        "cf_rule": "R1_NO_RUNNER_ACTION",
+        "n": 9198,
+        "opportunity_side": "DEFENSE"
+      },
+      {
+        "cf_confidence": "RULE_BASED",
+        "cf_rule": "R2_RUNNER_OUTCOME_STANDS",
+        "n": 176,
+        "opportunity_side": "DEFENSE"
+      },
+      {
+        "cf_confidence": "AMBIGUOUS",
+        "cf_rule": "R3_TERMINAL_CALL_RUNNER_ACTION",
+        "n": 30,
+        "opportunity_side": "DEFENSE"
+      },
+      {
+        "cf_confidence": "AMBIGUOUS",
+        "cf_rule": "R4_UNCAUGHT_THIRD_STRIKE",
+        "n": 3,
+        "opportunity_side": "DEFENSE"
+      },
+      {
+        "cf_confidence": "AMBIGUOUS",
+        "cf_rule": "R5_UNSUPPORTED_MOVEMENT",
+        "n": 2,
+        "opportunity_side": "DEFENSE"
+      },
+      {
+        "cf_confidence": "EXACT",
+        "cf_rule": "R1_NO_RUNNER_ACTION",
+        "n": 10694,
+        "opportunity_side": "OFFENSE"
+      },
+      {
+        "cf_confidence": "RULE_BASED",
+        "cf_rule": "R2_RUNNER_OUTCOME_STANDS",
+        "n": 56,
+        "opportunity_side": "OFFENSE"
+      },
+      {
+        "cf_confidence": "AMBIGUOUS",
+        "cf_rule": "R3_TERMINAL_CALL_RUNNER_ACTION",
+        "n": 5,
+        "opportunity_side": "OFFENSE"
+      }
+    ],
+    "unrecorded_runner_action_possible_eligible": 174,
+    "unrecorded_runner_action_possible_high_value": 39,
+    "walkoff_states": 0
+  },
+  "decision_time_leakage": {
+    "decision_time_fields": [
+      "eligibility_status",
+      "inning",
+      "half_inning",
+      "outs",
+      "balls",
+      "strikes",
+      "on_1b",
+      "on_2b",
+      "on_3b",
+      "inning_group",
+      "inning_bucket",
+      "batting_team_score",
+      "fielding_team_score",
+      "batting_score_diff",
+      "entitled_team_score_diff",
+      "base_state",
+      "count",
+      "late_close",
+      "strike_three_or_ball_four_at_stake",
+      "RE_pre_pitch",
+      "challenge_inventory",
+      "inventory_recomputed",
+      "final_challenge_indicator",
+      "opponent_inventory",
+      "offense_challenges_remaining",
+      "defense_challenges_remaining",
+      "prior_team_challenges",
+      "prior_team_challenges_overturned",
+      "prior_team_challenges_confirmed",
+      "prior_team_offense_challenges",
+      "prior_team_defense_challenges",
+      "prior_team_eligible_incorrect_calls",
+      "prior_team_eligible_unchallenged",
+      "prior_opponent_challenges",
+      "extra_inning_grants_before",
+      "pitch_type",
+      "pitch_name",
+      "release_speed",
+      "plate_x",
+      "plate_z",
+      "abs_zone_top",
+      "abs_zone_bot",
+      "bat_side",
+      "pitch_hand",
+      "original_call",
+      "derived_abs_call",
+      "pitch_family",
+      "signed_boundary_distance_inches",
+      "abs_distance_inches",
+      "miss_axis",
+      "miss_side",
+      "horizontal_distance_inches",
+      "vertical_distance_inches",
+      "corner_proximity_inches",
+      "expected_recognition_prob_article3",
+      "expected_recognition_prob_temporal",
+      "expected_recognition_temporal_fold",
+      "opportunity_difficulty_bucket"
+    ],
+    "hindsight_fields_prefix": "hindsight_",
+    "note": "Decision-time fields use only the pre-pitch state and strictly earlier pitches; RE tables are season-level environment parameters (see methodology).",
+    "prior_count_mismatches": 0,
+    "sample": 2000
+  },
+  "feed_call_consistency": {
+    "feed_call_matches_expected_rate": 1.0,
+    "mismatches": []
+  },
+  "feed_vs_statcast_pre_pitch_state_all_incorrect": {
+    "balls": 1.0,
+    "batting_score": 1.0,
+    "on_1b": 1.0,
+    "on_2b": 1.0,
+    "on_3b": 1.0,
+    "outs": 1.0,
+    "strikes": 1.0
+  },
+  "half_inning_runs_feed_vs_linescore": {
+    "halves": 39048,
+    "halves_not_ending_with_three_outs": 186,
+    "match_rate": 0.9999487809875025,
+    "mismatches": [
+      {
+        "end_outs": 1,
+        "feed_movement_runs": 0,
+        "game_pk": 824295,
+        "half_inning": "top",
+        "inning": 9,
+        "linescore_runs": NaN,
+        "pitches": 8
+      },
+      {
+        "end_outs": 0,
+        "feed_movement_runs": 0,
+        "game_pk": 824807,
+        "half_inning": "bottom",
+        "inning": 6,
+        "linescore_runs": NaN,
+        "pitches": 0
+      }
+    ]
+  },
+  "headline": {
+    "ambiguous": 40,
+    "braves_case_identified": true,
+    "competing_attention_rows": 296,
+    "defense_challenged": 2986,
+    "defense_opportunities": 9409,
+    "defense_unchallenged": 6423,
+    "exact": 19892,
+    "high_value_missed_rows": 250,
+    "inventory_coverage": 1.0,
+    "missed_value_ge_0_25_runs": 1487,
+    "offense_challenged": 2112,
+    "offense_opportunities": 10755,
+    "offense_unchallenged": 8643,
+    "re_value_coverage_non_ambiguous": 1.0,
+    "rule_based": 232,
+    "total_missed_value_runs_known": 2023.413592556766,
+    "total_realized_value_runs_known": 978.3491592057833
+  },
+  "inventory": {
+    "eligible_inventory_matches_recomputed": 1.0,
+    "eligible_with_zero_inventory": 0,
+    "inventory_coverage": 1.0,
+    "inventory_distribution": [
+      {
+        "challenge_inventory": 1.0,
+        "n": 2655,
+        "opportunity_side": "DEFENSE"
+      },
+      {
+        "challenge_inventory": 2.0,
+        "n": 6754,
+        "opportunity_side": "DEFENSE"
+      },
+      {
+        "challenge_inventory": 1.0,
+        "n": 3168,
+        "opportunity_side": "OFFENSE"
+      },
+      {
+        "challenge_inventory": 2.0,
+        "n": 7587,
+        "opportunity_side": "OFFENSE"
+      }
+    ],
+    "stored_vs_recomputed_mismatches_all_pitches": {}
+  },
+  "missingness_eligible": {
+    "RE_corrected": 0.0013390200357072009,
+    "RE_corrected_alternatives": 0.9987601666336045,
+    "RE_corrected_lomo": 0.0013390200357072009,
+    "RE_corrected_pooled": 0.0013390200357072009,
+    "RE_delta_batting": 0.0019837333862328904,
+    "RE_delta_batting_lomo": 0.0019837333862328904,
+    "RE_delta_batting_pooled": 0.0019837333862328904,
+    "RE_delta_fielding": 0.0019837333862328904,
+    "RE_delta_fielding_lomo": 0.0019837333862328904,
+    "RE_delta_fielding_pooled": 0.0019837333862328904,
+    "RE_observed": 0.0006447133505256893,
+    "RE_observed_alternatives": 0.9993552866494743,
+    "RE_observed_lomo": 0.0006447133505256893,
+    "RE_observed_pooled": 0.0006447133505256893,
+    "alternative_states": 0.9981154532830787,
+    "ca_other_secondary_types": 0.9999008133306884,
+    "cf_ambiguity_reason": 0.9980162666137671,
+    "challenge_outcome": 0.7471731799246182,
+    "challenge_value_runs": 0.7478178932751438,
+    "cor_balls": 0.0013390200357072009,
+    "cor_base_state": 0.0013390200357072009,
+    "cor_inning_ended": 0.0013390200357072009,
+    "cor_outs": 0.0013390200357072009,
+    "cor_pa_status": 0.0013390200357072009,
+    "cor_runs": 0.0013390200357072009,
+    "cor_state_valid": 0.0013390200357072009,
+    "cor_strikes": 0.0013390200357072009,
+    "corner_proximity_inches": 0.4666236857766316,
+    "correction_value_runs": 0.0019837333862328904,
+    "correction_value_runs_lomo": 0.0019837333862328904,
+    "correction_value_runs_lower": 9.918666931164451e-05,
+    "correction_value_runs_pooled": 0.0019837333862328904,
+    "correction_value_runs_upper": 9.918666931164451e-05,
+    "expected_recognition_prob_article3": 0.4666236857766316,
+    "expected_recognition_prob_temporal": 0.48601467962705813,
+    "expected_recognition_temporal_fold": 0.48601467962705813,
+    "feed_pitch_review_overturned": 0.8030648680817298,
+    "feed_pitch_review_type": 0.8030648680817298,
+    "horizontal_distance_inches": 0.4666236857766316,
+    "missed_challenge_value_runs": 0.25416584011108906,
+    "next_event_from_catcher": 0.9840309462408252,
+    "next_event_type": 0.10727038286054354,
+    "obs_balls": 0.0006447133505256893,
+    "obs_base_state": 0.0006447133505256893,
+    "obs_inning_ended": 0.0006447133505256893,
+    "obs_outs": 0.0006447133505256893,
+    "obs_pa_status": 0.0006447133505256893,
+    "obs_runs": 0.0006447133505256893,
+    "obs_state_valid": 0.0006447133505256893,
+    "obs_strikes": 0.0006447133505256893,
+    "official_abs_call": 0.7471731799246182,
+    "on_1b": 0.6926701051378694,
+    "on_2b": 0.8240924419757985,
+    "on_3b": 0.9165344177742512,
+    "opportunity_difficulty_bucket": 0.4666236857766316,
+    "recognized_article1_3": 0.4666236857766316,
+    "secondary_review_json": 0.9992065066455068,
+    "survival_detail": 0.25277722674072606,
+    "unavailable_correction_value_runs": 1.0,
+    "vertical_distance_inches": 0.4666236857766316
+  },
+  "population": {
+    "all_incorrect_calls_by_status": [
+      {
+        "eligibility_status": "ELIGIBLE",
+        "n": 9409,
+        "opportunity_side": "DEFENSE"
+      },
+      {
+        "eligibility_status": "INELIGIBLE_EXHAUSTED",
+        "n": 680,
+        "opportunity_side": "DEFENSE"
+      },
+      {
+        "eligibility_status": "INELIGIBLE_POSITION_PLAYER_PITCHING",
+        "n": 38,
+        "opportunity_side": "DEFENSE"
+      },
+      {
+        "eligibility_status": "ELIGIBLE",
+        "n": 10755,
+        "opportunity_side": "OFFENSE"
+      },
+      {
+        "eligibility_status": "INELIGIBLE_EXHAUSTED",
+        "n": 789,
+        "opportunity_side": "OFFENSE"
+      },
+      {
+        "eligibility_status": "INELIGIBLE_POSITION_PLAYER_PITCHING",
+        "n": 160,
+        "opportunity_side": "OFFENSE"
+      }
+    ],
+    "article1_3_offense_audit": {
+      "analysis_end_date": "2026-09-09",
+      "analysis_start_date": "2026-03-25",
+      "incorrect_called_strikes": 11704,
+      "legal_recognition_opportunities": 10755,
+      "monthly": [
+        {
+          "month": "2026-03",
+          "not_recognized": 325,
+          "opportunities": 391,
+          "recognition_rate": 0.16879795396419436,
+          "recognized": 66
+        },
+        {
+          "month": "2026-04",
+          "not_recognized": 1550,
+          "opportunities": 1893,
+          "recognition_rate": 0.18119387216059166,
+          "recognized": 343
+        },
+        {
+          "month": "2026-05",
+          "not_recognized": 1554,
+          "opportunities": 1929,
+          "recognition_rate": 0.19440124416796267,
+          "recognized": 375
+        },
+        {
+          "month": "2026-06",
+          "not_recognized": 1516,
+          "opportunities": 1918,
+          "recognition_rate": 0.20959332638164754,
+          "recognized": 402
+        },
+        {
+          "month": "2026-07",
+          "not_recognized": 1435,
+          "opportunities": 1794,
+          "recognition_rate": 0.20011148272017837,
+          "recognized": 359
+        },
+        {
+          "month": "2026-08",
+          "not_recognized": 1731,
+          "opportunities": 2169,
+          "recognition_rate": 0.20193637621023514,
+          "recognized": 438
+        },
+        {
+          "month": "2026-09",
+          "not_recognized": 532,
+          "opportunities": 661,
+          "recognition_rate": 0.1951588502269289,
+          "recognized": 129
+        }
+      ],
+      "not_recognized": 8643,
+      "other_exclusions": 0,
+      "outcome_definition": "1 if the batter challenged an eligible incorrect called strike; challenge success is not used",
+      "population_identity_holds": true,
+      "position_player_pitching": 160,
+      "recognized": 2112,
+      "resource_constrained": 789,
+      "unknown": 0
+    },
+    "challenge_outcomes_eligible": [
+      {
+        "challenge_outcome": "OVERTURNED",
+        "n": 2986,
+        "opportunity_side": "DEFENSE"
+      },
+      {
+        "challenge_outcome": NaN,
+        "n": 6423,
+        "opportunity_side": "DEFENSE"
+      },
+      {
+        "challenge_outcome": "CONFIRMED",
+        "n": 1,
+        "opportunity_side": "OFFENSE"
+      },
+      {
+        "challenge_outcome": "OVERTURNED",
+        "n": 2111,
+        "opportunity_side": "OFFENSE"
+      },
+      {
+        "challenge_outcome": NaN,
+        "n": 8643,
+        "opportunity_side": "OFFENSE"
+      }
+    ],
+    "defense_audit": {
+      "challenged": 2986,
+      "incorrect_called_balls": 10127,
+      "legal_defensive_opportunities": 9409,
+      "other_exclusions": 0,
+      "position_player_pitching": 38,
+      "resource_constrained": 680,
+      "sprint3_legal_defensive_challenged": 2986,
+      "sprint3_legal_defensive_count": 9409,
+      "unknown": 0
+    },
+    "defense_challenged": 2986,
+    "defense_opportunities": 9409,
+    "defense_reconciles_sprint3_summary": true,
+    "defense_unchallenged": 6423,
+    "offense_challenged": 2112,
+    "offense_opportunities": 10755,
+    "offense_recognized_equals_challenged": true,
+    "offense_reconciles_10755_2112": true,
+    "offense_unchallenged": 8643
+  },
+  "protected_input_count": 352,
+  "protected_inputs_unchanged": true,
+  "run_expectancy": {
+    "count_order_violation_rows_eligible": 82,
+    "estimation_pitches": 583019,
+    "lomo_vs_primary_correlation": 0.9912095367637697,
+    "lomo_vs_primary_max_abs_diff": 0.19027269379808476,
+    "lomo_vs_primary_mean_abs_diff": 0.010261899173563582,
+    "lookup_coverage_eligible_corrected": 0.9986609799642928,
+    "lookup_coverage_eligible_observed": 0.9993552866494743,
+    "lookup_coverage_non_ambiguous": 1.0,
+    "median_state_pitches": 596.5,
+    "min_state_pitches": 7,
+    "monotonic_count_checks": {
+      "extra_ball_comparisons": 216,
+      "extra_ball_ordered": 191,
+      "extra_strike_comparisons": 192,
+      "extra_strike_ordered": 177,
+      "largest_violations": [
+        {
+          "bases": "011",
+          "change": "extra_ball",
+          "delta": -0.2853,
+          "from": "1-2",
+          "outs": 0
+        },
+        {
+          "bases": "001",
+          "change": "extra_strike",
+          "delta": 0.2107,
+          "from": "3-0",
+          "outs": 0
+        },
+        {
+          "bases": "011",
+          "change": "extra_strike",
+          "delta": 0.207,
+          "from": "3-0",
+          "outs": 0
+        },
+        {
+          "bases": "001",
+          "change": "extra_strike",
+          "delta": 0.1951,
+          "from": "2-0",
+          "outs": 0
+        },
+        {
+          "bases": "111",
+          "change": "extra_ball",
+          "delta": -0.172,
+          "from": "2-0",
+          "outs": 1
+        },
+        {
+          "bases": "111",
+          "change": "extra_strike",
+          "delta": 0.1613,
+          "from": "3-0",
+          "outs": 1
+        },
+        {
+          "bases": "011",
+          "change": "extra_ball",
+          "delta": -0.1328,
+          "from": "2-0",
+          "outs": 1
+        },
+        {
+          "bases": "010",
+          "change": "extra_strike",
+          "delta": 0.1152,
+          "from": "3-0",
+          "outs": 0
+        },
+        {
+          "bases": "001",
+          "change": "extra_ball",
+          "delta": -0.1116,
+          "from": "0-2",
+          "outs": 0
+        },
+        {
+          "bases": "001",
+          "change": "extra_ball",
+          "delta": -0.1021,
+          "from": "2-0",
+          "outs": 0
+        }
+      ],
+      "violations": 40
+    },
+    "monotonic_count_checks_pooled": {
+      "extra_ball_comparisons": 216,
+      "extra_ball_ordered": 216,
+      "extra_strike_comparisons": 192,
+      "extra_strike_ordered": 192,
+      "largest_violations": [],
+      "violations": 0
+    },
+    "negative_correction_value_examples": [
+      {
+        "base_state": "111",
+        "cf_rule": "R1_NO_RUNNER_ACTION",
+        "correction_value_runs": -0.06197141771183157,
+        "count": "2-0",
+        "opportunity_side": "OFFENSE",
+        "outs": 1,
+        "pitch_key": "823812:17:2"
+      },
+      {
+        "base_state": "101",
+        "cf_rule": "R1_NO_RUNNER_ACTION",
+        "correction_value_runs": -0.01282747234313919,
+        "count": "1-0",
+        "opportunity_side": "DEFENSE",
+        "outs": 2,
+        "pitch_key": "823974:40:2"
+      },
+      {
+        "base_state": "011",
+        "cf_rule": "R1_NO_RUNNER_ACTION",
+        "correction_value_runs": -0.084681264180471,
+        "count": "1-0",
+        "opportunity_side": "OFFENSE",
+        "outs": 2,
+        "pitch_key": "823488:70:1"
+      },
+      {
+        "base_state": "101",
+        "cf_rule": "R1_NO_RUNNER_ACTION",
+        "correction_value_runs": -0.01282747234313919,
+        "count": "1-0",
+        "opportunity_side": "OFFENSE",
+        "outs": 2,
+        "pitch_key": "823160:30:1"
+      },
+      {
+        "base_state": "101",
+        "cf_rule": "R1_NO_RUNNER_ACTION",
+        "correction_value_runs": -0.01282747234313919,
+        "count": "1-0",
+        "opportunity_side": "DEFENSE",
+        "outs": 2,
+        "pitch_key": "823891:22:1"
+      },
+      {
+        "base_state": "101",
+        "cf_rule": "R1_NO_RUNNER_ACTION",
+        "correction_value_runs": -0.01282747234313919,
+        "count": "1-0",
+        "opportunity_side": "DEFENSE",
+        "outs": 2,
+        "pitch_key": "824943:10:1"
+      },
+      {
+        "base_state": "101",
+        "cf_rule": "R1_NO_RUNNER_ACTION",
+        "correction_value_runs": -0.01282747234313919,
+        "count": "1-0",
+        "opportunity_side": "DEFENSE",
+        "outs": 2,
+        "pitch_key": "824940:15:1"
+      },
+      {
+        "base_state": "101",
+        "cf_rule": "R1_NO_RUNNER_ACTION",
+        "correction_value_runs": -0.01282747234313919,
+        "count": "1-0",
+        "opportunity_side": "OFFENSE",
+        "outs": 2,
+        "pitch_key": "823569:4:1"
+      },
+      {
+        "base_state": "001",
+        "cf_rule": "R1_NO_RUNNER_ACTION",
+        "correction_value_runs": -0.011925053229667748,
+        "count": "3-0",
+        "opportunity_side": "OFFENSE",
+        "outs": 2,
+        "pitch_key": "823727:76:4"
+      },
+      {
+        "base_state": "011",
+        "cf_rule": "R1_NO_RUNNER_ACTION",
+        "correction_value_runs": -0.084681264180471,
+        "count": "1-0",
+        "opportunity_side": "OFFENSE",
+        "outs": 2,
+        "pitch_key": "824455:18:2"
+      },
+      {
+        "base_state": "101",
+        "cf_rule": "R1_NO_RUNNER_ACTION",
+        "correction_value_runs": -0.01282747234313919,
+        "count": "1-0",
+        "opportunity_side": "DEFENSE",
+        "outs": 2,
+        "pitch_key": "823075:22:1"
+      },
+      {
+        "base_state": "111",
+        "cf_rule": "R1_NO_RUNNER_ACTION",
+        "correction_value_runs": -0.06197141771183157,
+        "count": "2-0",
+        "opportunity_side": "DEFENSE",
+        "outs": 1,
+        "pitch_key": "823154:26:2"
+      },
+      {
+        "base_state": "101",
+        "cf_rule": "R1_NO_RUNNER_ACTION",
+        "correction_value_runs": -0.01282747234313919,
+        "count": "1-0",
+        "opportunity_side": "OFFENSE",
+        "outs": 2,
+        "pitch_key": "824937:53:1"
+      },
+      {
+        "base_state": "111",
+        "cf_rule": "R1_NO_RUNNER_ACTION",
+        "correction_value_runs": -0.06197141771183157,
+        "count": "2-0",
+        "opportunity_side": "DEFENSE",
+        "outs": 1,
+        "pitch_key": "825023:84:2"
+      },
+      {
+        "base_state": "011",
+        "cf_rule": "R1_NO_RUNNER_ACTION",
+        "correction_value_runs": -0.084681264180471,
+        "count": "1-0",
+        "opportunity_side": "OFFENSE",
+        "outs": 2,
+        "pitch_key": "824371:83:1"
+      },
+      {
+        "base_state": "101",
+        "cf_rule": "R1_NO_RUNNER_ACTION",
+        "correction_value_runs": -0.01282747234313919,
+        "count": "1-0",
+        "opportunity_side": "DEFENSE",
+        "outs": 2,
+        "pitch_key": "824776:39:1"
+      },
+      {
+        "base_state": "011",
+        "cf_rule": "R1_NO_RUNNER_ACTION",
+        "correction_value_runs": -0.084681264180471,
+        "count": "1-0",
+        "opportunity_side": "DEFENSE",
+        "outs": 2,
+        "pitch_key": "823639:25:1"
+      },
+      {
+        "base_state": "001",
+        "cf_rule": "R1_NO_RUNNER_ACTION",
+        "correction_value_runs": -0.011925053229667748,
+        "count": "3-0",
+        "opportunity_side": "OFFENSE",
+        "outs": 2,
+        "pitch_key": "824611:68:3"
+      },
+      {
+        "base_state": "111",
+        "cf_rule": "R1_NO_RUNNER_ACTION",
+        "correction_value_runs": -0.06197141771183157,
+        "count": "2-0",
+        "opportunity_side": "OFFENSE",
+        "outs": 1,
+        "pitch_key": "825094:72:3"
+      },
+      {
+        "base_state": "001",
+        "cf_rule": "R1_NO_RUNNER_ACTION",
+        "correction_value_runs": -0.07702612038405399,
+        "count": "2-0",
+        "opportunity_side": "DEFENSE",
+        "outs": 1,
+        "pitch_key": "824931:5:2"
+      }
+    ],
+    "negative_correction_values_eligible": 82,
+    "negative_correction_values_pooled": 0,
+    "pooled_vs_primary_mean_abs_diff": 0.03870580360796617,
+    "states_estimated": 288,
+    "states_possible": 288,
+    "states_under_100_pitches": 29,
+    "value_nonfinite_non_ambiguous": 0
+  },
+  "sequences": {
+    "challenges_in_sequences": 9485,
+    "chronological_inventory_consistency": 1.0,
+    "event_classes": {
+      "CHALLENGE_OF_GEOMETRY_CORRECT_CALL": 4387,
+      "ELIGIBLE_INCORRECT_CALL": 20164,
+      "INELIGIBLE_INCORRECT_CALL_EXHAUSTED": 1469,
+      "INELIGIBLE_INCORRECT_CALL_POSITION_PLAYER_PITCHING": 198
+    },
+    "official_challenges": 9485,
+    "rows": 26218,
+    "sequence_numbers_contiguous": true,
+    "team_games": 4379
+  },
+  "uniqueness": {
+    "article1_3_pitch_keys_preserved": true,
+    "duplicate_opportunity_ids": 0,
+    "duplicate_pitch_keys_all_incorrect": 0
+  }
+}

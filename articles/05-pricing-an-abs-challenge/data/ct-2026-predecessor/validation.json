@@ -1,0 +1,109 @@
+{
+  "build_status": "FAIL",
+  "ct9_reproducibility": "PENDING_PAIRED_BUILD",
+  "gates": {
+    "CT10_CLAIM_REVIEW": "PASS",
+    "CT1_INPUTS": "PASS",
+    "CT2_REFERENCE_ENGINE": "PASS",
+    "CT3_INFORMATION_TIMING": "PASS",
+    "CT4_SUPPORT": "PASS",
+    "CT5_MATHEMATICS": "PASS",
+    "CT6_SENSITIVITY": "FAIL",
+    "CT7_UNCERTAINTY": "PASS",
+    "CT8_EXAMPLES": "PASS"
+  },
+  "leave_one_game_out_audit": {
+    "comparisons": 101600,
+    "maximum_absolute_cost_change": 0.01867731254589669,
+    "median_absolute_cost_change": 0.0,
+    "sampled_games": 100
+  },
+  "population": {
+    "exhausted_future_opportunities": 22720,
+    "future_stream_rows": 334948,
+    "invalid_geometry_probability_fallbacks": 172,
+    "legal_called_pitches": 312228,
+    "negative_canonical_values": 0,
+    "nonfinite_canonical_values": 0,
+    "observed_legal_decisions": 312228,
+    "official_challenge_rows": 9485,
+    "pitch_rows": 645793,
+    "public_end": "2026-09-09",
+    "public_geometry_exclusions": 172,
+    "public_geometry_rows": 312056,
+    "public_start": "2026-03-25",
+    "selected_challenge_rows": 9485,
+    "selected_missing_official_outcome": 0,
+    "selected_missing_role": 0,
+    "team_games": 4390
+  },
+  "publication": {
+    "candidate_rows": 64694,
+    "eligible_rows": 64694,
+    "example_groups": [
+      "HIGH_DECILE",
+      "LOW_DECILE",
+      "MATCHED_EARLY_LATE",
+      "MATCHED_INVENTORY",
+      "ORDINARY_MEDIAN"
+    ],
+    "example_rows": 7,
+    "material_model_sensitivity_share": 0.9705227687266207,
+    "suppressed_share": 0.0
+  },
+  "reference": {
+    "exact_sequence_upper_bound_pass": true,
+    "future_ev_cutoff_runs": 0.05,
+    "future_probability_convention": 0.6,
+    "mean_exact_W1": 0.8728231807850321,
+    "mean_exact_W2": 1.4770659631458007,
+    "mean_fixed_W1": 0.27887672033774047,
+    "mean_fixed_W2": 0.567448807454519,
+    "policy": "challenge when p * correction value >= cutoff; ties challenge"
+  },
+  "restrictions": {
+    "observed_decision_grading": "not permitted",
+    "opponent_response": "not modeled",
+    "playbook_allowed": false,
+    "player_confidence": "not estimated",
+    "win_probability": "not modeled"
+  },
+  "support": {
+    "candidate_summary": {
+      "L0_EXACT": {
+        "groups": 552,
+        "rows_selected": 324313
+      },
+      "L1_NO_SCORE": {
+        "groups": 120,
+        "rows_selected": 9701
+      },
+      "L2_NO_ROLE": {
+        "groups": 60,
+        "rows_selected": 934
+      },
+      "L3_INNING_BUCKET": {
+        "groups": 24,
+        "rows_selected": 0
+      },
+      "L4_NO_HALF": {
+        "groups": 12,
+        "rows_selected": 0
+      }
+    },
+    "state_count": 508,
+    "support_levels": {
+      "L0_EXACT": 324313,
+      "L1_NO_SCORE": 9701,
+      "L2_NO_ROLE": 934
+    },
+    "unsupported_legal_rows": 0,
+    "unsupported_rows": 0
+  },
+  "uncertainty": {
+    "bootstrap_replicates": 500,
+    "bootstrap_seed": 20260926,
+    "interval": "game-clustered percentile; policy held fixed"
+  },
+  "version": "CT-2026.1"
+}

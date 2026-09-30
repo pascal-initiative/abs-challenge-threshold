@@ -1,0 +1,8 @@
+finding,sprint2,sprint3,result,criterion
+Boundary distance,Positive,beta=0.4603; p=1.061e-65,REPLICATES,positive coefficient and p<0.05
+Pitch block,No held-out improvement,dLogLoss=0.002861; dAUC=-0.002126,REPLICATES,improvement only if dLogLoss<=-0.001 and dAUC>=0.002
+Situation block,Held-out improvement,dLogLoss=-0.04092; dAUC=0.1046,REPLICATES,dLogLoss<=-0.001 and dAUC>=0.002
+Batter effect,Insufficient support,supported,SUPPORTED,"dLogLoss<=-0.001, dBrier<=-0.0005, and >=10 entities with >=30 opportunities"
+Pitcher effect,Insufficient support,not supported,NOT_SUPPORTED,"dLogLoss<=-0.001, dBrier<=-0.0005, and >=10 entities with >=30 opportunities"
+Catcher effect,None detectable,not supported,NOT_SUPPORTED,"dLogLoss<=-0.001, dBrier<=-0.0005, and >=10 entities with >=30 opportunities"
+Umpire effect,None detectable,not supported,NOT_SUPPORTED,"dLogLoss<=-0.001, dBrier<=-0.0005, and >=10 entities with >=30 opportunities"

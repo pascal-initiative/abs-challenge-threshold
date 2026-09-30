@@ -1,0 +1,56 @@
+{
+  "bootstrap": {
+    "cluster_unit": "game_pk",
+    "games": {
+      "confirmation": 229,
+      "development": 2195
+    },
+    "quantile_method": "linear",
+    "quantiles": [
+      0.025,
+      0.975
+    ],
+    "replicates": 2000,
+    "resampling_implementation": "ct_s1_assurance.clustered_reference_intervals",
+    "seed": 20260926
+  },
+  "conditions": {
+    "all_published_intervals_have_2000_finite_replicates": true,
+    "all_supported_rows_receive_complete_interval": true,
+    "frozen_replicate_count_used": true,
+    "frozen_seed_used": true,
+    "game_cluster_resampling_used": true,
+    "interval_endpoints_ordered": true,
+    "no_partial_intervals": true,
+    "prior_output_hashes_reconcile": true,
+    "protected_inputs_unchanged": true,
+    "reference_point_costs_reconcile": true,
+    "sampling_and_model_spread_columns_separate": true
+  },
+  "intervals": {
+    "candidate_period_state_rows": 49760,
+    "maximum_point_cost_reconciliation_delta": 5.39346345362901e-13,
+    "maximum_width": 0.6115033786683925,
+    "median_width": 0.0249671369885473,
+    "p90_width": 0.06967436390261565,
+    "point_inside_interval_rows": 45168,
+    "published_complete_rows": 45168,
+    "supported_period_state_rows": 45168,
+    "suppressed_rows": 4592
+  },
+  "metric_version": "ct-s1.0-candidate",
+  "next_gate": "CTS10_PAIRED_ISOLATED_BUILDS",
+  "research_identity": "CT-S1",
+  "restrictions": {
+    "article_claims": false,
+    "conditional_finite_game_sample_interval": true,
+    "correction_value_refit": false,
+    "future_use_policy_refit": false,
+    "model_spread_combined_with_sampling": false,
+    "playbook_allowed": false,
+    "probability_refit": false,
+    "state_hierarchy_refit": false
+  },
+  "status": "PASS_CTS9_READY_FOR_CTS10",
+  "version": "ct-s1.0-cts9"
+}

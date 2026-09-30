@@ -1,0 +1,17 @@
+{
+  "challenge_available": 484,
+  "excluded_other": 0,
+  "excluded_resource": 15,
+  "excluded_unknown": 10,
+  "excluded_unknown_reasons": {
+    "POSITION_PLAYER_PITCHING": 10
+  },
+  "full_season_expansion_performed": false,
+  "incorrect_called_strikes": 509,
+  "not_recognized": 388,
+  "outcome_definition": "1 when the eligible incorrect called strike was challenged by its batter; 0 otherwise. Challenge result is not used.",
+  "pilot_end": "2026-08-30",
+  "pilot_start": "2026-08-24",
+  "recognized": 96,
+  "sprint1_pitches_sha256": "1d25d56f7dd944d777ab5410bd5ba646a60e53455cc34a6aafd331c88ba0b402"
+}

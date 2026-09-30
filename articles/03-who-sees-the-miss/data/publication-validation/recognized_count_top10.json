@@ -1,0 +1,122 @@
+[
+  {
+    "recognized_count_sort_position": 1,
+    "batter_id": 701398,
+    "batter": "Sal Stewart",
+    "opportunities": 49,
+    "recognized": 27,
+    "raw_recognition_rate": 0.551020408163,
+    "expected_recognized": 12.8615615934,
+    "expected_recognition_rate": 0.262480848845,
+    "adjusted_effect": 0.242390868294,
+    "adjusted_leaderboard_rank": 4
+  },
+  {
+    "recognized_count_sort_position": 2,
+    "batter_id": 547180,
+    "batter": "Bryce Harper",
+    "opportunities": 31,
+    "recognized": 21,
+    "raw_recognition_rate": 0.677419354839,
+    "expected_recognized": 6.39389642759,
+    "expected_recognition_rate": 0.206254723471,
+    "adjusted_effect": 0.366682770568,
+    "adjusted_leaderboard_rank": 1
+  },
+  {
+    "recognized_count_sort_position": 3,
+    "batter_id": 514888,
+    "batter": "Jose Altuve",
+    "opportunities": 43,
+    "recognized": 20,
+    "raw_recognition_rate": 0.46511627907,
+    "expected_recognized": 9.0624105601,
+    "expected_recognition_rate": 0.210753733956,
+    "adjusted_effect": 0.203889914103,
+    "adjusted_leaderboard_rank": 5
+  },
+  {
+    "recognized_count_sort_position": 4,
+    "batter_id": 694384,
+    "batter": "Nolan Schanuel",
+    "opportunities": 39,
+    "recognized": 20,
+    "raw_recognition_rate": 0.512820512821,
+    "expected_recognized": 7.49159351855,
+    "expected_recognition_rate": 0.192092141501,
+    "adjusted_effect": 0.256130829049,
+    "adjusted_leaderboard_rank": 3
+  },
+  {
+    "recognized_count_sort_position": 5,
+    "batter_id": 593428,
+    "batter": "Xander Bogaerts",
+    "opportunities": 55,
+    "recognized": 18,
+    "raw_recognition_rate": 0.327272727273,
+    "expected_recognized": 11.7798500395,
+    "expected_recognition_rate": 0.214179091628,
+    "adjusted_effect": 0.0932230113408,
+    "adjusted_leaderboard_rank": 18
+  },
+  {
+    "recognized_count_sort_position": 6,
+    "batter_id": 805808,
+    "batter": "Kevin McGonigle",
+    "opportunities": 51,
+    "recognized": 18,
+    "raw_recognition_rate": 0.352941176471,
+    "expected_recognized": 11.8011070345,
+    "expected_recognition_rate": 0.231394255578,
+    "adjusted_effect": 0.0985154719361,
+    "adjusted_leaderboard_rank": 13
+  },
+  {
+    "recognized_count_sort_position": 7,
+    "batter_id": 676609,
+    "batter": "José Caballero",
+    "opportunities": 32,
+    "recognized": 17,
+    "raw_recognition_rate": 0.53125,
+    "expected_recognized": 6.20949808619,
+    "expected_recognition_rate": 0.194046815193,
+    "adjusted_effect": 0.258689188093,
+    "adjusted_leaderboard_rank": 2
+  },
+  {
+    "recognized_count_sort_position": 8,
+    "batter_id": 672695,
+    "batter": "Geraldo Perdomo",
+    "opportunities": 53,
+    "recognized": 16,
+    "raw_recognition_rate": 0.301886792453,
+    "expected_recognized": 11.1143046902,
+    "expected_recognition_rate": 0.209703862078,
+    "adjusted_effect": 0.0740264578732,
+    "adjusted_leaderboard_rank": 25
+  },
+  {
+    "recognized_count_sort_position": 9,
+    "batter_id": 807712,
+    "batter": "Luke Keaschall",
+    "opportunities": 48,
+    "recognized": 16,
+    "raw_recognition_rate": 0.333333333333,
+    "expected_recognized": 10.1068075188,
+    "expected_recognition_rate": 0.210558489975,
+    "adjusted_effect": 0.0980849197064,
+    "adjusted_leaderboard_rank": 14
+  },
+  {
+    "recognized_count_sort_position": 10,
+    "batter_id": 668709,
+    "batter": "JJ Bleday",
+    "opportunities": 31,
+    "recognized": 15,
+    "raw_recognition_rate": 0.483870967742,
+    "expected_recognized": 8.68976849236,
+    "expected_recognition_rate": 0.280315112657,
+    "adjusted_effect": 0.15481387382,
+    "adjusted_leaderboard_rank": 7
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "claims": {
+    "approved_restricted": 7,
+    "failed": 0,
+    "prohibited": 1,
+    "total": 8
+  },
+  "conditions": {
+    "all_public_numbers_map_to_accepted_artifacts": true,
+    "interpretation_contract_present": true,
+    "no_prescriptive_approved_claim": true,
+    "playbook_prohibited": true
+  },
+  "decision": {
+    "numerical_drafting_allowed": true,
+    "optimal_policy_claim_allowed": false,
+    "playbook_allowed": false,
+    "player_grading_allowed": false,
+    "reference_evaluator_allowed": true,
+    "representative_contrast_allowed": true
+  },
+  "failures": [],
+  "gate_status": {
+    "CTS11": "PASS"
+  },
+  "metric_version": "ct-s1.0",
+  "research_identity": "CT-S1",
+  "status": "PASS_CTS11_NUMERICAL_DRAFTING_ALLOWED"
+}

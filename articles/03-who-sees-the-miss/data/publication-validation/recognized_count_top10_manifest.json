@@ -1,0 +1,25 @@
+{
+  "artifact": "Article 3 recognized-count top 10",
+  "method": "recognized descending; batter_id ascending tie-break",
+  "cutoff_tie": {
+    "recognized": 15,
+    "excluded_by_tie_break": [
+      {
+        "batter_id": 702332,
+        "batter": "Caleb Durbin"
+      }
+    ]
+  },
+  "immutable_inputs": {
+    "data/analysis/sprint4/complete_batter_results.csv": "8ef844441d9302e3603e942c558e545cb9506ac9815396061039a68d2fb4640d",
+    "data/analysis/sprint4/ranking_eligible_leaderboard.csv": "b2dc3e5e19c1323f0bc398fa1f5f677aa0c88f324b324b49566e3f4359855359",
+    "artifacts/sprint4/run_manifest.json": "a7d68a88c60ac3b9247f23b77e7bb66283578560b9ef6a2d0c8547bdc45fde3a"
+  },
+  "outputs": {
+    "artifacts/publication_validation/article3/recognized_count_top10.csv": "837b59bcd28728e6341aad48dd1525137ce62dc71dd5f11e4910cbb590c0b4c6",
+    "artifacts/publication_validation/article3/recognized_count_top10.json": "86c59881bf0cb0a8b63a7ab7c2846bb640228b9cd90a03f7fb4aaaf3066c998f",
+    "artifacts/publication_validation/article3/recognized_count_top10_vs_adjusted_leaderboard.csv": "0484c7767030032270f978dcb7cb189be83fad3abfeb71f320f6675b5114a721",
+    "artifacts/publication_validation/article3/recognized_count_top10_vs_adjusted_leaderboard.json": "ce480d2831cae3312c249eb2fb39e9931c4335c00ffb02499727915adef78ca7",
+    "docs/publication_validation/article3/recognized_count_top10.md": "1bbd959467aa3a2cd0dc209903fe242c69439d69a7e4c8c279196080bd41265e"
+  }
+}

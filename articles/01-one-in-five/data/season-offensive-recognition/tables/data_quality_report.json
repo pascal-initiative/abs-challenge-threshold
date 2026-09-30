@@ -1,0 +1,113 @@
+{
+  "by_month": [
+    {
+      "missing_batter_ids": 0,
+      "missing_catcher_ids": 0,
+      "missing_movement": 1,
+      "missing_pitch_location": 1,
+      "missing_pitcher_ids": 0,
+      "missing_umpire_ids": 0,
+      "month": "2026-03",
+      "pitches": 22536
+    },
+    {
+      "missing_batter_ids": 0,
+      "missing_catcher_ids": 0,
+      "missing_movement": 105,
+      "missing_pitch_location": 105,
+      "missing_pitcher_ids": 0,
+      "missing_umpire_ids": 0,
+      "month": "2026-04",
+      "pitches": 116902
+    },
+    {
+      "missing_batter_ids": 0,
+      "missing_catcher_ids": 0,
+      "missing_movement": 5,
+      "missing_pitch_location": 4,
+      "missing_pitcher_ids": 0,
+      "missing_umpire_ids": 0,
+      "month": "2026-05",
+      "pitches": 121449
+    },
+    {
+      "missing_batter_ids": 0,
+      "missing_catcher_ids": 0,
+      "missing_movement": 200,
+      "missing_pitch_location": 200,
+      "missing_pitcher_ids": 0,
+      "missing_umpire_ids": 0,
+      "month": "2026-06",
+      "pitches": 115647
+    },
+    {
+      "missing_batter_ids": 0,
+      "missing_catcher_ids": 0,
+      "missing_movement": 27,
+      "missing_pitch_location": 27,
+      "missing_pitcher_ids": 0,
+      "missing_umpire_ids": 0,
+      "month": "2026-07",
+      "pitches": 109039
+    },
+    {
+      "missing_batter_ids": 0,
+      "missing_catcher_ids": 0,
+      "missing_movement": 8,
+      "missing_pitch_location": 8,
+      "missing_pitcher_ids": 0,
+      "missing_umpire_ids": 0,
+      "month": "2026-08",
+      "pitches": 122877
+    },
+    {
+      "missing_batter_ids": 0,
+      "missing_catcher_ids": 0,
+      "missing_movement": 0,
+      "missing_pitch_location": 0,
+      "missing_pitcher_ids": 0,
+      "missing_umpire_ids": 0,
+      "month": "2026-09",
+      "pitches": 37343
+    }
+  ],
+  "called_balls": 232327,
+  "called_pitches": 336095,
+  "called_strikes": 103768,
+  "classification_exclusions": [],
+  "classification_status": "COMPLETED",
+  "duplicate_pitch_keys": 0,
+  "expected_games": 2195,
+  "failed_game_downloads": [],
+  "failed_source_downloads": [],
+  "game_exclusions": [],
+  "geometry_disagreements": 3,
+  "impossible_challenge_inventory": 0,
+  "impossible_counts": 0,
+  "missing_batter_ids": 0,
+  "missing_called_pitch_catcher_ids": 0,
+  "missing_catcher_ids": 0,
+  "missing_challenge_matches": 0,
+  "missing_movement_data": 346,
+  "missing_pitch_locations": 345,
+  "missing_pitcher_ids": 0,
+  "missing_umpire_ids": 0,
+  "pitch_rows_deleted": 0,
+  "source_discrepancies": {
+    "automatic_nonpitch_record": 2103,
+    "documented_pitch_number_offset": 865,
+    "feed_abs_missing_savant": 1,
+    "pitch_sequence_semantic_conflict": 2
+  },
+  "source_record_exclusions": [
+    {
+      "percentage_of_population": 0.3245891315890205,
+      "reason": "AUTOMATIC_NONPITCH_EVENT",
+      "row_count": 2103
+    }
+  ],
+  "successfully_processed_games": 2195,
+  "total_pitches": 645793,
+  "unknown_classifications": 383,
+  "unmatched_official_challenges": 0
+}

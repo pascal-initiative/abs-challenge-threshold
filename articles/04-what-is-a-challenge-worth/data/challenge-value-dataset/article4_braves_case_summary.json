@@ -1,0 +1,67 @@
+{
+  "abs_zone_top_ft": 3.259498032,
+  "batter": "Carson Benge",
+  "braves_inventory_before": 2,
+  "call": "BALL (ball four)",
+  "catcher": "Sean Murphy",
+  "challenged_in_sources": false,
+  "decision_point_valuation": {
+    "CORRECTED_AS_RECORDED_NO_RUNNER_ACTION": {
+      "RE_batting": 0.23452523150879076,
+      "RE_delta_batting_vs_observed": 0.7070987260618802,
+      "basis": "Primary R1 counterfactual. It assumes no runner action because none is recorded; the user's account says a steal attempt and throw occurred, so this state is exact only with respect to the record.",
+      "correction_value_runs_to_braves": 0.7070987260618802,
+      "state": "strikeout; 2 outs, runner on 1st"
+    },
+    "CORRECTED_RUNNER_OUT_INNING_OVER": {
+      "RE_batting": 0.0,
+      "RE_delta_batting_vs_observed": 0.941623957570671,
+      "basis": "Strike three with the runner ruled out on the tag play (the account's possible initial out call).",
+      "correction_value_runs_to_braves": 0.941623957570671,
+      "state": "strikeout and runner out at 2nd; half-inning over"
+    },
+    "CORRECTED_RUNNER_SAFE_AT_SECOND": {
+      "RE_batting": 0.3201670728544926,
+      "RE_delta_batting_vs_observed": 0.6214568847161783,
+      "basis": "Strike three with the steal attempt's outcome ruled safe (umpire discretion under 2026 guidance).",
+      "correction_value_runs_to_braves": 0.6214568847161783,
+      "state": "strikeout; 2 outs, runner on 2nd"
+    },
+    "OBSERVED_WALK": {
+      "RE_batting": 0.941623957570671,
+      "RE_delta_batting_vs_observed": 0.0,
+      "correction_value_runs_to_braves": 0.0,
+      "state": "1 out, runners on 1st and 2nd, new PA"
+    }
+  },
+  "derived_abs_call": "STRIKE",
+  "discrepancies_with_original_recollection": [
+    "Final score was NYM 8, ATL 5, not 5-1. No 2026 Braves game through 2026-09-23 ended 5-1.",
+    "After the walk: Jared Young single, Marcus Semien strikeout, Brett Baty grand slam (not 'a walk and home run').",
+    "The runner was not recorded as out; the original recollection's 'initially called out' is not in the sources."
+  ],
+  "elements_not_in_any_source": [
+    "Bichette's steal attempt and the catcher's throw to second: the feed records only 'Carson Benge walks. Bo Bichette to 2nd.' with a force advance (r_adv_force); Statcast records the same. Ball four entitled Bichette to second, so no caught stealing could be recorded.",
+    "Any out call by the second-base umpire: not recorded.",
+    "Elder's hat-tap challenge request and why it was not granted: no ABS record in the dedicated ABS extract, the feed reviewDetails, or processed challenges.csv. Timing or eligibility of the request cannot be established from these sources."
+  ],
+  "flags": {
+    "cf_confidence": "EXACT",
+    "cf_rule": "R1_NO_RUNNER_ACTION",
+    "cf_unrecorded_runner_action_possible": true
+  },
+  "full_half_inning_sequence_rows": 44,
+  "game_date": "2026-08-10",
+  "game_pk": 824887,
+  "identification_basis": "User identified the game (2026-08-10 vs Mets) on 2026-09-23. Every recorded element of the user's revised account matches the source data: Benge batting with one out and Bichette on first, 3-2 count, pitch called ball four, pitch inside the ABS zone near the top edge, no recorded challenge, Baty home run three batters later for a 5-0 Mets lead.",
+  "identified": true,
+  "inning": "top 1",
+  "matchup": "New York Mets at Atlanta Braves",
+  "pitch_key": "824887:3:7",
+  "pitcher": "Bryce Elder",
+  "pre_pitch": "1 out, runner on 1st, 3-2, Mets lead 1-0",
+  "realized_outcome_for_contrast_only": "The Mets scored four more runs in the inning (Baty grand slam). This realized outcome is NOT the cost of the missed correction; the decision-point values above are.",
+  "runner_on_first": "Bo Bichette",
+  "signed_boundary_distance_inches": -2.743772879535274,
+  "statcast_plate_z_ft": 3.1332496972622996
+}

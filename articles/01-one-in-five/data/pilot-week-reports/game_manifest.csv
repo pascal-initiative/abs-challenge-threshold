@@ -1,0 +1,94 @@
+away_team,game_date,game_pk,home_team,processed,status,venue
+Miami Marlins,2026-08-30,822688,Washington Nationals,True,Final,Nationals Park
+Miami Marlins,2026-08-29,822690,Washington Nationals,True,Final,Nationals Park
+Miami Marlins,2026-08-28,822691,Washington Nationals,True,Final,Nationals Park
+Colorado Rockies,2026-08-26,822692,Washington Nationals,True,Final,Nationals Park
+Colorado Rockies,2026-08-25,822693,Washington Nationals,True,Final,Nationals Park
+Colorado Rockies,2026-08-27,822694,Washington Nationals,True,Final,Nationals Park
+Colorado Rockies,2026-08-24,822695,Washington Nationals,True,Final,Nationals Park
+Seattle Mariners,2026-08-30,822766,Toronto Blue Jays,True,Final,Rogers Centre
+Seattle Mariners,2026-08-28,822769,Toronto Blue Jays,True,Final,Rogers Centre
+Seattle Mariners,2026-08-29,822770,Toronto Blue Jays,True,Final,Rogers Centre
+Kansas City Royals,2026-08-27,822771,Toronto Blue Jays,True,Final,Rogers Centre
+Kansas City Royals,2026-08-26,822772,Toronto Blue Jays,True,Final,Rogers Centre
+Kansas City Royals,2026-08-25,822773,Toronto Blue Jays,True,Final,Rogers Centre
+San Diego Padres,2026-08-30,822933,Tampa Bay Rays,True,Final,Tropicana Field
+San Diego Padres,2026-08-28,822935,Tampa Bay Rays,True,Final,Tropicana Field
+San Diego Padres,2026-08-29,822936,Tampa Bay Rays,True,Final,Tropicana Field
+Pittsburgh Pirates,2026-08-30,823010,St. Louis Cardinals,True,Final,Busch Stadium
+Pittsburgh Pirates,2026-08-29,823011,St. Louis Cardinals,True,Final,Busch Stadium
+Pittsburgh Pirates,2026-08-28,823013,St. Louis Cardinals,True,Final,Busch Stadium
+Baltimore Orioles,2026-08-27,823014,St. Louis Cardinals,True,Final,Busch Stadium
+Baltimore Orioles,2026-08-26,823015,St. Louis Cardinals,True,Final,Busch Stadium
+Baltimore Orioles,2026-08-25,823016,St. Louis Cardinals,True,Final,Busch Stadium
+Philadelphia Phillies,2026-08-26,823096,Seattle Mariners,True,Final,T-Mobile Park
+Philadelphia Phillies,2026-08-24,823097,Seattle Mariners,True,Final,T-Mobile Park
+Philadelphia Phillies,2026-08-25,823098,Seattle Mariners,True,Final,T-Mobile Park
+Arizona Diamondbacks,2026-08-29,823176,San Francisco Giants,True,Final,Oracle Park
+Arizona Diamondbacks,2026-08-29,823177,San Francisco Giants,True,Final,Oracle Park
+Arizona Diamondbacks,2026-08-28,823178,San Francisco Giants,True,Final,Oracle Park
+Arizona Diamondbacks,2026-08-27,823179,San Francisco Giants,True,Final,Oracle Park
+Cincinnati Reds,2026-08-26,823180,San Francisco Giants,True,Final,Oracle Park
+Cincinnati Reds,2026-08-25,823181,San Francisco Giants,True,Final,Oracle Park
+Cincinnati Reds,2026-08-24,823183,San Francisco Giants,True,Final,Oracle Park
+Pittsburgh Pirates,2026-08-26,823255,San Diego Padres,True,Final,Petco Park
+Pittsburgh Pirates,2026-08-25,823259,San Diego Padres,True,Final,Petco Park
+Pittsburgh Pirates,2026-08-24,823260,San Diego Padres,True,Final,Petco Park
+Boston Red Sox,2026-08-29,823501,New York Yankees,True,Final,Yankee Stadium
+Boston Red Sox,2026-08-30,823502,New York Yankees,True,Final,Yankee Stadium
+Houston Astros,2026-08-27,823503,New York Yankees,True,Final,Yankee Stadium
+Boston Red Sox,2026-08-28,823504,New York Yankees,True,Final,Yankee Stadium
+Houston Astros,2026-08-25,823505,New York Yankees,True,Final,Yankee Stadium
+Houston Astros,2026-08-26,823506,New York Yankees,True,Final,Yankee Stadium
+Boston Red Sox,2026-08-29,823539,New York Yankees,True,Final,Yankee Stadium
+Houston Astros,2026-08-30,823580,New York Mets,True,Final,Citi Field
+Milwaukee Brewers,2026-08-27,823581,New York Mets,True,Final,Citi Field
+Houston Astros,2026-08-29,823582,New York Mets,True,Final,Citi Field
+Houston Astros,2026-08-28,823583,New York Mets,True,Final,Citi Field
+Milwaukee Brewers,2026-08-26,823584,New York Mets,True,Final,Citi Field
+Milwaukee Brewers,2026-08-25,823585,New York Mets,True,Final,Citi Field
+Chicago White Sox,2026-08-30,823662,Minnesota Twins,True,Final,Target Field
+Chicago White Sox,2026-08-29,823665,Minnesota Twins,True,Final,Target Field
+Chicago White Sox,2026-08-28,823666,Minnesota Twins,True,Final,Target Field
+Texas Rangers,2026-08-30,823740,Milwaukee Brewers,True,Final,American Family Field
+Texas Rangers,2026-08-29,823741,Milwaukee Brewers,True,Final,American Family Field
+Texas Rangers,2026-08-28,823744,Milwaukee Brewers,True,Final,American Family Field
+Boston Red Sox,2026-08-26,823825,Miami Marlins,True,Final,loanDepot park
+Boston Red Sox,2026-08-25,823826,Miami Marlins,True,Final,loanDepot park
+Boston Red Sox,2026-08-24,823828,Miami Marlins,True,Final,loanDepot park
+Philadelphia Phillies,2026-08-28,823985,Los Angeles Angels,True,Final,Angel Stadium
+Philadelphia Phillies,2026-08-29,823986,Los Angeles Angels,True,Final,Angel Stadium
+Philadelphia Phillies,2026-08-30,823987,Los Angeles Angels,True,Final,Angel Stadium
+Cleveland Guardians,2026-08-26,823988,Los Angeles Angels,True,Final,Angel Stadium
+Cleveland Guardians,2026-08-25,823989,Los Angeles Angels,True,Final,Angel Stadium
+Cleveland Guardians,2026-08-24,823992,Los Angeles Angels,True,Final,Angel Stadium
+Los Angeles Dodgers,2026-08-29,824230,Detroit Tigers,True,Final,Comerica Park
+Los Angeles Dodgers,2026-08-28,824231,Detroit Tigers,True,Final,Comerica Park
+Los Angeles Dodgers,2026-08-30,824232,Detroit Tigers,True,Final,Comerica Park
+Tampa Bay Rays,2026-08-25,824233,Detroit Tigers,True,Final,Comerica Park
+Tampa Bay Rays,2026-08-26,824234,Detroit Tigers,True,Final,Comerica Park
+Tampa Bay Rays,2026-08-24,824235,Detroit Tigers,True,Final,Comerica Park
+Kansas City Royals,2026-08-29,824392,Cleveland Guardians,True,Final,Progressive Field
+Kansas City Royals,2026-08-30,824393,Cleveland Guardians,True,Final,Progressive Field
+Kansas City Royals,2026-08-28,824396,Cleveland Guardians,True,Final,Progressive Field
+Texas Rangers,2026-08-26,824555,Chicago White Sox,True,Final,Rate Field
+Texas Rangers,2026-08-25,824556,Chicago White Sox,True,Final,Rate Field
+Texas Rangers,2026-08-24,824557,Chicago White Sox,True,Final,Rate Field
+Cincinnati Reds,2026-08-30,824636,Chicago Cubs,True,Final,Wrigley Field
+Cincinnati Reds,2026-08-29,824637,Chicago Cubs,True,Final,Wrigley Field
+Cincinnati Reds,2026-08-28,824638,Chicago Cubs,True,Final,Wrigley Field
+Colorado Rockies,2026-08-29,824874,Atlanta Braves,True,Final,Truist Park
+Colorado Rockies,2026-08-30,824876,Atlanta Braves,True,Final,Truist Park
+Colorado Rockies,2026-08-28,824877,Atlanta Braves,True,Final,Truist Park
+Los Angeles Dodgers,2026-08-26,824878,Atlanta Braves,True,Final,Truist Park
+Los Angeles Dodgers,2026-08-27,824879,Atlanta Braves,True,Final,Truist Park
+Los Angeles Dodgers,2026-08-25,824881,Atlanta Braves,True,Final,Truist Park
+Baltimore Orioles,2026-08-30,824959,Athletics,True,Final,Sutter Health Park
+Baltimore Orioles,2026-08-28,824960,Athletics,True,Final,Sutter Health Park
+Baltimore Orioles,2026-08-29,824961,Athletics,True,Final,Sutter Health Park
+Minnesota Twins,2026-08-25,824962,Athletics,True,Final,Sutter Health Park
+Minnesota Twins,2026-08-26,824963,Athletics,True,Final,Sutter Health Park
+Minnesota Twins,2026-08-24,824964,Athletics,True,Final,Sutter Health Park
+Chicago Cubs,2026-08-26,825039,Arizona Diamondbacks,True,Final,Chase Field
+Chicago Cubs,2026-08-24,825041,Arizona Diamondbacks,True,Final,Chase Field
+Chicago Cubs,2026-08-25,825042,Arizona Diamondbacks,True,Final,Chase Field

@@ -1,0 +1,26 @@
+[
+  {
+    "figure": "Raw vs adjusted recognition",
+    "decision": "INCLUDE",
+    "article_use": "Primary explanatory figure",
+    "publication_rule": "Plot all 243 publication-eligible batters; encode opportunity support; show uncertainty; explain that adjustment is model-based."
+  },
+  {
+    "figure": "Temporal stability",
+    "decision": "INCLUDE",
+    "article_use": "Evidence and guardrail for repeatability",
+    "publication_rule": "Use 168 supported batters and print Spearman 0.474 with its 0.333–0.592 interval; avoid a permanent-skill caption."
+  },
+  {
+    "figure": "Adjusted leaderboard",
+    "decision": "OPTIONAL",
+    "article_use": "Top-10 table or compact interval plot",
+    "publication_rule": "Main article: at most top 10. Download: frozen top 25. Always retain opportunities, raw/expected rates, shrinkage estimate, and interval; ranks are point-order only."
+  },
+  {
+    "figure": "Player case-study comparison",
+    "decision": "INCLUDE",
+    "article_use": "Explain why adjustment changes interpretation",
+    "publication_rule": "Use only Harper, Kurtz, and Aranda from the accepted artifact; show intervals and avoid negative ability labels."
+  }
+]

@@ -1,0 +1,17 @@
+# Python and OS
+__pycache__/
+*.py[cod]
+.venv*/
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+
+# The full data set is published separately (see data/README.md). Extracting
+# its archives at the repository root restores these paths; never commit them.
+data/*
+!data/README.md
+!data/receipts/
+artifacts/
+research/**/output/
+*.tar.gz
+SHA256SUMS

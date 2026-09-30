@@ -1,0 +1,40 @@
+{
+  "analysis_version": "offensive_recognition_v1",
+  "cv_folds": 5,
+  "cv_repeats": 10,
+  "full_season_expansion_performed": false,
+  "minimum_rate_display_n": 20,
+  "output_sha256": {
+    "artifacts/sprint2/01_recognition_vs_distance.png": "04de218e2f0a61b5286bc66183a296b03e7686c765f27ad425a3fc142b8a8ebe",
+    "artifacts/sprint2/02_recognition_by_miss_location.png": "439f40a86ed64c7a4032a8a5211b4f584f7ecee24a819afbfd33474f18125e73",
+    "artifacts/sprint2/03_recognition_by_pitch_type.png": "08bec04523fd39d7a0ac404ffede04c341fb90be64f37a5ad202b4264afd0b64",
+    "artifacts/sprint2/04_recognition_vs_movement.png": "b34d7ae0ab6627bdf426504e8cbcbaa55f6dfedeae57ecc2f6d8f4062004052c",
+    "artifacts/sprint2/05_recognition_by_count.png": "c60dd0f6753d3a9916c10453997481061018d69a30501577b26f5eed48534603",
+    "artifacts/sprint2/06_recognition_by_inning.png": "7bc91f0f75d4f84a1d888f16201d496249cfe3eea7b1eb850d70faef45ac850a",
+    "artifacts/sprint2/07_recognition_by_challenges_remaining.png": "04ddc45c18c7790642a05e9468dff87b9050c758951973d93adae24a65683c41",
+    "artifacts/sprint2/model_coefficients.csv": "ad12a9919d049c8a158c1edb2b4e8f5255d6ca601c48a923c0627262f0d14fa7",
+    "artifacts/sprint2/model_comparisons.csv": "3910ee5844aba4003b4a5f23b77d69bda91018c1e30b66c7cc7c54bdb479abcb",
+    "artifacts/sprint2/secondary_analyses.json": "2afc2a87d19560022adde03d49b445f8d443d5120474fbd57037eae93a2a018e",
+    "data/analysis/offensive_recognition_descriptive.csv": "392b430a9ba070789ef8dfdf0c72f5dfc03308d94172b53d043f5ce622c93cf6",
+    "data/analysis/offensive_recognition_features.csv": "2c85ed9f5fba04793826fd8da6b142bdbba620ec1a6e178e0224939107916c25",
+    "data/analysis/offensive_recognition_model_metrics.csv": "f836945a7f7b21d13507a1ff6ea3cbb0482ff96272ca669365a85b86f826836e",
+    "data/analysis/offensive_recognition_population_audit.json": "c2d981c6ee650fe91a3d86cda4b1614ab6a006f818fb00578fba77f631846cc4",
+    "data/analysis/offensive_recognition_predictions.csv": "fa956778440679d1f6323fdc34ce8560aa12e345848c887584761e4d3d1f71e8",
+    "docs/sprint2_offensive_recognition_report.md": "dcd544f67a82e2365d6a9aeed9858489e68c2eb3d55f4fc977e585242ad21a6b"
+  },
+  "pilot_end": "2026-08-30",
+  "pilot_start": "2026-08-24",
+  "random_seed": 20260824,
+  "sprint1_processed_sha256": {
+    "challenges.csv": "c5d06dd8a6393a8d2d4d663f35b77c557e2fd68cdac402bab43c2d4b9c1f8794",
+    "data_quality_report.json": "0064f784943b76e290ea24a24c17dc847d1e6b7dff14e18333ff1b98909ed896",
+    "descriptive_report.json": "c7db849f184aa9d42f3d9dd12fd44ae233590d1b36f24196b42e0df300f7625c",
+    "game_manifest.csv": "7679747a9e6f82cb31493fba97fd3dc91197fb2c75e8b53102e4215bbdd0aec1",
+    "pitches.csv": "1d25d56f7dd944d777ab5410bd5ba646a60e53455cc34a6aafd331c88ba0b402",
+    "recognition_breakdowns.csv": "5c67a1b066e23bba96de5eb03d8af61c0509c5ce8ab86fb0e532cbd444052e29",
+    "recognition_distributions.json": "1b7f2e90e6c07cf8b403a6df48683e4b98cfd9b24c25379a99da21f6506dddc5",
+    "run_manifest.json": "7790cacef40fc2588de0fa90802f9aca44f884068cfeeb5e8139d4a8465b523c",
+    "validation_discrepancies.csv": "06dac2df1f95ac6167b9c23539e67b6290a569ff13d00c03d061d154dfc86f07",
+    "validation_report.json": "e63c8cb1bae828e11c0d67e166262d4c7d3eb49b7231e93c22d112604c86e40c"
+  }
+}

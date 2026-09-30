@@ -1,0 +1,34 @@
+n,base_rate,mean_pred,roc_auc,log_loss,brier,calibration_intercept,calibration_slope,ece_10bin,spec,formula,selected,primary_evidence_only_selected,section,model,term,odds_ratio,ci_low,ci_high,p_value,d,observed,side,month
+19436,0.254322,0.231602,0.661049,0.535882,0.176893,0.132116,1.02063,0.0237508,P1_distance_side,"bs(absd, df=4, lower_bound=0, upper_bound=6.0) + C(side)",False,False,spec_selection_chronological,,,,,,,,,,
+19436,0.254322,0.231347,0.669847,0.532531,0.175744,0.135172,0.986954,0.023966,P2_plus_edge,"bs(absd, df=4, lower_bound=0, upper_bound=6.0) + C(side) + C(edge)",False,True,spec_selection_chronological,,,,,,,,,,
+19436,0.254322,0.231177,0.666616,0.535719,0.176175,0.137273,0.895215,0.024476,P3_plus_edge_pitch_hand,"bs(absd, df=4, lower_bound=0, upper_bound=6.0) + C(side) + C(edge) + C(pitch_family) + C(hand)",False,False,spec_selection_chronological,,,,,,,,,,
+19436,0.254322,0.230658,0.731806,0.501845,0.164431,0.151995,0.933649,0.0247302,P4_plus_edge_count_situation,"bs(absd, df=4, lower_bound=0, upper_bound=6.0) + C(side) + C(edge) + terminal + C(balls) + C(strikes) + C(outs) + C(inning_bucket)",True,False,spec_selection_chronological,,,,,,,,,,
+10364,0.197414,0.183211,0.635648,0.480801,0.152886,0.0977063,0.808834,0.019232,,,,,comparison_article3_offense_april_on,new_P2_plus_edge_resource_independent,,,,,,,,,
+10364,0.197414,0.179421,0.736906,0.441749,0.138675,0.143277,0.805773,0.0244826,,,,,comparison_article3_offense_april_on,article3_C_SITUATION_temporal (includes inventory),,,,,,,,,
+,,,,,,,,,,,,,coefficients_full_fit_game_clustered,,Intercept,0.296371,0.252131,0.348373,3.3468e-49,,,,
+,,,,,,,,,,,,,coefficients_full_fit_game_clustered,,C(side)[T.OFFENSE],0.486733,0.454539,0.521207,1.71505e-94,,,,
+,,,,,,,,,,,,,coefficients_full_fit_game_clustered,,C(edge)[T.INSIDE],0.747114,0.672591,0.829893,5.39456e-08,,,,
+,,,,,,,,,,,,,coefficients_full_fit_game_clustered,,C(edge)[T.OUTSIDE],0.716598,0.660264,0.777739,1.49623e-15,,,,
+,,,,,,,,,,,,,coefficients_full_fit_game_clustered,,C(edge)[T.TOP],0.552542,0.500664,0.609795,4.24833e-32,,,,
+,,,,,,,,,,,,,coefficients_full_fit_game_clustered,,"bs(absd, df=4, lower_bound=0, upper_bound=6.0)[0]",1.34405,1.07418,1.68171,0.00971654,,,,
+,,,,,,,,,,,,,coefficients_full_fit_game_clustered,,"bs(absd, df=4, lower_bound=0, upper_bound=6.0)[1]",4.79268,3.43526,6.68648,2.87274e-20,,,,
+,,,,,,,,,,,,,coefficients_full_fit_game_clustered,,"bs(absd, df=4, lower_bound=0, upper_bound=6.0)[2]",15.4396,7.48734,31.8377,1.24301e-13,,,,
+,,,,,,,,,,,,,coefficients_full_fit_game_clustered,,"bs(absd, df=4, lower_bound=0, upper_bound=6.0)[3]",12.465,4.21369,36.8742,5.13503e-06,,,,
+1944,,0.092899,,,,,,,,,,,calibration_deciles_chronological,propensity_chronological,,,,,,0,0.118313,,
+1944,,0.12452,,,,,,,,,,,calibration_deciles_chronological,propensity_chronological,,,,,,1,0.122428,,
+1943,,0.148607,,,,,,,,,,,calibration_deciles_chronological,propensity_chronological,,,,,,2,0.16984,,
+1944,,0.170935,,,,,,,,,,,calibration_deciles_chronological,propensity_chronological,,,,,,3,0.195988,,
+1943,,0.19442,,,,,,,,,,,calibration_deciles_chronological,propensity_chronological,,,,,,4,0.225939,,
+1944,,0.221417,,,,,,,,,,,calibration_deciles_chronological,propensity_chronological,,,,,,5,0.237654,,
+1943,,0.250814,,,,,,,,,,,calibration_deciles_chronological,propensity_chronological,,,,,,6,0.262481,,
+1944,,0.287798,,,,,,,,,,,calibration_deciles_chronological,propensity_chronological,,,,,,7,0.3143,,
+1943,,0.341363,,,,,,,,,,,calibration_deciles_chronological,propensity_chronological,,,,,,8,0.374678,,
+1944,,0.4807,,,,,,,,,,,calibration_deciles_chronological,propensity_chronological,,,,,,9,0.521605,,
+9072,0.319334,0.286338,0.659716,0.591629,0.201857,0.167122,1.09951,0.0335003,,,,,by_side_chronological,,,,,,,,,DEFENSE,
+10364,0.197414,0.183211,0.635648,0.480801,0.152886,0.0977063,0.808834,0.019232,,,,,by_side_chronological,,,,,,,,,OFFENSE,
+3776,0.231727,0.217576,0.665427,0.510231,0.165997,0.0895123,0.832008,0.0215169,,,,,by_month_chronological,,,,,,,,,,2026-04
+3696,0.238636,0.222003,0.65052,0.526489,0.171878,0.101332,0.819357,0.0191879,,,,,by_month_chronological,,,,,,,,,,2026-05
+3556,0.260967,0.231078,0.654694,0.545159,0.180842,0.172648,0.98149,0.0298893,,,,,by_month_chronological,,,,,,,,,,2026-06
+3289,0.268167,0.235781,0.689954,0.537769,0.178476,0.183835,1.25325,0.0323856,,,,,by_month_chronological,,,,,,,,,,2026-07
+3919,0.269201,0.244003,0.676239,0.542823,0.181024,0.142836,1.06441,0.0274204,,,,,by_month_chronological,,,,,,,,,,2026-08
+1200,0.2675,0.25077,0.686475,0.535929,0.178488,0.0943953,1.1136,0.0202713,,,,,by_month_chronological,,,,,,,,,,2026-09

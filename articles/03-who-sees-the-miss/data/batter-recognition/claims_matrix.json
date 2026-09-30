@@ -1,0 +1,92 @@
+[
+  {
+    "allowed_wording": "Historical batter recognition behavior contains information about future recognition beyond measured opportunity characteristics.",
+    "claim": "Historical batter recognition behavior contains future predictive information beyond measured opportunity characteristics.",
+    "limitations": "One frozen season; observational",
+    "metric": "Delta log loss, Brier, ROC AUC",
+    "population": "Final temporal holdout",
+    "prohibited_overstated_wording": "Batter identity proves innate recognition skill.",
+    "status": "SUPPORTED",
+    "supporting_artifact": "temporal_holdout_metrics.csv"
+  },
+  {
+    "allowed_wording": "Some batters appear to recognize eligible misses more often than others in this snapshot.",
+    "claim": "Some batters show different observed recognition behavior.",
+    "limitations": "Unequal support and residual confounding",
+    "metric": "Shrinkage-adjusted effect and interval",
+    "population": "All observed batters",
+    "prohibited_overstated_wording": "The ranking is ground truth.",
+    "status": "SUPPORTED",
+    "supporting_artifact": "complete_batter_results.csv"
+  },
+  {
+    "allowed_wording": "Differences remain after controlling for accepted geometry and situation variables.",
+    "claim": "Batter differences remain after opportunity adjustment.",
+    "limitations": "Depends on accepted Model C",
+    "metric": "Observed minus expected; posterior effect",
+    "population": "Frozen Sprint 3 opportunities",
+    "prohibited_overstated_wording": "Adjustment controls every relevant influence.",
+    "status": "SUPPORTED",
+    "supporting_artifact": "complete_batter_results.csv"
+  },
+  {
+    "allowed_wording": "Adjusted recognition differences show moderate season-to-date stability.",
+    "claim": "Recognition differences show temporal stability.",
+    "limitations": "Moderate, not deterministic, stability",
+    "metric": "Spearman/Pearson with bootstrap intervals",
+    "population": "Batters supported in both ordered halves",
+    "prohibited_overstated_wording": "Recognition is perfectly persistent.",
+    "status": "SUPPORTED",
+    "supporting_artifact": "split_half_stability_statistics.csv"
+  },
+  {
+    "allowed_wording": "Opportunity adjustment changes some batter standings.",
+    "claim": "Raw challenge rate is not adjusted recognition.",
+    "limitations": "Both remain estimates",
+    "metric": "Raw versus adjusted rank",
+    "population": "Ranking-eligible batters",
+    "prohibited_overstated_wording": "Raw challenge rate measures recognition skill.",
+    "status": "SUPPORTED",
+    "supporting_artifact": "raw_vs_adjusted_comparison.csv"
+  },
+  {
+    "allowed_wording": "The evidence supports taking an adjusted leaderboard to publication validation.",
+    "claim": "An adjusted leaderboard is sufficiently supported for publication validation.",
+    "limitations": "Ranks with overlapping intervals are not meaningfully distinct",
+    "metric": "Prospective, stability, sensitivity, support gates",
+    "population": "Ranking-eligible batters",
+    "prohibited_overstated_wording": "Each adjacent numeric rank is meaningfully different.",
+    "status": "SUPPORTED",
+    "supporting_artifact": "decision_gates.json"
+  },
+  {
+    "allowed_wording": "Observed recognition behavior has a repeatable batter-specific component.",
+    "claim": "Recognition is a skill.",
+    "limitations": "Identity effects and repeatability do not establish mechanism",
+    "metric": "No direct mechanism metric",
+    "population": "Not directly identified",
+    "prohibited_overstated_wording": "Recognition is proven to be an innate skill.",
+    "status": "NOT_SUPPORTED_OR_REQUIRES_QUALIFICATION",
+    "supporting_artifact": "claims_matrix.csv"
+  },
+  {
+    "allowed_wording": "Recognition differences were moderately repeatable within the observed season.",
+    "claim": "Recognition is persistent.",
+    "limitations": "Does not establish multi-season persistence",
+    "metric": "Correlation and interval",
+    "population": "One season, ordered halves",
+    "prohibited_overstated_wording": "Recognition is persistent or a permanent player trait.",
+    "status": "NOT_SUPPORTED_OR_REQUIRES_QUALIFICATION",
+    "supporting_artifact": "split_half_stability_statistics.csv"
+  },
+  {
+    "allowed_wording": "The analysis does not identify why batter differences exist.",
+    "claim": "Batter recognition differences are caused by vision, experience, approach, coaching, confidence, or cognitive ability.",
+    "limitations": "Mechanisms are hypotheses only",
+    "metric": "Not tested",
+    "population": "No causal population",
+    "prohibited_overstated_wording": "Vision or experience causes the measured effect.",
+    "status": "NOT_SUPPORTED_OR_REQUIRES_QUALIFICATION",
+    "supporting_artifact": "claims_matrix.csv"
+  }
+]

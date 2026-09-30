@@ -1,0 +1,67 @@
+{
+  "conditions": {
+    "all_pairs_have_distinct_members": true,
+    "at_least_one_ordinary_contrast_eligible": true,
+    "complete_cell_count": true,
+    "prior_output_hashes_reconcile": true,
+    "protected_inputs_unchanged": true,
+    "three_development_only_ordinary_representatives": true
+  },
+  "contrast_counts": {
+    "count_terminal": 5260,
+    "early_late": 3642,
+    "inventory": 11292,
+    "ordinary": 3
+  },
+  "eligible_counts": {
+    "count_terminal": 3989,
+    "early_late": 1249,
+    "inventory": 994,
+    "ordinary": 1
+  },
+  "failure_counts": {
+    "CONFIRMATION_REFERENCE_SEPARATION_BELOW_0.05": 83,
+    "DEVELOPMENT_REFERENCE_SEPARATION_BELOW_0.05": 4190,
+    "DIRECTION_NOT_STABLE": 9597,
+    "NONFINITE_CORE_VALUE": 94,
+    "PASS": 6233
+  },
+  "metric_version": "ct-s1.0-candidate",
+  "next_gate": "CTS9_SAMPLING_UNCERTAINTY",
+  "ordinary_contrasts": [
+    {
+      "article_eligible": true,
+      "confirmation_reference_separation": 0.07247376173800002,
+      "contrast_id": "ordinary|source=count_terminal|count_terminal|A=STRIKE|OFFENSE|1|1|0|0|5|bottom|TRAIL_2PLUS|HOME|inventory=2|B=STRIKE|OFFENSE|1|2|0|0|5|bottom|TRAIL_2PLUS|HOME|inventory=2",
+      "development_reference_separation": 0.07289489777000002,
+      "failure_reason": null,
+      "source_contrast_class": "count_terminal"
+    },
+    {
+      "article_eligible": false,
+      "confirmation_reference_separation": 0.005894584407000081,
+      "contrast_id": "ordinary|source=early_late|early_late|A=BALL|DEFENSE|1|2|0|0|1|bottom|TIED|AWAY|inventory=2|B=BALL|DEFENSE|1|2|0|0|7|bottom|TIED|AWAY|inventory=2",
+      "development_reference_separation": 0.005913461597999992,
+      "failure_reason": "DIRECTION_NOT_STABLE",
+      "source_contrast_class": "early_late"
+    },
+    {
+      "article_eligible": false,
+      "confirmation_reference_separation": 0.004235603509999963,
+      "contrast_id": "ordinary|source=inventory|inventory|A=BALL|DEFENSE|1|2|0|0|6|bottom|LEAD_1|AWAY|inventory=1|B=BALL|DEFENSE|1|2|0|0|6|bottom|LEAD_1|AWAY|inventory=2",
+      "development_reference_separation": 0.006373177753000059,
+      "failure_reason": "DIRECTION_NOT_STABLE",
+      "source_contrast_class": "inventory"
+    }
+  ],
+  "research_identity": "CT-S1",
+  "restrictions": {
+    "article_claims": false,
+    "confirmation_results_used_for_selection": false,
+    "cts9_sampling_intervals": "not evaluated",
+    "failed_contrasts_replaced": false,
+    "playbook_allowed": false
+  },
+  "status": "PASS_CTS7_READY_FOR_CTS9",
+  "version": "ct-s1.0-cts7"
+}

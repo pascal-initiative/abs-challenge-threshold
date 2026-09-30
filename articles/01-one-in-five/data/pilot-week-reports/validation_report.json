@@ -1,0 +1,98 @@
+{
+  "agreement_count": 447,
+  "agreement_rate": 1.0,
+  "agreement_rate_among_comparable": 1.0,
+  "breakdowns": {
+    "confirmed": {
+      "agreement_count": 198,
+      "agreement_rate": 1.0,
+      "agreement_rate_among_comparable": 1.0,
+      "comparable_challenges": 198,
+      "disagreement_count": 0,
+      "matched_challenges": 198,
+      "official_challenges": 198,
+      "uncomparable_challenges": 0,
+      "unmatched_challenges": 0
+    },
+    "original_called_ball": {
+      "agreement_count": 259,
+      "agreement_rate": 1.0,
+      "agreement_rate_among_comparable": 1.0,
+      "comparable_challenges": 259,
+      "disagreement_count": 0,
+      "matched_challenges": 259,
+      "official_challenges": 259,
+      "uncomparable_challenges": 0,
+      "unmatched_challenges": 0
+    },
+    "original_called_strike": {
+      "agreement_count": 188,
+      "agreement_rate": 1.0,
+      "agreement_rate_among_comparable": 1.0,
+      "comparable_challenges": 188,
+      "disagreement_count": 0,
+      "matched_challenges": 188,
+      "official_challenges": 188,
+      "uncomparable_challenges": 0,
+      "unmatched_challenges": 0
+    },
+    "overturned": {
+      "agreement_count": 249,
+      "agreement_rate": 1.0,
+      "agreement_rate_among_comparable": 1.0,
+      "comparable_challenges": 249,
+      "disagreement_count": 0,
+      "matched_challenges": 249,
+      "official_challenges": 249,
+      "uncomparable_challenges": 0,
+      "unmatched_challenges": 0
+    }
+  },
+  "comparable_challenges": 447,
+  "daily_reconciliation": [
+    {
+      "expected": 52,
+      "game_date": "2026-08-24",
+      "observed": 52
+    },
+    {
+      "expected": 91,
+      "game_date": "2026-08-25",
+      "observed": 91
+    },
+    {
+      "expected": 68,
+      "game_date": "2026-08-26",
+      "observed": 68
+    },
+    {
+      "expected": 26,
+      "game_date": "2026-08-27",
+      "observed": 26
+    },
+    {
+      "expected": 79,
+      "game_date": "2026-08-28",
+      "observed": 79
+    },
+    {
+      "expected": 72,
+      "game_date": "2026-08-29",
+      "observed": 72
+    },
+    {
+      "expected": 59,
+      "game_date": "2026-08-30",
+      "observed": 59
+    }
+  ],
+  "disagreement_count": 0,
+  "expected_official_challenges": 447,
+  "gate_passed": true,
+  "geometry_method": "abs_2026_circle_rectangle_r1.45in_v1",
+  "matched_challenges": 447,
+  "official_challenges": 447,
+  "stop_reasons": [],
+  "uncomparable_challenges": 0,
+  "unmatched_challenges": 0
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "directional_consistency": 0.6576271186440678,
+    "equivalent_balanced_full_support": 10,
+    "n": 295,
+    "pearson": 0.5242002741145294,
+    "pearson_high": 0.6153321165673292,
+    "pearson_low": 0.4154999802875922,
+    "required_opportunities_each_half": 5,
+    "spearman": 0.43376087952359144,
+    "spearman_high": 0.5279803027374254,
+    "spearman_low": 0.32862518139535185
+  },
+  {
+    "directional_consistency": 0.6369047619047619,
+    "equivalent_balanced_full_support": 20,
+    "n": 168,
+    "pearson": 0.5605227532211496,
+    "pearson_high": 0.6687448236732406,
+    "pearson_low": 0.41701124302215303,
+    "required_opportunities_each_half": 10,
+    "spearman": 0.47398778098916283,
+    "spearman_high": 0.5918208501489176,
+    "spearman_low": 0.33298260429169724
+  },
+  {
+    "directional_consistency": 0.6707317073170732,
+    "equivalent_balanced_full_support": 30,
+    "n": 82,
+    "pearson": 0.5327567807982637,
+    "pearson_high": 0.6727426903643087,
+    "pearson_low": 0.3490577563825301,
+    "required_opportunities_each_half": 15,
+    "spearman": 0.47751983543931825,
+    "spearman_high": 0.6397259136967127,
+    "spearman_low": 0.2907068818254342
+  },
+  {
+    "directional_consistency": 0.6521739130434783,
+    "equivalent_balanced_full_support": 40,
+    "n": 23,
+    "pearson": 0.5458101991531098,
+    "pearson_high": 0.7920900258670235,
+    "pearson_low": 0.07460171208004944,
+    "required_opportunities_each_half": 20,
+    "spearman": 0.4594861660079051,
+    "spearman_high": 0.7436198737033055,
+    "spearman_low": 0.03496069040303633
+  },
+  {
+    "directional_consistency": 0.6666666666666666,
+    "equivalent_balanced_full_support": 50,
+    "n": 6,
+    "pearson": -0.01794985932296699,
+    "pearson_high": 0.8309756829932652,
+    "pearson_low": -0.9345110996529001,
+    "required_opportunities_each_half": 25,
+    "spearman": -0.08571428571428573,
+    "spearman_high": 0.92,
+    "spearman_low": -1.0
+  }
+]

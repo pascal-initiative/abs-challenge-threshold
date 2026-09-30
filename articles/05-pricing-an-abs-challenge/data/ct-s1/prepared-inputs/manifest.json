@@ -1,0 +1,50 @@
+{
+  "code_sha256": {
+    "build_ct_s1_prepared.py": "f8de60177a53cb3424443245d8101ea3bbd18f7f30e925ca44e8fa623edc11f6",
+    "build_dynamic_engine.py": "eb5105c3f2388b1cda973d0d3e300be8171f06a20160ae2dfa9e800dacd866e1",
+    "ct2026_core.py": "b262aa087877b92a47bdfec3ed8f91659a188607432ed0ce266a94ebd08e1929",
+    "ct_s1_core.py": "3df327405fb7cf45950bf7cf8627ddd1643dc37cdbbfad2500d87a0d500c0deb"
+  },
+  "inputs": {
+    "data/ct_s1/preflight/validation.json": "3d16d2e333a7efc1a41fb65cefa16bea7e95a1c0d3b66406aeb5663ce913fa7f",
+    "data/ct_s1/reconstructed/CTS2_VALIDATION.json": "96e698c709fd1ef8184a7fac3cfe437fc7fb1c5bba8839985578b4489bf0f566",
+    "data/ct_s1/reconstructed/processed/challenges.csv": "9e00cba2d7a749940cb2c1e6a4a222a1911aec3524cee2a2f72016b1ca0af077",
+    "data/ct_s1/reconstructed/processed/pitches.csv": "cab175ac79404e529b266a6c3b7e51b947862ab38565d75929e8da4a81a538cc",
+    "data/full_season/processed/challenges.csv": "f7219096dab291b9209c96c17f9aa737a707e346eb363ead145bfdedc7a18c5d",
+    "data/full_season/processed/pitches.csv": "6755bc3175960e52bbe48ae17793f1faec059e8359b0018707d792dea11894e0",
+    "research/article4/output/article4_re288_table.csv": "27a5c636235da56b4b6e4b78fcc91061be48e0b0f91780a959cfad9366564f10",
+    "research/article5/AMENDMENT_005_CT_SUCCESSOR_STANDARD.md": "5b4b65147f52869ae9b906461043898fa4787ce15dafb1138488878f0b152906",
+    "research/article5/CT_S1_ACCEPTED_INPUTS.sha256": "c672ec8145cd6fc7b781eea2a976b57d57e9556b91745d04a204f12c744f0064",
+    "research/article5/CT_S1_MODEL_SCHEMA.md": "5bd82fb10ec16b4a6b3ee55dc561db010bae087cdf111ef23a9b59c040a9513a",
+    "research/article5/CT_SUCCESSOR_VALIDATION_PLAN.md": "d2753047fa9e7fca98a25e426a32b0c7f49bda5136b97cb47b6323128ad1affe"
+  },
+  "outputs": {
+    "confirmation_prepared.csv": {
+      "bytes": 14455426,
+      "sha256": "7b8f8d3c68dd21d9d74857265da04e1108f557f81e889518b5ea4786a4e0e67b"
+    },
+    "development_prepared.csv": {
+      "bytes": 138965594,
+      "sha256": "b9da818d49204646903c445f0b3f51965f050ec57717a258b3e1f59b49d123b2"
+    },
+    "game_values.csv": {
+      "bytes": 3438742,
+      "sha256": "91a29110664b30dfbb77c98259b50c2dbc32ac9a59c80296cda3ec8f45e5f929"
+    },
+    "support_schedules.csv": {
+      "bytes": 1267043,
+      "sha256": "33fe93cc0d228dae07ff8199bd1e396f61e918728c390e4d793fee2025eb8a4c"
+    },
+    "validation.json": {
+      "bytes": 5106,
+      "sha256": "5d4917b1a2a3634624930976773628534a5d92bc60bb7dba9beb76d697c2d8c7"
+    }
+  },
+  "software": {
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "python": "3.9.6"
+  },
+  "status": "PASS_CTS3_READY_FOR_CTS4_CTS8",
+  "version": "ct-s1.0-cts3"
+}

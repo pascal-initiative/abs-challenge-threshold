@@ -1,0 +1,182 @@
+call_type,dimension,value,count
+INCORRECT_STRIKE,inning,1,1
+INCORRECT_STRIKE,inning,2,3
+INCORRECT_STRIKE,inning,3,15
+INCORRECT_STRIKE,inning,4,30
+INCORRECT_STRIKE,inning,5,53
+INCORRECT_STRIKE,inning,6,105
+INCORRECT_STRIKE,inning,7,136
+INCORRECT_STRIKE,inning,8,217
+INCORRECT_STRIKE,inning,9,224
+INCORRECT_STRIKE,inning,10,2
+INCORRECT_STRIKE,inning,11,2
+INCORRECT_STRIKE,inning,12,1
+INCORRECT_STRIKE,count,0-0,319
+INCORRECT_STRIKE,count,0-1,67
+INCORRECT_STRIKE,count,0-2,7
+INCORRECT_STRIKE,count,1-0,121
+INCORRECT_STRIKE,count,1-1,53
+INCORRECT_STRIKE,count,1-2,36
+INCORRECT_STRIKE,count,2-0,41
+INCORRECT_STRIKE,count,2-1,49
+INCORRECT_STRIKE,count,2-2,29
+INCORRECT_STRIKE,count,3-0,26
+INCORRECT_STRIKE,count,3-1,20
+INCORRECT_STRIKE,count,3-2,21
+INCORRECT_STRIKE,outs,0,256
+INCORRECT_STRIKE,outs,1,251
+INCORRECT_STRIKE,outs,2,282
+INCORRECT_STRIKE,base_state,000,430
+INCORRECT_STRIKE,base_state,001,17
+INCORRECT_STRIKE,base_state,010,56
+INCORRECT_STRIKE,base_state,011,13
+INCORRECT_STRIKE,base_state,100,170
+INCORRECT_STRIKE,base_state,101,18
+INCORRECT_STRIKE,base_state,110,60
+INCORRECT_STRIKE,base_state,111,25
+INCORRECT_STRIKE,affected_score_diff,-14,2
+INCORRECT_STRIKE,affected_score_diff,-13,1
+INCORRECT_STRIKE,affected_score_diff,-12,1
+INCORRECT_STRIKE,affected_score_diff,-11,6
+INCORRECT_STRIKE,affected_score_diff,-10,3
+INCORRECT_STRIKE,affected_score_diff,-9,6
+INCORRECT_STRIKE,affected_score_diff,-8,12
+INCORRECT_STRIKE,affected_score_diff,-7,17
+INCORRECT_STRIKE,affected_score_diff,-6,26
+INCORRECT_STRIKE,affected_score_diff,-5,36
+INCORRECT_STRIKE,affected_score_diff,-4,50
+INCORRECT_STRIKE,affected_score_diff,-3,46
+INCORRECT_STRIKE,affected_score_diff,-2,86
+INCORRECT_STRIKE,affected_score_diff,-1,103
+INCORRECT_STRIKE,affected_score_diff,0,75
+INCORRECT_STRIKE,affected_score_diff,1,68
+INCORRECT_STRIKE,affected_score_diff,2,53
+INCORRECT_STRIKE,affected_score_diff,3,60
+INCORRECT_STRIKE,affected_score_diff,4,49
+INCORRECT_STRIKE,affected_score_diff,5,36
+INCORRECT_STRIKE,affected_score_diff,6,22
+INCORRECT_STRIKE,affected_score_diff,7,13
+INCORRECT_STRIKE,affected_score_diff,8,7
+INCORRECT_STRIKE,affected_score_diff,9,3
+INCORRECT_STRIKE,affected_score_diff,10,2
+INCORRECT_STRIKE,affected_score_diff,11,4
+INCORRECT_STRIKE,affected_score_diff,12,1
+INCORRECT_STRIKE,affected_score_diff,21,1
+INCORRECT_STRIKE,affected_team,Arizona Diamondbacks,11
+INCORRECT_STRIKE,affected_team,Athletics,26
+INCORRECT_STRIKE,affected_team,Atlanta Braves,22
+INCORRECT_STRIKE,affected_team,Baltimore Orioles,25
+INCORRECT_STRIKE,affected_team,Boston Red Sox,21
+INCORRECT_STRIKE,affected_team,Chicago Cubs,16
+INCORRECT_STRIKE,affected_team,Chicago White Sox,45
+INCORRECT_STRIKE,affected_team,Cincinnati Reds,20
+INCORRECT_STRIKE,affected_team,Cleveland Guardians,34
+INCORRECT_STRIKE,affected_team,Colorado Rockies,29
+INCORRECT_STRIKE,affected_team,Detroit Tigers,18
+INCORRECT_STRIKE,affected_team,Houston Astros,36
+INCORRECT_STRIKE,affected_team,Kansas City Royals,25
+INCORRECT_STRIKE,affected_team,Los Angeles Angels,26
+INCORRECT_STRIKE,affected_team,Los Angeles Dodgers,12
+INCORRECT_STRIKE,affected_team,Miami Marlins,34
+INCORRECT_STRIKE,affected_team,Milwaukee Brewers,33
+INCORRECT_STRIKE,affected_team,Minnesota Twins,41
+INCORRECT_STRIKE,affected_team,New York Mets,43
+INCORRECT_STRIKE,affected_team,New York Yankees,35
+INCORRECT_STRIKE,affected_team,Philadelphia Phillies,12
+INCORRECT_STRIKE,affected_team,Pittsburgh Pirates,31
+INCORRECT_STRIKE,affected_team,San Diego Padres,26
+INCORRECT_STRIKE,affected_team,San Francisco Giants,29
+INCORRECT_STRIKE,affected_team,Seattle Mariners,25
+INCORRECT_STRIKE,affected_team,St. Louis Cardinals,17
+INCORRECT_STRIKE,affected_team,Tampa Bay Rays,27
+INCORRECT_STRIKE,affected_team,Texas Rangers,11
+INCORRECT_STRIKE,affected_team,Toronto Blue Jays,23
+INCORRECT_STRIKE,affected_team,Washington Nationals,36
+INCORRECT_BALL,inning,2,6
+INCORRECT_BALL,inning,3,17
+INCORRECT_BALL,inning,4,23
+INCORRECT_BALL,inning,5,56
+INCORRECT_BALL,inning,6,94
+INCORRECT_BALL,inning,7,122
+INCORRECT_BALL,inning,8,188
+INCORRECT_BALL,inning,9,168
+INCORRECT_BALL,inning,10,5
+INCORRECT_BALL,inning,11,1
+INCORRECT_BALL,count,0-0,254
+INCORRECT_BALL,count,0-1,79
+INCORRECT_BALL,count,0-2,24
+INCORRECT_BALL,count,1-0,71
+INCORRECT_BALL,count,1-1,65
+INCORRECT_BALL,count,1-2,41
+INCORRECT_BALL,count,2-0,25
+INCORRECT_BALL,count,2-1,36
+INCORRECT_BALL,count,2-2,29
+INCORRECT_BALL,count,3-0,13
+INCORRECT_BALL,count,3-1,16
+INCORRECT_BALL,count,3-2,27
+INCORRECT_BALL,outs,0,226
+INCORRECT_BALL,outs,1,224
+INCORRECT_BALL,outs,2,230
+INCORRECT_BALL,base_state,000,348
+INCORRECT_BALL,base_state,001,16
+INCORRECT_BALL,base_state,010,34
+INCORRECT_BALL,base_state,011,13
+INCORRECT_BALL,base_state,100,151
+INCORRECT_BALL,base_state,101,27
+INCORRECT_BALL,base_state,110,70
+INCORRECT_BALL,base_state,111,21
+INCORRECT_BALL,affected_score_diff,-12,1
+INCORRECT_BALL,affected_score_diff,-11,1
+INCORRECT_BALL,affected_score_diff,-10,1
+INCORRECT_BALL,affected_score_diff,-8,9
+INCORRECT_BALL,affected_score_diff,-7,11
+INCORRECT_BALL,affected_score_diff,-6,14
+INCORRECT_BALL,affected_score_diff,-5,18
+INCORRECT_BALL,affected_score_diff,-4,36
+INCORRECT_BALL,affected_score_diff,-3,31
+INCORRECT_BALL,affected_score_diff,-2,62
+INCORRECT_BALL,affected_score_diff,-1,67
+INCORRECT_BALL,affected_score_diff,0,83
+INCORRECT_BALL,affected_score_diff,1,74
+INCORRECT_BALL,affected_score_diff,2,59
+INCORRECT_BALL,affected_score_diff,3,68
+INCORRECT_BALL,affected_score_diff,4,52
+INCORRECT_BALL,affected_score_diff,5,39
+INCORRECT_BALL,affected_score_diff,6,17
+INCORRECT_BALL,affected_score_diff,7,16
+INCORRECT_BALL,affected_score_diff,8,6
+INCORRECT_BALL,affected_score_diff,9,8
+INCORRECT_BALL,affected_score_diff,10,3
+INCORRECT_BALL,affected_score_diff,11,2
+INCORRECT_BALL,affected_score_diff,12,1
+INCORRECT_BALL,affected_score_diff,14,1
+INCORRECT_BALL,affected_team,Arizona Diamondbacks,9
+INCORRECT_BALL,affected_team,Athletics,21
+INCORRECT_BALL,affected_team,Atlanta Braves,29
+INCORRECT_BALL,affected_team,Baltimore Orioles,19
+INCORRECT_BALL,affected_team,Boston Red Sox,18
+INCORRECT_BALL,affected_team,Chicago Cubs,14
+INCORRECT_BALL,affected_team,Chicago White Sox,40
+INCORRECT_BALL,affected_team,Cincinnati Reds,13
+INCORRECT_BALL,affected_team,Cleveland Guardians,41
+INCORRECT_BALL,affected_team,Colorado Rockies,24
+INCORRECT_BALL,affected_team,Detroit Tigers,12
+INCORRECT_BALL,affected_team,Houston Astros,31
+INCORRECT_BALL,affected_team,Kansas City Royals,16
+INCORRECT_BALL,affected_team,Los Angeles Angels,30
+INCORRECT_BALL,affected_team,Los Angeles Dodgers,17
+INCORRECT_BALL,affected_team,Miami Marlins,24
+INCORRECT_BALL,affected_team,Milwaukee Brewers,37
+INCORRECT_BALL,affected_team,Minnesota Twins,37
+INCORRECT_BALL,affected_team,New York Mets,15
+INCORRECT_BALL,affected_team,New York Yankees,23
+INCORRECT_BALL,affected_team,Philadelphia Phillies,8
+INCORRECT_BALL,affected_team,Pittsburgh Pirates,25
+INCORRECT_BALL,affected_team,San Diego Padres,22
+INCORRECT_BALL,affected_team,San Francisco Giants,28
+INCORRECT_BALL,affected_team,Seattle Mariners,26
+INCORRECT_BALL,affected_team,St. Louis Cardinals,12
+INCORRECT_BALL,affected_team,Tampa Bay Rays,18
+INCORRECT_BALL,affected_team,Texas Rangers,18
+INCORRECT_BALL,affected_team,Toronto Blue Jays,21
+INCORRECT_BALL,affected_team,Washington Nationals,32

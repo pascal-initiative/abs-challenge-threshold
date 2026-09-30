@@ -1,0 +1,271 @@
+spec,entitled_team,adj_log_odds_vs_league,se_cluster,adj_or_vs_league,or_ci_low,or_ci_high,z,bonferroni_significant,opportunities,challenges,rate,value_encountered,value_recovered,value_unchallenged,mean_dist,all_challenges,all_overturned,challenges_of_geometry_correct_calls,value_capture_ratio,all_challenge_success_rate,obs,exp,obs_over_expected_challenges,expected_value_recovered_if_league_behavior,value_recovered_over_expected,early_n,early_obs,early_exp,early_var,late_n,late_obs,late_exp,late_var,early_o_minus_e_rate,late_o_minus_e_rate,early_minus_late,z_early_minus_late,early_late_bonferroni_significant,section,split,level,n
+primary,Arizona Diamondbacks,-0.0750691,0.0921917,0.927679,0.774324,1.11141,-0.814272,False,692,167,0.241329,106.802,31.2609,75.5409,0.993249,279,167,112,0.2927,0.598566,167,175.686,0.950559,33.9295,0.921347,208,45,45.4507,31.5048,225,63,70.6005,42.3791,-0.00216684,-0.0337799,0.0316131,0.799036,False,team_adjusted,,,
+primary,Athletics,0.0545762,0.087256,1.05609,0.890079,1.25307,0.625472,False,731,200,0.273598,116.197,42.522,73.6751,0.947861,339,202,137,0.365947,0.59587,200,193.565,1.03324,39.0875,1.08787,252,57,57.329,38.462,228,78,72.7366,43.5945,-0.00130554,0.023085,-0.0243905,-0.641795,False,team_adjusted,,,
+primary,Atlanta Braves,-0.134342,0.112493,0.874291,0.701295,1.08996,-1.19423,False,576,141,0.244792,89.4249,27.1089,62.3161,1.00733,270,142,128,0.303147,0.525926,141,153.631,0.917785,31.1666,0.869804,224,48,51.5632,34.4006,165,46,53.4728,30.8549,-0.0159071,-0.0452897,0.0293827,0.688944,False,team_adjusted,,,
+primary,Baltimore Orioles,-0.317252,0.106383,0.728147,0.591104,0.896962,-2.98217,False,702,146,0.207977,104.369,28.5452,75.8235,1.02363,296,147,149,0.273503,0.496622,146,180.892,0.807113,31.9409,0.893687,267,39,55.8298,39.4984,206,69,67.8426,39.5903,-0.0630331,0.00561844,-0.0686516,-1.78031,False,team_adjusted,,,
+primary,Boston Red Sox,-0.143495,0.101248,0.866325,0.710389,1.05649,-1.41726,False,686,160,0.233236,110.206,33.3562,76.8503,1.01189,298,161,137,0.30267,0.540268,160,176.407,0.906996,35.286,0.94531,283,56,63.8457,45.2048,181,54,57.1473,32.9955,-0.0277233,-0.0173882,-0.0103352,-0.260704,False,team_adjusted,,,
+primary,Chicago Cubs,0.00918041,0.0902435,1.00922,0.84561,1.20449,0.101729,False,693,181,0.261183,110.559,36.7014,73.8572,0.906913,307,181,126,0.331963,0.589577,181,179.914,1.00603,37.3288,0.983193,220,46,42.6269,31.0833,215,65,70.8675,41.4332,0.0153323,-0.0272907,0.042623,1.08664,False,team_adjusted,,,
+primary,Chicago White Sox,0.268183,0.0954418,1.30759,1.0845,1.57657,2.80991,False,636,190,0.298742,98.0157,35.68,62.3357,1.0072,385,190,195,0.364023,0.493506,190,160.851,1.18122,31.1052,1.14708,235,68,53.9314,36.1508,174,63,53.3764,32.6148,0.0598664,0.0553082,0.0045582,0.109531,False,team_adjusted,,,
+primary,Cincinnati Reds,-0.0072921,0.0958084,0.992734,0.822772,1.19781,-0.0761114,False,793,214,0.269861,126.312,47.2194,79.0929,1.0286,338,214,124,0.373831,0.633136,214,215.093,0.99492,43.382,1.08846,252,54,55.1946,38.6238,256,87,80.8196,48.6613,-0.00474045,0.0241423,-0.0288828,-0.78588,False,team_adjusted,,,
+primary,Cleveland Guardians,-0.10507,0.110183,0.900261,0.725403,1.11727,-0.9536,False,645,147,0.227907,94.9986,25.7704,69.2281,0.965154,308,149,159,0.271272,0.483766,147,158.052,0.930074,28.2484,0.912278,241,46,48.9588,34.7294,205,59,64.0527,38.1777,-0.0122771,-0.0246472,0.0123701,0.318714,False,team_adjusted,,,
+primary,Colorado Rockies,0.324473,0.0963198,1.3833,1.14532,1.67073,3.36871,True,615,188,0.305691,101.029,40.6746,60.3547,0.970379,354,188,166,0.402602,0.531073,188,153.783,1.2225,33.4136,1.21731,250,65,54.5022,38.1732,162,66,49.4198,29.9209,0.041991,0.102347,-0.0603557,-1.44242,False,team_adjusted,,,
+primary,Detroit Tigers,0.0266382,0.0925017,1.027,0.856702,1.23114,0.287975,False,687,172,0.250364,98.8553,31.0166,67.8386,0.916276,294,172,122,0.313758,0.585034,172,169.053,1.01743,28.9108,1.07284,243,49,51.1625,36.4859,218,63,65.8729,40.7654,-0.0088993,-0.0131784,0.00427913,0.111393,False,team_adjusted,,,
+primary,Houston Astros,0.285266,0.104245,1.33012,1.08431,1.63164,2.73651,False,636,180,0.283019,93.2753,29.9418,63.3335,0.933723,344,181,163,0.321005,0.526163,180,149.933,1.20054,26.7008,1.12138,260,73,53.8991,38.3686,144,48,41.0399,26.2185,0.0734649,0.0483342,0.0251307,0.587143,False,team_adjusted,,,
+primary,Kansas City Royals,-0.0498832,0.0872855,0.95134,0.801746,1.12885,-0.571495,False,694,165,0.237752,101.435,29.7706,71.6645,0.930537,300,165,135,0.293494,0.55,165,170.891,0.965528,30.374,0.980132,250,52,54.631,37.8054,200,47,56.2604,35.5323,-0.0105241,-0.0463018,0.0357776,0.925878,False,team_adjusted,,,
+primary,Los Angeles Angels,-0.122221,0.097264,0.884953,0.731353,1.07081,-1.25659,False,733,175,0.238745,115.194,38.1494,77.0444,0.980297,331,175,156,0.331176,0.528701,175,190.034,0.92089,38.4002,0.993468,283,52,65.1188,43.4769,212,69,63.6686,39.4406,-0.0463563,0.0251483,-0.0715045,-1.89726,False,team_adjusted,,,
+primary,Los Angeles Dodgers,-0.158137,0.0923833,0.853733,0.712334,1.0232,-1.71174,False,690,157,0.227536,106.594,31.0111,75.5824,0.946687,281,157,124,0.290929,0.558719,157,174.56,0.899404,32.5468,0.952817,248,48,53.6427,36.7897,196,56,60.9874,36.8557,-0.0227529,-0.025446,0.00269316,0.0682404,False,team_adjusted,,,
+primary,Miami Marlins,0.237972,0.0850489,1.26867,1.07388,1.49881,2.79807,False,707,204,0.288543,106.837,36.9795,69.8575,0.983012,362,204,158,0.34613,0.563536,204,175.62,1.1616,32.5013,1.13778,244,57,51.213,36.1514,201,73,62.2956,37.1765,0.0237173,0.0532558,-0.0295385,-0.755808,False,team_adjusted,,,
+primary,Milwaukee Brewers,-0.094495,0.0886749,0.909832,0.76468,1.08254,-1.06563,False,757,173,0.228534,114.577,31.5749,83.0018,0.93977,342,173,169,0.275579,0.505848,173,184.908,0.9356,33.0858,0.954335,294,64,64.639,44.4356,219,62,64.9527,40.5761,-0.00217354,-0.0134827,0.0113092,0.306651,False,team_adjusted,,,
+primary,Minnesota Twins,0.43836,0.0944693,1.55016,1.28814,1.86548,4.64023,True,650,218,0.335385,101.985,43.4637,58.5216,0.972269,404,220,185,0.426176,0.544554,218,167.502,1.30147,34.3907,1.26382,258,81,59.1084,39.9258,176,67,53.4935,32.0877,0.084851,0.0767412,0.00810979,0.20052,False,team_adjusted,,,
+primary,New York Mets,0.115973,0.100076,1.12297,0.922953,1.36632,1.15884,False,655,177,0.270229,102.394,32.2243,70.1696,0.98893,347,179,169,0.314709,0.51585,177,164.839,1.07377,32.4486,0.993088,265,60,58.9886,39.743,178,65,51.7519,32.2519,0.00381653,0.0744276,-0.0706111,-1.77425,False,team_adjusted,,,
+primary,New York Yankees,0.463183,0.0969381,1.58912,1.31414,1.92164,4.77813,True,599,198,0.330551,91.4241,36.6256,54.7986,0.968798,361,198,163,0.400612,0.548476,198,149.218,1.32692,27.9594,1.30995,227,63,46.9126,33.3825,168,58,49.9931,31.0919,0.0708697,0.0476599,0.0232098,0.554908,False,team_adjusted,,,
+primary,Philadelphia Phillies,0.039049,0.100059,1.03982,0.854646,1.26512,0.390258,False,659,168,0.254932,102.753,32.041,70.609,0.938939,299,167,131,0.311824,0.558528,168,164.197,1.02316,32.7236,0.979138,243,68,49.9956,35.4109,204,53,61.6684,37.7387,0.0740921,-0.0424923,0.116584,3.00368,False,team_adjusted,,,
+primary,Pittsburgh Pirates,-0.216769,0.112691,0.805116,0.645557,1.00411,-1.92357,False,676,148,0.218935,106.673,27.3016,79.3715,1.00333,315,148,167,0.255937,0.469841,148,171.353,0.863714,33.4378,0.816489,263,42,55.6119,39.2089,187,53,59.0637,33.9312,-0.0517563,-0.0324261,-0.0193301,-0.493029,False,team_adjusted,,,
+primary,San Diego Padres,-0.0961778,0.0893077,0.908302,0.762448,1.08206,-1.07693,False,632,153,0.242089,101.266,28.8182,72.4479,0.982044,298,153,145,0.284579,0.513423,153,163.224,0.93736,34.184,0.843032,235,52,53.983,36.5804,174,46,52.7727,32.6681,-0.00843848,-0.0389234,0.0304849,0.730525,False,team_adjusted,,,
+primary,San Francisco Giants,-0.0247478,0.0969056,0.975556,0.806797,1.17961,-0.25538,False,640,152,0.2375,92.9609,27.6514,65.3096,0.945264,299,152,147,0.297451,0.508361,152,155.029,0.980464,26.2658,1.05275,270,58,54.891,39.5858,183,50,56.8083,34.3756,0.0115148,-0.0372039,0.0487187,1.22975,False,team_adjusted,,,
+primary,Seattle Mariners,-0.131391,0.103456,0.876874,0.715935,1.07399,-1.27002,False,655,148,0.225954,105.593,31.2305,74.3622,0.89552,296,148,148,0.295764,0.5,148,161.831,0.914534,34.7141,0.89965,251,53,54.0704,37.474,188,50,58.1226,34.5713,-0.00426435,-0.0432054,0.038941,0.981859,False,team_adjusted,,,
+primary,St. Louis Cardinals,-0.439116,0.113017,0.644606,0.516526,0.804446,-3.88538,True,653,126,0.192956,103.173,26.461,76.7115,0.976058,252,127,125,0.256474,0.503968,126,169.391,0.743842,34.9748,0.756575,230,27,49.0096,34.3646,179,51,57.3578,33.3062,-0.095694,-0.0355187,-0.0601753,-1.46417,False,team_adjusted,,,
+primary,Tampa Bay Rays,0.0517971,0.0878131,1.05316,0.88664,1.25096,0.589856,False,649,164,0.252696,95.7878,27.3861,68.4017,1.0228,304,164,140,0.285904,0.539474,164,158.851,1.03241,29.3187,0.934084,231,46,50.3899,34.8299,175,48,52.2848,31.8853,-0.0190037,-0.0244848,0.00548106,0.133175,False,team_adjusted,,,
+primary,Texas Rangers,-0.174513,0.106665,0.839866,0.68142,1.03515,-1.63608,False,683,154,0.225476,103.982,29.7478,74.2341,0.938959,267,154,113,0.286086,0.576779,154,173.036,0.88999,32.1225,0.926072,271,49,56.2074,39.5334,191,45,60.1093,35.3904,-0.0265954,-0.0791061,0.0525107,1.35204,False,team_adjusted,,,
+primary,Toronto Blue Jays,0.161887,0.111124,1.17573,0.945618,1.46183,1.45681,False,604,168,0.278146,89.8166,31.1347,58.6818,1.03068,308,168,140,0.346648,0.545455,168,151.896,1.10602,28.1993,1.1041,209,46,46.7142,31.8932,188,73,58.9372,35.3725,-0.00341739,0.0748023,-0.0782197,-1.88007,False,team_adjusted,,,
+primary,Washington Nationals,-0.186567,0.106144,0.829803,0.673944,1.02171,-1.75768,False,696,151,0.216954,105.168,28.5756,76.5923,0.974139,307,153,154,0.271714,0.498371,151,171.762,0.879123,31.9001,0.895785,247,45,49.5788,35.7868,191,57,56.2235,34.7033,-0.0185377,0.00406535,-0.022603,-0.57638,False,team_adjusted,,,
+primary,Arizona Diamondbacks,,,,,,,,,,0.317568,,,,,,,,0.352664,,,,,,,,,,,,,,,,,,,,raw_splits,side,DEFENSE,296
+primary,Arizona Diamondbacks,,,,,,,,,,0.184343,,,,,,,,0.244279,,,,,,,,,,,,,,,,,,,,raw_splits,side,OFFENSE,396
+primary,Athletics,,,,,,,,,,0.335092,,,,,,,,0.454968,,,,,,,,,,,,,,,,,,,,raw_splits,side,DEFENSE,379
+primary,Athletics,,,,,,,,,,0.207386,,,,,,,,0.251359,,,,,,,,,,,,,,,,,,,,raw_splits,side,OFFENSE,352
+primary,Atlanta Braves,,,,,,,,,,0.339286,,,,,,,,0.361015,,,,,,,,,,,,,,,,,,,,raw_splits,side,DEFENSE,280
+primary,Atlanta Braves,,,,,,,,,,0.155405,,,,,,,,0.244597,,,,,,,,,,,,,,,,,,,,raw_splits,side,OFFENSE,296
+primary,Baltimore Orioles,,,,,,,,,,0.233227,,,,,,,,0.29203,,,,,,,,,,,,,,,,,,,,raw_splits,side,DEFENSE,313
+primary,Baltimore Orioles,,,,,,,,,,0.187661,,,,,,,,0.258959,,,,,,,,,,,,,,,,,,,,raw_splits,side,OFFENSE,389
+primary,Boston Red Sox,,,,,,,,,,0.260188,,,,,,,,0.336356,,,,,,,,,,,,,,,,,,,,raw_splits,side,DEFENSE,319
+primary,Boston Red Sox,,,,,,,,,,0.209809,,,,,,,,0.271298,,,,,,,,,,,,,,,,,,,,raw_splits,side,OFFENSE,367
+primary,Chicago Cubs,,,,,,,,,,0.324242,,,,,,,,0.366095,,,,,,,,,,,,,,,,,,,,raw_splits,side,DEFENSE,330
+primary,Chicago Cubs,,,,,,,,,,0.203857,,,,,,,,0.301543,,,,,,,,,,,,,,,,,,,,raw_splits,side,OFFENSE,363
+primary,Chicago White Sox,,,,,,,,,,0.393548,,,,,,,,0.466787,,,,,,,,,,,,,,,,,,,,raw_splits,side,DEFENSE,310
+primary,Chicago White Sox,,,,,,,,,,0.208589,,,,,,,,0.259634,,,,,,,,,,,,,,,,,,,,raw_splits,side,OFFENSE,326
+primary,Cincinnati Reds,,,,,,,,,,0.331579,,,,,,,,0.434489,,,,,,,,,,,,,,,,,,,,raw_splits,side,DEFENSE,380
+primary,Cincinnati Reds,,,,,,,,,,0.213075,,,,,,,,0.318955,,,,,,,,,,,,,,,,,,,,raw_splits,side,OFFENSE,413
+primary,Cleveland Guardians,,,,,,,,,,0.326087,,,,,,,,0.357516,,,,,,,,,,,,,,,,,,,,raw_splits,side,DEFENSE,276
+primary,Cleveland Guardians,,,,,,,,,,0.154472,,,,,,,,0.201438,,,,,,,,,,,,,,,,,,,,raw_splits,side,OFFENSE,369
+primary,Colorado Rockies,,,,,,,,,,0.393443,,,,,,,,0.48516,,,,,,,,,,,,,,,,,,,,raw_splits,side,DEFENSE,305
+primary,Colorado Rockies,,,,,,,,,,0.219355,,,,,,,,0.316324,,,,,,,,,,,,,,,,,,,,raw_splits,side,OFFENSE,310
+primary,Detroit Tigers,,,,,,,,,,0.295455,,,,,,,,0.356352,,,,,,,,,,,,,,,,,,,,raw_splits,side,DEFENSE,308
+primary,Detroit Tigers,,,,,,,,,,0.21372,,,,,,,,0.280417,,,,,,,,,,,,,,,,,,,,raw_splits,side,OFFENSE,379
+primary,Houston Astros,,,,,,,,,,0.299363,,,,,,,,0.321299,,,,,,,,,,,,,,,,,,,,raw_splits,side,DEFENSE,314
+primary,Houston Astros,,,,,,,,,,0.267081,,,,,,,,0.320741,,,,,,,,,,,,,,,,,,,,raw_splits,side,OFFENSE,322
+primary,Kansas City Royals,,,,,,,,,,0.271341,,,,,,,,0.319761,,,,,,,,,,,,,,,,,,,,raw_splits,side,DEFENSE,328
+primary,Kansas City Royals,,,,,,,,,,0.20765,,,,,,,,0.270082,,,,,,,,,,,,,,,,,,,,raw_splits,side,OFFENSE,366
+primary,Los Angeles Angels,,,,,,,,,,0.282967,,,,,,,,0.339274,,,,,,,,,,,,,,,,,,,,raw_splits,side,DEFENSE,364
+primary,Los Angeles Angels,,,,,,,,,,0.195122,,,,,,,,0.32319,,,,,,,,,,,,,,,,,,,,raw_splits,side,OFFENSE,369
+primary,Los Angeles Dodgers,,,,,,,,,,0.258675,,,,,,,,0.298807,,,,,,,,,,,,,,,,,,,,raw_splits,side,DEFENSE,317
+primary,Los Angeles Dodgers,,,,,,,,,,0.201072,,,,,,,,0.284175,,,,,,,,,,,,,,,,,,,,raw_splits,side,OFFENSE,373
+primary,Miami Marlins,,,,,,,,,,0.442953,,,,,,,,0.463875,,,,,,,,,,,,,,,,,,,,raw_splits,side,DEFENSE,298
+primary,Miami Marlins,,,,,,,,,,0.176039,,,,,,,,0.257248,,,,,,,,,,,,,,,,,,,,raw_splits,side,OFFENSE,409
+primary,Milwaukee Brewers,,,,,,,,,,0.365782,,,,,,,,0.407795,,,,,,,,,,,,,,,,,,,,raw_splits,side,DEFENSE,339
+primary,Milwaukee Brewers,,,,,,,,,,0.117225,,,,,,,,0.162126,,,,,,,,,,,,,,,,,,,,raw_splits,side,OFFENSE,418
+primary,Minnesota Twins,,,,,,,,,,0.414634,,,,,,,,0.477078,,,,,,,,,,,,,,,,,,,,raw_splits,side,DEFENSE,328
+primary,Minnesota Twins,,,,,,,,,,0.254658,,,,,,,,0.36274,,,,,,,,,,,,,,,,,,,,raw_splits,side,OFFENSE,322
+primary,New York Mets,,,,,,,,,,0.304795,,,,,,,,0.347689,,,,,,,,,,,,,,,,,,,,raw_splits,side,DEFENSE,292
+primary,New York Mets,,,,,,,,,,0.242424,,,,,,,,0.282992,,,,,,,,,,,,,,,,,,,,raw_splits,side,OFFENSE,363
+primary,New York Yankees,,,,,,,,,,0.391941,,,,,,,,0.480308,,,,,,,,,,,,,,,,,,,,raw_splits,side,DEFENSE,273
+primary,New York Yankees,,,,,,,,,,0.279141,,,,,,,,0.331243,,,,,,,,,,,,,,,,,,,,raw_splits,side,OFFENSE,326
+primary,Philadelphia Phillies,,,,,,,,,,0.277955,,,,,,,,0.338815,,,,,,,,,,,,,,,,,,,,raw_splits,side,DEFENSE,313
+primary,Philadelphia Phillies,,,,,,,,,,0.234104,,,,,,,,0.283607,,,,,,,,,,,,,,,,,,,,raw_splits,side,OFFENSE,346
+primary,Pittsburgh Pirates,,,,,,,,,,0.258675,,,,,,,,0.282603,,,,,,,,,,,,,,,,,,,,raw_splits,side,DEFENSE,317
+primary,Pittsburgh Pirates,,,,,,,,,,0.183844,,,,,,,,0.230713,,,,,,,,,,,,,,,,,,,,raw_splits,side,OFFENSE,359
+primary,San Diego Padres,,,,,,,,,,0.312102,,,,,,,,0.3466,,,,,,,,,,,,,,,,,,,,raw_splits,side,DEFENSE,314
+primary,San Diego Padres,,,,,,,,,,0.172956,,,,,,,,0.209032,,,,,,,,,,,,,,,,,,,,raw_splits,side,OFFENSE,318
+primary,San Francisco Giants,,,,,,,,,,0.297297,,,,,,,,0.353651,,,,,,,,,,,,,,,,,,,,raw_splits,side,DEFENSE,296
+primary,San Francisco Giants,,,,,,,,,,0.186047,,,,,,,,0.252784,,,,,,,,,,,,,,,,,,,,raw_splits,side,OFFENSE,344
+primary,Seattle Mariners,,,,,,,,,,0.288079,,,,,,,,0.379718,,,,,,,,,,,,,,,,,,,,raw_splits,side,DEFENSE,302
+primary,Seattle Mariners,,,,,,,,,,0.172805,,,,,,,,0.219058,,,,,,,,,,,,,,,,,,,,raw_splits,side,OFFENSE,353
+primary,St. Louis Cardinals,,,,,,,,,,0.233553,,,,,,,,0.318115,,,,,,,,,,,,,,,,,,,,raw_splits,side,DEFENSE,304
+primary,St. Louis Cardinals,,,,,,,,,,0.157593,,,,,,,,0.189893,,,,,,,,,,,,,,,,,,,,raw_splits,side,OFFENSE,349
+primary,Tampa Bay Rays,,,,,,,,,,0.3663,,,,,,,,0.441276,,,,,,,,,,,,,,,,,,,,raw_splits,side,DEFENSE,273
+primary,Tampa Bay Rays,,,,,,,,,,0.170213,,,,,,,,0.176429,,,,,,,,,,,,,,,,,,,,raw_splits,side,OFFENSE,376
+primary,Texas Rangers,,,,,,,,,,0.278638,,,,,,,,0.352022,,,,,,,,,,,,,,,,,,,,raw_splits,side,DEFENSE,323
+primary,Texas Rangers,,,,,,,,,,0.177778,,,,,,,,0.229296,,,,,,,,,,,,,,,,,,,,raw_splits,side,OFFENSE,360
+primary,Toronto Blue Jays,,,,,,,,,,0.347328,,,,,,,,0.38648,,,,,,,,,,,,,,,,,,,,raw_splits,side,DEFENSE,262
+primary,Toronto Blue Jays,,,,,,,,,,0.225146,,,,,,,,0.310765,,,,,,,,,,,,,,,,,,,,raw_splits,side,OFFENSE,342
+primary,Washington Nationals,,,,,,,,,,0.305296,,,,,,,,0.350415,,,,,,,,,,,,,,,,,,,,raw_splits,side,DEFENSE,321
+primary,Washington Nationals,,,,,,,,,,0.141333,,,,,,,,0.19695,,,,,,,,,,,,,,,,,,,,raw_splits,side,OFFENSE,375
+primary,Arizona Diamondbacks,,,,,,,,,,0.216346,,,,,,,,0.255955,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,1-3,208
+primary,Arizona Diamondbacks,,,,,,,,,,0.4,,,,,,,,0.767898,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,10+,5
+primary,Arizona Diamondbacks,,,,,,,,,,0.227799,,,,,,,,0.297614,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,4-6,259
+primary,Arizona Diamondbacks,,,,,,,,,,0.277273,,,,,,,,0.305804,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,7-9,220
+primary,Athletics,,,,,,,,,,0.22619,,,,,,,,0.339892,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,1-3,252
+primary,Athletics,,,,,,,,,,0.307692,,,,,,,,0.402108,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,10+,13
+primary,Athletics,,,,,,,,,,0.258964,,,,,,,,0.356489,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,4-6,251
+primary,Athletics,,,,,,,,,,0.344186,,,,,,,,0.404689,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,7-9,215
+primary,Atlanta Braves,,,,,,,,,,0.214286,,,,,,,,0.231948,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,1-3,224
+primary,Atlanta Braves,,,,,,,,,,0.6,,,,,,,,0.716889,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,10+,5
+primary,Atlanta Braves,,,,,,,,,,0.251337,,,,,,,,0.356404,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,4-6,187
+primary,Atlanta Braves,,,,,,,,,,0.26875,,,,,,,,0.328241,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,7-9,160
+primary,Baltimore Orioles,,,,,,,,,,0.146067,,,,,,,,0.185768,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,1-3,267
+primary,Baltimore Orioles,,,,,,,,,,0.333333,,,,,,,,0.297532,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,10+,6
+primary,Baltimore Orioles,,,,,,,,,,0.165939,,,,,,,,0.217658,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,4-6,229
+primary,Baltimore Orioles,,,,,,,,,,0.335,,,,,,,,0.436419,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,7-9,200
+primary,Boston Red Sox,,,,,,,,,,0.19788,,,,,,,,0.26243,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,1-3,283
+primary,Boston Red Sox,,,,,,,,,,0.285714,,,,,,,,0.305601,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,10+,7
+primary,Boston Red Sox,,,,,,,,,,0.225225,,,,,,,,0.280315,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,4-6,222
+primary,Boston Red Sox,,,,,,,,,,0.298851,,,,,,,,0.393306,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,7-9,174
+primary,Chicago Cubs,,,,,,,,,,0.209091,,,,,,,,0.251605,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,1-3,220
+primary,Chicago Cubs,,,,,,,,,,0.333333,,,,,,,,0.384236,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,10+,9
+primary,Chicago Cubs,,,,,,,,,,0.271318,,,,,,,,0.349476,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,4-6,258
+primary,Chicago Cubs,,,,,,,,,,0.300971,,,,,,,,0.384318,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,7-9,206
+primary,Chicago White Sox,,,,,,,,,,0.289362,,,,,,,,0.327031,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,1-3,235
+primary,Chicago White Sox,,,,,,,,,,0.454545,,,,,,,,0.563425,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,10+,11
+primary,Chicago White Sox,,,,,,,,,,0.259912,,,,,,,,0.321924,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,4-6,227
+primary,Chicago White Sox,,,,,,,,,,0.355828,,,,,,,,0.454248,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,7-9,163
+primary,Cincinnati Reds,,,,,,,,,,0.214286,,,,,,,,0.271778,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,1-3,252
+primary,Cincinnati Reds,,,,,,,,,,0.125,,,,,,,,0.382034,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,10+,8
+primary,Cincinnati Reds,,,,,,,,,,0.25614,,,,,,,,0.400885,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,4-6,285
+primary,Cincinnati Reds,,,,,,,,,,0.346774,,,,,,,,0.44286,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,7-9,248
+primary,Cleveland Guardians,,,,,,,,,,0.190871,,,,,,,,0.24266,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,1-3,241
+primary,Cleveland Guardians,,,,,,,,,,0.555556,,,,,,,,0.486289,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,10+,9
+primary,Cleveland Guardians,,,,,,,,,,0.211055,,,,,,,,0.239126,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,4-6,199
+primary,Cleveland Guardians,,,,,,,,,,0.27551,,,,,,,,0.329377,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,7-9,196
+primary,Colorado Rockies,,,,,,,,,,0.26,,,,,,,,0.345657,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,1-3,250
+primary,Colorado Rockies,,,,,,,,,,0.5,,,,,,,,0.335333,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,10+,4
+primary,Colorado Rockies,,,,,,,,,,0.280788,,,,,,,,0.397204,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,4-6,203
+primary,Colorado Rockies,,,,,,,,,,0.405063,,,,,,,,0.499918,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,7-9,158
+primary,Detroit Tigers,,,,,,,,,,0.201646,,,,,,,,0.26437,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,1-3,243
+primary,Detroit Tigers,,,,,,,,,,0.6,,,,,,,,0.608217,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,10+,10
+primary,Detroit Tigers,,,,,,,,,,0.265487,,,,,,,,0.309681,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,4-6,226
+primary,Detroit Tigers,,,,,,,,,,0.274038,,,,,,,,0.367602,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,7-9,208
+primary,Houston Astros,,,,,,,,,,0.280769,,,,,,,,0.247299,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,1-3,260
+primary,Houston Astros,,,,,,,,,,0.5,,,,,,,,0.408776,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,10+,4
+primary,Houston Astros,,,,,,,,,,0.25431,,,,,,,,0.350653,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,4-6,232
+primary,Houston Astros,,,,,,,,,,0.328571,,,,,,,,0.399603,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,7-9,140
+primary,Kansas City Royals,,,,,,,,,,0.208,,,,,,,,0.2359,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,1-3,250
+primary,Kansas City Royals,,,,,,,,,,0.5,,,,,,,,0.45129,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,10+,4
+primary,Kansas City Royals,,,,,,,,,,0.270492,,,,,,,,0.360252,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,4-6,244
+primary,Kansas City Royals,,,,,,,,,,0.229592,,,,,,,,0.287625,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,7-9,196
+primary,Los Angeles Angels,,,,,,,,,,0.183746,,,,,,,,0.275745,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,1-3,283
+primary,Los Angeles Angels,,,,,,,,,,0,,,,,,,,0,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,10+,2
+primary,Los Angeles Angels,,,,,,,,,,0.226891,,,,,,,,0.342014,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,4-6,238
+primary,Los Angeles Angels,,,,,,,,,,0.328571,,,,,,,,0.390059,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,7-9,210
+primary,Los Angeles Dodgers,,,,,,,,,,0.193548,,,,,,,,0.235213,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,1-3,248
+primary,Los Angeles Dodgers,,,,,,,,,,0.666667,,,,,,,,0.615931,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,10+,3
+primary,Los Angeles Dodgers,,,,,,,,,,0.215447,,,,,,,,0.300352,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,4-6,246
+primary,Los Angeles Dodgers,,,,,,,,,,0.279793,,,,,,,,0.346179,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,7-9,193
+primary,Miami Marlins,,,,,,,,,,0.233607,,,,,,,,0.297138,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,1-3,244
+primary,Miami Marlins,,,,,,,,,,0.6,,,,,,,,0.643089,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,10+,5
+primary,Miami Marlins,,,,,,,,,,0.282443,,,,,,,,0.316199,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,4-6,262
+primary,Miami Marlins,,,,,,,,,,0.357143,,,,,,,,0.438134,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,7-9,196
+primary,Milwaukee Brewers,,,,,,,,,,0.217687,,,,,,,,0.257261,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,1-3,294
+primary,Milwaukee Brewers,,,,,,,,,,0,,,,,,,,0,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,10+,9
+primary,Milwaukee Brewers,,,,,,,,,,0.192623,,,,,,,,0.220251,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,4-6,244
+primary,Milwaukee Brewers,,,,,,,,,,0.295238,,,,,,,,0.374057,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,7-9,210
+primary,Minnesota Twins,,,,,,,,,,0.313953,,,,,,,,0.408825,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,1-3,258
+primary,Minnesota Twins,,,,,,,,,,0.428571,,,,,,,,0.605951,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,10+,7
+primary,Minnesota Twins,,,,,,,,,,0.324074,,,,,,,,0.386985,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,4-6,216
+primary,Minnesota Twins,,,,,,,,,,0.378698,,,,,,,,0.491035,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,7-9,169
+primary,New York Mets,,,,,,,,,,0.226415,,,,,,,,0.28738,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,1-3,265
+primary,New York Mets,,,,,,,,,,0.461538,,,,,,,,0.628899,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,10+,13
+primary,New York Mets,,,,,,,,,,0.245283,,,,,,,,0.255594,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,4-6,212
+primary,New York Mets,,,,,,,,,,0.357576,,,,,,,,0.427899,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,7-9,165
+primary,New York Yankees,,,,,,,,,,0.277533,,,,,,,,0.33986,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,1-3,227
+primary,New York Yankees,,,,,,,,,,0.363636,,,,,,,,0.584909,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,10+,11
+primary,New York Yankees,,,,,,,,,,0.377451,,,,,,,,0.488062,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,4-6,204
+primary,New York Yankees,,,,,,,,,,0.343949,,,,,,,,0.34595,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,7-9,157
+primary,Philadelphia Phillies,,,,,,,,,,0.279835,,,,,,,,0.322739,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,1-3,243
+primary,Philadelphia Phillies,,,,,,,,,,0.454545,,,,,,,,0.49942,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,10+,11
+primary,Philadelphia Phillies,,,,,,,,,,0.221698,,,,,,,,0.246892,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,4-6,212
+primary,Philadelphia Phillies,,,,,,,,,,0.248705,,,,,,,,0.353466,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,7-9,193
+primary,Pittsburgh Pirates,,,,,,,,,,0.159696,,,,,,,,0.179332,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,1-3,263
+primary,Pittsburgh Pirates,,,,,,,,,,0.222222,,,,,,,,0.345964,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,10+,9
+primary,Pittsburgh Pirates,,,,,,,,,,0.234513,,,,,,,,0.295555,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,4-6,226
+primary,Pittsburgh Pirates,,,,,,,,,,0.286517,,,,,,,,0.303827,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,7-9,178
+primary,San Diego Padres,,,,,,,,,,0.221277,,,,,,,,0.238837,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,1-3,235
+primary,San Diego Padres,,,,,,,,,,0.25,,,,,,,,0.308956,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,10+,8
+primary,San Diego Padres,,,,,,,,,,0.246637,,,,,,,,0.312692,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,4-6,223
+primary,San Diego Padres,,,,,,,,,,0.26506,,,,,,,,0.316946,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,7-9,166
+primary,San Francisco Giants,,,,,,,,,,0.214815,,,,,,,,0.274102,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,1-3,270
+primary,San Francisco Giants,,,,,,,,,,0.166667,,,,,,,,0.228647,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,10+,12
+primary,San Francisco Giants,,,,,,,,,,0.235294,,,,,,,,0.270905,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,4-6,187
+primary,San Francisco Giants,,,,,,,,,,0.280702,,,,,,,,0.37032,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,7-9,171
+primary,Seattle Mariners,,,,,,,,,,0.211155,,,,,,,,0.276454,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,1-3,251
+primary,Seattle Mariners,,,,,,,,,,0.2,,,,,,,,0.232872,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,10+,5
+primary,Seattle Mariners,,,,,,,,,,0.208333,,,,,,,,0.274545,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,4-6,216
+primary,Seattle Mariners,,,,,,,,,,0.26776,,,,,,,,0.349669,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,7-9,183
+primary,St. Louis Cardinals,,,,,,,,,,0.117391,,,,,,,,0.18553,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,1-3,230
+primary,St. Louis Cardinals,,,,,,,,,,0.285714,,,,,,,,0.368847,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,10+,7
+primary,St. Louis Cardinals,,,,,,,,,,0.196721,,,,,,,,0.25488,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,4-6,244
+primary,St. Louis Cardinals,,,,,,,,,,0.284884,,,,,,,,0.34517,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,7-9,172
+primary,Tampa Bay Rays,,,,,,,,,,0.199134,,,,,,,,0.213678,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,1-3,231
+primary,Tampa Bay Rays,,,,,,,,,,0.3,,,,,,,,0.338647,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,10+,10
+primary,Tampa Bay Rays,,,,,,,,,,0.288066,,,,,,,,0.334506,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,4-6,243
+primary,Tampa Bay Rays,,,,,,,,,,0.272727,,,,,,,,0.319294,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,7-9,165
+primary,Texas Rangers,,,,,,,,,,0.180812,,,,,,,,0.275858,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,1-3,271
+primary,Texas Rangers,,,,,,,,,,0,,,,,,,,0,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,10+,4
+primary,Texas Rangers,,,,,,,,,,0.271493,,,,,,,,0.330896,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,4-6,221
+primary,Texas Rangers,,,,,,,,,,0.240642,,,,,,,,0.256864,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,7-9,187
+primary,Toronto Blue Jays,,,,,,,,,,0.220096,,,,,,,,0.259383,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,1-3,209
+primary,Toronto Blue Jays,,,,,,,,,,0.571429,,,,,,,,0.496057,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,10+,7
+primary,Toronto Blue Jays,,,,,,,,,,0.236715,,,,,,,,0.326317,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,4-6,207
+primary,Toronto Blue Jays,,,,,,,,,,0.381215,,,,,,,,0.474918,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,7-9,181
+primary,Washington Nationals,,,,,,,,,,0.182186,,,,,,,,0.244941,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,1-3,247
+primary,Washington Nationals,,,,,,,,,,0.428571,,,,,,,,0.44212,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,10+,7
+primary,Washington Nationals,,,,,,,,,,0.189922,,,,,,,,0.247952,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,4-6,258
+primary,Washington Nationals,,,,,,,,,,0.293478,,,,,,,,0.33157,,,,,,,,,,,,,,,,,,,,raw_splits,inning_bucket,7-9,184
+primary,Arizona Diamondbacks,,,,,,,,,,0.195876,,,,,,,,0.246087,,,,,,,,,,,,,,,,,,,,raw_splits,inv,1,194
+primary,Arizona Diamondbacks,,,,,,,,,,0.259036,,,,,,,,0.309621,,,,,,,,,,,,,,,,,,,,raw_splits,inv,2,498
+primary,Athletics,,,,,,,,,,0.277228,,,,,,,,0.373587,,,,,,,,,,,,,,,,,,,,raw_splits,inv,1,202
+primary,Athletics,,,,,,,,,,0.272212,,,,,,,,0.362687,,,,,,,,,,,,,,,,,,,,raw_splits,inv,2,529
+primary,Atlanta Braves,,,,,,,,,,0.257576,,,,,,,,0.329806,,,,,,,,,,,,,,,,,,,,raw_splits,inv,1,132
+primary,Atlanta Braves,,,,,,,,,,0.240991,,,,,,,,0.295826,,,,,,,,,,,,,,,,,,,,raw_splits,inv,2,444
+primary,Baltimore Orioles,,,,,,,,,,0.190476,,,,,,,,0.262922,,,,,,,,,,,,,,,,,,,,raw_splits,inv,1,210
+primary,Baltimore Orioles,,,,,,,,,,0.215447,,,,,,,,0.278208,,,,,,,,,,,,,,,,,,,,raw_splits,inv,2,492
+primary,Boston Red Sox,,,,,,,,,,0.242105,,,,,,,,0.328483,,,,,,,,,,,,,,,,,,,,raw_splits,inv,1,190
+primary,Boston Red Sox,,,,,,,,,,0.229839,,,,,,,,0.292698,,,,,,,,,,,,,,,,,,,,raw_splits,inv,2,496
+primary,Chicago Cubs,,,,,,,,,,0.170213,,,,,,,,0.211695,,,,,,,,,,,,,,,,,,,,raw_splits,inv,1,141
+primary,Chicago Cubs,,,,,,,,,,0.28442,,,,,,,,0.361031,,,,,,,,,,,,,,,,,,,,raw_splits,inv,2,552
+primary,Chicago White Sox,,,,,,,,,,0.289362,,,,,,,,0.366937,,,,,,,,,,,,,,,,,,,,raw_splits,inv,1,235
+primary,Chicago White Sox,,,,,,,,,,0.304239,,,,,,,,0.362261,,,,,,,,,,,,,,,,,,,,raw_splits,inv,2,401
+primary,Cincinnati Reds,,,,,,,,,,0.205128,,,,,,,,0.278414,,,,,,,,,,,,,,,,,,,,raw_splits,inv,1,195
+primary,Cincinnati Reds,,,,,,,,,,0.29097,,,,,,,,0.40351,,,,,,,,,,,,,,,,,,,,raw_splits,inv,2,598
+primary,Cleveland Guardians,,,,,,,,,,0.230415,,,,,,,,0.302008,,,,,,,,,,,,,,,,,,,,raw_splits,inv,1,217
+primary,Cleveland Guardians,,,,,,,,,,0.226636,,,,,,,,0.256733,,,,,,,,,,,,,,,,,,,,raw_splits,inv,2,428
+primary,Colorado Rockies,,,,,,,,,,0.293269,,,,,,,,0.416567,,,,,,,,,,,,,,,,,,,,raw_splits,inv,1,208
+primary,Colorado Rockies,,,,,,,,,,0.312039,,,,,,,,0.394271,,,,,,,,,,,,,,,,,,,,raw_splits,inv,2,407
+primary,Detroit Tigers,,,,,,,,,,0.235714,,,,,,,,0.306806,,,,,,,,,,,,,,,,,,,,raw_splits,inv,1,140
+primary,Detroit Tigers,,,,,,,,,,0.254113,,,,,,,,0.31544,,,,,,,,,,,,,,,,,,,,raw_splits,inv,2,547
+primary,Houston Astros,,,,,,,,,,0.25,,,,,,,,0.289875,,,,,,,,,,,,,,,,,,,,raw_splits,inv,1,208
+primary,Houston Astros,,,,,,,,,,0.299065,,,,,,,,0.336187,,,,,,,,,,,,,,,,,,,,raw_splits,inv,2,428
+primary,Kansas City Royals,,,,,,,,,,0.162162,,,,,,,,0.20619,,,,,,,,,,,,,,,,,,,,raw_splits,inv,1,185
+primary,Kansas City Royals,,,,,,,,,,0.265226,,,,,,,,0.32229,,,,,,,,,,,,,,,,,,,,raw_splits,inv,2,509
+primary,Los Angeles Angels,,,,,,,,,,0.21028,,,,,,,,0.275301,,,,,,,,,,,,,,,,,,,,raw_splits,inv,1,214
+primary,Los Angeles Angels,,,,,,,,,,0.250482,,,,,,,,0.355272,,,,,,,,,,,,,,,,,,,,raw_splits,inv,2,519
+primary,Los Angeles Dodgers,,,,,,,,,,0.187135,,,,,,,,0.271467,,,,,,,,,,,,,,,,,,,,raw_splits,inv,1,171
+primary,Los Angeles Dodgers,,,,,,,,,,0.240848,,,,,,,,0.297228,,,,,,,,,,,,,,,,,,,,raw_splits,inv,2,519
+primary,Miami Marlins,,,,,,,,,,0.278302,,,,,,,,0.351376,,,,,,,,,,,,,,,,,,,,raw_splits,inv,1,212
+primary,Miami Marlins,,,,,,,,,,0.292929,,,,,,,,0.343548,,,,,,,,,,,,,,,,,,,,raw_splits,inv,2,495
+primary,Milwaukee Brewers,,,,,,,,,,0.21097,,,,,,,,0.285413,,,,,,,,,,,,,,,,,,,,raw_splits,inv,1,237
+primary,Milwaukee Brewers,,,,,,,,,,0.236538,,,,,,,,0.270787,,,,,,,,,,,,,,,,,,,,raw_splits,inv,2,520
+primary,Minnesota Twins,,,,,,,,,,0.353488,,,,,,,,0.445221,,,,,,,,,,,,,,,,,,,,raw_splits,inv,1,215
+primary,Minnesota Twins,,,,,,,,,,0.326437,,,,,,,,0.415007,,,,,,,,,,,,,,,,,,,,raw_splits,inv,2,435
+primary,New York Mets,,,,,,,,,,0.292453,,,,,,,,0.319479,,,,,,,,,,,,,,,,,,,,raw_splits,inv,1,212
+primary,New York Mets,,,,,,,,,,0.259594,,,,,,,,0.312236,,,,,,,,,,,,,,,,,,,,raw_splits,inv,2,443
+primary,New York Yankees,,,,,,,,,,0.272277,,,,,,,,0.348414,,,,,,,,,,,,,,,,,,,,raw_splits,inv,1,202
+primary,New York Yankees,,,,,,,,,,0.360202,,,,,,,,0.424823,,,,,,,,,,,,,,,,,,,,raw_splits,inv,2,397
+primary,Philadelphia Phillies,,,,,,,,,,0.237624,,,,,,,,0.308559,,,,,,,,,,,,,,,,,,,,raw_splits,inv,1,202
+primary,Philadelphia Phillies,,,,,,,,,,0.262582,,,,,,,,0.313307,,,,,,,,,,,,,,,,,,,,raw_splits,inv,2,457
+primary,Pittsburgh Pirates,,,,,,,,,,0.154185,,,,,,,,0.156312,,,,,,,,,,,,,,,,,,,,raw_splits,inv,1,227
+primary,Pittsburgh Pirates,,,,,,,,,,0.25167,,,,,,,,0.316656,,,,,,,,,,,,,,,,,,,,raw_splits,inv,2,449
+primary,San Diego Padres,,,,,,,,,,0.211429,,,,,,,,0.254496,,,,,,,,,,,,,,,,,,,,raw_splits,inv,1,175
+primary,San Diego Padres,,,,,,,,,,0.253829,,,,,,,,0.296253,,,,,,,,,,,,,,,,,,,,raw_splits,inv,2,457
+primary,San Francisco Giants,,,,,,,,,,0.223464,,,,,,,,0.277679,,,,,,,,,,,,,,,,,,,,raw_splits,inv,1,179
+primary,San Francisco Giants,,,,,,,,,,0.24295,,,,,,,,0.305031,,,,,,,,,,,,,,,,,,,,raw_splits,inv,2,461
+primary,Seattle Mariners,,,,,,,,,,0.25,,,,,,,,0.348742,,,,,,,,,,,,,,,,,,,,raw_splits,inv,1,196
+primary,Seattle Mariners,,,,,,,,,,0.215686,,,,,,,,0.272035,,,,,,,,,,,,,,,,,,,,raw_splits,inv,2,459
+primary,St. Louis Cardinals,,,,,,,,,,0.20155,,,,,,,,0.243733,,,,,,,,,,,,,,,,,,,,raw_splits,inv,1,129
+primary,St. Louis Cardinals,,,,,,,,,,0.19084,,,,,,,,0.259077,,,,,,,,,,,,,,,,,,,,raw_splits,inv,2,524
+primary,Tampa Bay Rays,,,,,,,,,,0.241935,,,,,,,,0.334637,,,,,,,,,,,,,,,,,,,,raw_splits,inv,1,186
+primary,Tampa Bay Rays,,,,,,,,,,0.257019,,,,,,,,0.265003,,,,,,,,,,,,,,,,,,,,raw_splits,inv,2,463
+primary,Texas Rangers,,,,,,,,,,0.216049,,,,,,,,0.260183,,,,,,,,,,,,,,,,,,,,raw_splits,inv,1,162
+primary,Texas Rangers,,,,,,,,,,0.228407,,,,,,,,0.29433,,,,,,,,,,,,,,,,,,,,raw_splits,inv,2,521
+primary,Toronto Blue Jays,,,,,,,,,,0.245283,,,,,,,,0.267703,,,,,,,,,,,,,,,,,,,,raw_splits,inv,1,212
+primary,Toronto Blue Jays,,,,,,,,,,0.295918,,,,,,,,0.384482,,,,,,,,,,,,,,,,,,,,raw_splits,inv,2,392
+primary,Washington Nationals,,,,,,,,,,0.19457,,,,,,,,0.260489,,,,,,,,,,,,,,,,,,,,raw_splits,inv,1,221
+primary,Washington Nationals,,,,,,,,,,0.227368,,,,,,,,0.277098,,,,,,,,,,,,,,,,,,,,raw_splits,inv,2,475

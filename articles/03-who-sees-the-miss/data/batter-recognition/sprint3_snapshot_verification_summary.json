@@ -1,0 +1,16 @@
+{
+  "accepted_feature_sha256": "b6f7c91b9d6ee2dee0d28bfff643c78688661cad631bf69c6a5c906253a9ccd0",
+  "accepted_manifest_sha256": "58abbfabb9318692e14199dcd6099fe847ae6497ef27e84e22cea45f9b5561d0",
+  "accepted_population_audit_sha256": "a396972176c2ff38fb829bf59daee37650320fdcfcd454e6309ae75bf1fe3fc8",
+  "analysis_end_date": "2026-09-09",
+  "analysis_start_date": "2026-03-25",
+  "manifest_outputs_verified": 43,
+  "population": {
+    "analysis_end_date": "2026-09-09",
+    "analysis_start_date": "2026-03-25",
+    "legal_recognition_opportunities": 10755,
+    "not_recognized": 8643,
+    "recognized": 2112
+  },
+  "status": "VERIFIED"
+}

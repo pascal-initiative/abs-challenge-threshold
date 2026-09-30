@@ -1,0 +1,50 @@
+[
+  {
+    "challenge": "Signal survives stricter support thresholds",
+    "evidence": "minimum support-threshold rank correlation",
+    "survived": true,
+    "value": 0.9999999999999999
+  },
+  {
+    "challenge": "Signal survives removal of boundary-adjacent opportunities",
+    "evidence": "minimum boundary rank correlation; all holdouts improve",
+    "survived": true,
+    "value": 0.9413793103448274
+  },
+  {
+    "challenge": "Signal is not confined to one temporal cutoff",
+    "evidence": "cutoffs with lower log loss and Brier",
+    "survived": true,
+    "value": 3.0
+  },
+  {
+    "challenge": "Signal survives final untouched holdout",
+    "evidence": "final holdout delta log loss",
+    "survived": true,
+    "value": -0.012760445915852958
+  },
+  {
+    "challenge": "Accepted regularization choices preserve result",
+    "evidence": "minimum C sensitivity rank correlation",
+    "survived": true,
+    "value": 0.9998129780345927
+  },
+  {
+    "challenge": "Shrinkage does not eliminate ordering",
+    "evidence": "minimum tau sensitivity rank correlation",
+    "survived": true,
+    "value": 0.998916562407
+  },
+  {
+    "challenge": "High ranks retain required support",
+    "evidence": "ranking-eligible batters",
+    "survived": true,
+    "value": 123.0
+  },
+  {
+    "challenge": "Opportunity adjustment changes the story",
+    "evidence": "batters moving at least 10 ranks",
+    "survived": true,
+    "value": 46.0
+  }
+]

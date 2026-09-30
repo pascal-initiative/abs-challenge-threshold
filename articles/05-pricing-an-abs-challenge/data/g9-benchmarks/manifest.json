@@ -1,0 +1,56 @@
+{
+  "bootstrap_repetitions": 10000,
+  "build_status": "PASS",
+  "code_sha256": {
+    "build_effect_size.py": "f755821648c2d0f757b790b124f911cf4fa20c6735be31b42ac72264e470f523",
+    "dynamic_core.py": "fffa9a2b598d80ace1c3a21aa5b357bb80e6bddb463b9334866dac76288835ff",
+    "effect_size_core.py": "ae3ef092dd52feb6b916f5bcf20421221e89eb1de54752f7ed2b38e1fcaeeae3"
+  },
+  "inputs": {
+    "data/full_season/processed/challenges.csv": "f7219096dab291b9209c96c17f9aa737a707e346eb363ead145bfdedc7a18c5d",
+    "data/full_season/processed/pitches.csv": "6755bc3175960e52bbe48ae17793f1faec059e8359b0018707d792dea11894e0",
+    "research/article4/decision_value/output/article4_inventory_option_value.csv": "61055ff0e6b07f66bd0ea522118d4debf7be4f1308e7e9efabb7bdfd5f6afcdb",
+    "research/article4/output/article4_re288_table.csv": "27a5c636235da56b4b6e4b78fcc91061be48e0b0f91780a959cfad9366564f10",
+    "research/article5/EFFECT_SIZE_SPEC.md": "aec4f571b7f6b0bd0f5d35fb119d152005d80d303d85c224eff11cb875fabc69",
+    "research/article5/PREREGISTRATION.md": "73e70c487e20358a5a7a312a5fb3e4b47426ff7a06fc57a7aa98db85db60f977"
+  },
+  "numerical_benchmark_condition": "PASS",
+  "outputs": {
+    "VALIDATION.md": {
+      "bytes": 946,
+      "sha256": "0da934b688bdcf77514cf9965b186dd32a054ea66d5e99a347adef9df765eab4"
+    },
+    "descriptive_benchmarks.csv": {
+      "bytes": 139915,
+      "sha256": "c2e6aa48f5fbf99e9b320c0176de2e235e43463239c91f59488577be77c7d691"
+    },
+    "effect_size.csv": {
+      "bytes": 1538,
+      "sha256": "42fe8d9dc7af5b3205a45c5550bc749c376c98eaf39bc9f4d33376ef949b4ed0"
+    },
+    "policy_summary.csv": {
+      "bytes": 2968,
+      "sha256": "a94ade8d4d845b7662aba7c21804bad40ad9070a04336f8f017e0e4ca282d153"
+    },
+    "shuffle_diagnostic.json": {
+      "bytes": 424,
+      "sha256": "130aa28338026962506daadc414d6913173ac292704b384c6f6352d1072c2064"
+    },
+    "team_game_values.csv": {
+      "bytes": 11967234,
+      "sha256": "1a9754bba3505b98c7929acd9077cfd4512371ca4c0813879e4cf8b436d710e0"
+    },
+    "validation.json": {
+      "bytes": 2589,
+      "sha256": "21f84701e530d111a7015711008912350dfddcb8e368c3af1fd562f988c72c1c"
+    }
+  },
+  "scientific_status": "NOT_DEMONSTRATED_NONDEPLOYABLE_UPPER_BENCHMARK",
+  "seed": 20260925,
+  "software": {
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "python": "3.9.6"
+  },
+  "version": "abs_article5_effect_size_v1"
+}

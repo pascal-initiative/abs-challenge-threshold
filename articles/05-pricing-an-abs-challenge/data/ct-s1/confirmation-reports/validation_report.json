@@ -1,0 +1,157 @@
+{
+  "agreement_count": 1049,
+  "agreement_rate": 0.9990476190476191,
+  "agreement_rate_among_comparable": 0.9990476190476191,
+  "breakdowns": {
+    "confirmed": {
+      "agreement_count": 474,
+      "agreement_rate": 0.9978947368421053,
+      "agreement_rate_among_comparable": 0.9978947368421053,
+      "comparable_challenges": 475,
+      "disagreement_count": 1,
+      "matched_challenges": 475,
+      "official_challenges": 475,
+      "uncomparable_challenges": 0,
+      "unmatched_challenges": 0
+    },
+    "original_called_ball": {
+      "agreement_count": 631,
+      "agreement_rate": 0.9984177215189873,
+      "agreement_rate_among_comparable": 0.9984177215189873,
+      "comparable_challenges": 632,
+      "disagreement_count": 1,
+      "matched_challenges": 632,
+      "official_challenges": 632,
+      "uncomparable_challenges": 0,
+      "unmatched_challenges": 0
+    },
+    "original_called_strike": {
+      "agreement_count": 418,
+      "agreement_rate": 1.0,
+      "agreement_rate_among_comparable": 1.0,
+      "comparable_challenges": 418,
+      "disagreement_count": 0,
+      "matched_challenges": 418,
+      "official_challenges": 418,
+      "uncomparable_challenges": 0,
+      "unmatched_challenges": 0
+    },
+    "overturned": {
+      "agreement_count": 575,
+      "agreement_rate": 1.0,
+      "agreement_rate_among_comparable": 1.0,
+      "comparable_challenges": 575,
+      "disagreement_count": 0,
+      "matched_challenges": 575,
+      "official_challenges": 575,
+      "uncomparable_challenges": 0,
+      "unmatched_challenges": 0
+    }
+  },
+  "comparable_challenges": 1050,
+  "daily_reconciliation": [
+    {
+      "expected": 59,
+      "game_date": "2026-09-11",
+      "observed": 59
+    },
+    {
+      "expected": 69,
+      "game_date": "2026-09-12",
+      "observed": 69
+    },
+    {
+      "expected": 79,
+      "game_date": "2026-09-13",
+      "observed": 79
+    },
+    {
+      "expected": 50,
+      "game_date": "2026-09-14",
+      "observed": 50
+    },
+    {
+      "expected": 64,
+      "game_date": "2026-09-15",
+      "observed": 64
+    },
+    {
+      "expected": 76,
+      "game_date": "2026-09-16",
+      "observed": 76
+    },
+    {
+      "expected": 50,
+      "game_date": "2026-09-17",
+      "observed": 50
+    },
+    {
+      "expected": 73,
+      "game_date": "2026-09-18",
+      "observed": 73
+    },
+    {
+      "expected": 71,
+      "game_date": "2026-09-19",
+      "observed": 71
+    },
+    {
+      "expected": 55,
+      "game_date": "2026-09-20",
+      "observed": 55
+    },
+    {
+      "expected": 14,
+      "game_date": "2026-09-21",
+      "observed": 14
+    },
+    {
+      "expected": 71,
+      "game_date": "2026-09-22",
+      "observed": 71
+    },
+    {
+      "expected": 72,
+      "game_date": "2026-09-23",
+      "observed": 72
+    },
+    {
+      "expected": 59,
+      "game_date": "2026-09-24",
+      "observed": 59
+    },
+    {
+      "expected": 68,
+      "game_date": "2026-09-25",
+      "observed": 68
+    },
+    {
+      "expected": 65,
+      "game_date": "2026-09-26",
+      "observed": 65
+    },
+    {
+      "expected": 55,
+      "game_date": "2026-09-27",
+      "observed": 55
+    }
+  ],
+  "disagreement_count": 1,
+  "expected_official_challenges": 1050,
+  "gate_passed": true,
+  "geometry_method": "abs_2026_circle_rectangle_r1.45in_v1",
+  "matched_challenges": 1050,
+  "monthly_validation": [
+    {
+      "agreement_rate": 0.9990476190476191,
+      "geometry_agreements": 1049,
+      "geometry_disagreements": 1,
+      "month": "2026-09",
+      "official_challenges": 1050
+    }
+  ],
+  "official_challenges": 1050,
+  "stop_reasons": [],
+  "uncomparable_challenges": 0,
+  "unmatched_challenges": 0
+}

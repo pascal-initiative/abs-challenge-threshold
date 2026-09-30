@@ -1,0 +1,41 @@
+[
+  {
+    "adjusted_effect": 0.366682770568,
+    "batter_id": 547180,
+    "batter_name": "Bryce Harper",
+    "expected_recognition_rate": 0.206254723471,
+    "opportunities": 31,
+    "raw_recognition_rate": 0.677419354839,
+    "reason": "Strongly supported high adjusted recognizer",
+    "recognized": 21,
+    "support_classification": "RANKING_ELIGIBLE",
+    "uncertainty_lower": 0.223057591853,
+    "uncertainty_upper": 0.502491251722
+  },
+  {
+    "adjusted_effect": -0.0296100213949,
+    "batter_id": 701762,
+    "batter_name": "Nick Kurtz",
+    "expected_recognition_rate": 0.26620812999,
+    "opportunities": 39,
+    "raw_recognition_rate": 0.230769230769,
+    "reason": "Standing declines materially after opportunity adjustment",
+    "recognized": 9,
+    "support_classification": "RANKING_ELIGIBLE",
+    "uncertainty_lower": -0.119819666197,
+    "uncertainty_upper": 0.0823892992704
+  },
+  {
+    "adjusted_effect": 0.00035356044363,
+    "batter_id": 666018,
+    "batter_name": "Jonathan Aranda",
+    "expected_recognition_rate": 0.204462869738,
+    "opportunities": 43,
+    "raw_recognition_rate": 0.209302325581,
+    "reason": "Well-supported comparison batter near contextual expectation",
+    "recognized": 9,
+    "support_classification": "RANKING_ELIGIBLE",
+    "uncertainty_lower": -0.0866694022199,
+    "uncertainty_upper": 0.113284699728
+  }
+]

@@ -1,0 +1,8 @@
+hypothesis,sprint2_result,sprint3_result,effect_direction,predictive_change,replication_status,notes
+H1_GEOMETRY,positive distance relationship,beta=0.4603; p=1.061e-65,positive,Model A temporal metrics reported,REPLICATED,positive coefficient and p<0.05
+H2_PITCH,no held-out improvement,dLogLoss=0.002861; dAUC=-0.002126,no incremental benefit,dLogLoss=0.002861; dAUC=-0.002126,REPLICATED,improvement only if dLogLoss<=-0.001 and dAUC>=0.002
+H3_SITUATION,held-out improvement,dLogLoss=-0.04092; dAUC=0.1046,improvement,dLogLoss=-0.04092; dAUC=0.1046,REPLICATED,dLogLoss<=-0.001 and dAUC>=0.002
+BATTER_IDENTITY,insufficient support,supported,heterogeneity,improved temporal performance,INCONCLUSIVE,new season-scale finding; pilot could not test
+PITCHER_IDENTITY,insufficient support,not supported,none validated,no improvement,INCONCLUSIVE,pilot could not test
+CATCHER_IDENTITY,none detectable,not supported,none validated,no improvement,REPLICATED,season-scale null agrees with pilot
+UMPIRE_IDENTITY,none detectable,not supported,none validated,no improvement,REPLICATED,season-scale null agrees with pilot

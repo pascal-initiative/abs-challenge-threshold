@@ -1,0 +1,9 @@
+challenge,survived,value,evidence
+Signal survives stricter support thresholds,True,1,minimum support-threshold rank correlation
+Signal survives removal of boundary-adjacent opportunities,True,0.941379310345,minimum boundary rank correlation; all holdouts improve
+Signal is not confined to one temporal cutoff,True,3,cutoffs with lower log loss and Brier
+Signal survives final untouched holdout,True,-0.0127604459159,final holdout delta log loss
+Accepted regularization choices preserve result,True,0.999812978035,minimum C sensitivity rank correlation
+Shrinkage does not eliminate ordering,True,0.998916562407,minimum tau sensitivity rank correlation
+High ranks retain required support,True,123,ranking-eligible batters
+Opportunity adjustment changes the story,True,46,batters moving at least 10 ranks

@@ -1,0 +1,11 @@
+{
+  "inputs": {
+    "research/article5/CT_S1_PUBLIC_CLAIMS.json": "73eb1195f88941a309243fa3c43e90426c7a7137480f85641102df3f82e60993"
+  },
+  "outputs": {
+    "data/ct_s1/cts11/claim_audit.csv": "c7c3f745044cfa61bb94bc8e4f29fec55d655f730abfdab33e4f58b1ee40450c",
+    "data/ct_s1/cts11/validation.json": "adebe710d6162dfcc1f6364714d93a5ca1897404987a79b2fae6f4fcd43581bf"
+  },
+  "research_identity": "CT-S1",
+  "version": "ct-s1.0-cts11"
+}

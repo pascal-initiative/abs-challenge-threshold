@@ -1,0 +1,5 @@
+component,criterion,value,passed
+OVERTURN,"temporal Brier<=0.20, AUC>=0.70, ECE<=0.05",0.0124521069554,True
+RUN_EXPECTANCY,temporal MAE improves constant baseline,-0.085903958146,True
+WIN_PROBABILITY,"temporal Brier<=0.25, AUC>=0.70, ECE<=0.05",0.164130756644,True
+SEQUENTIAL_POLICY,minimum actionable challenge-set Jaccard >=0.75,0.764209754309,True

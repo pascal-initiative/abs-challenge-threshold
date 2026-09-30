@@ -1,0 +1,4 @@
+outcome,call_effect,immediate_value,inventory_effect,future_value,claim_id,content_class
+correct_challenge,corrected,+V,retained,0,CTS11-C01,MODELED_CONCEPTUAL
+failed_challenge,unchanged,0,one_unit_lost,-C,CTS11-C01,MODELED_CONCEPTUAL
+pass_incorrect_call,unchanged,-V,retained,0,CTS11-C01,MODELED_CONCEPTUAL

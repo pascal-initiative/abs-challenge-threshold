@@ -1,0 +1,5 @@
+period,count,ct,scenario_id,claim_id,content_class
+development,1-1,0.668030290291,STRIKE|OFFENSE|1|1|0|0|5|bottom|TRAIL_2PLUS|HOME|inventory=2,CTS11-C05,MODELED
+confirmation,1-1,0.672804488589,STRIKE|OFFENSE|1|1|0|0|5|bottom|TRAIL_2PLUS|HOME|inventory=2,CTS11-C05,MODELED
+development,1-2,0.595135392521,STRIKE|OFFENSE|1|2|0|0|5|bottom|TRAIL_2PLUS|HOME|inventory=2,CTS11-C05,MODELED
+confirmation,1-2,0.600330726851,STRIKE|OFFENSE|1|2|0|0|5|bottom|TRAIL_2PLUS|HOME|inventory=2,CTS11-C05,MODELED

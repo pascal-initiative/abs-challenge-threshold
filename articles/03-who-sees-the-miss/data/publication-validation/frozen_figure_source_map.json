@@ -1,0 +1,50 @@
+[
+  {
+    "publication_artifact": "artifacts/publication_validation/article3/figure_data/figure1_raw_vs_adjusted.csv",
+    "sprint4_source": "artifacts/sprint4/figure1_raw_vs_adjusted.csv",
+    "sha256": "500b33f353be1fe85f3cb46ae7034ec3edd53a2fbd2e6784e79febbc0bbbc876",
+    "byte_identical": true
+  },
+  {
+    "publication_artifact": "artifacts/publication_validation/article3/figure_data/figure1_raw_vs_adjusted.json",
+    "sprint4_source": "artifacts/sprint4/figure1_raw_vs_adjusted.json",
+    "sha256": "36b5bc4d20aa72a9d7f9287e32565b550ecb772e020acfcb5d4ac3f2a1db61ac",
+    "byte_identical": true
+  },
+  {
+    "publication_artifact": "artifacts/publication_validation/article3/figure_data/figure2_temporal_stability.csv",
+    "sprint4_source": "artifacts/sprint4/figure2_temporal_stability.csv",
+    "sha256": "0d7e4b4b51484162655712c84c570fa310147bef5da1378a9fc627549167a0c9",
+    "byte_identical": true
+  },
+  {
+    "publication_artifact": "artifacts/publication_validation/article3/figure_data/figure2_temporal_stability.json",
+    "sprint4_source": "artifacts/sprint4/figure2_temporal_stability.json",
+    "sha256": "dd30821ab878b23d0bd65b5b6b2b297349f16e3165f0bb89f64cf9d0b3fff305",
+    "byte_identical": true
+  },
+  {
+    "publication_artifact": "artifacts/publication_validation/article3/figure_data/figure3_adjusted_leaderboard.csv",
+    "sprint4_source": "artifacts/sprint4/figure3_adjusted_leaderboard.csv",
+    "sha256": "448b80bb1a325712d0e918f82b1f8007b4fc1fae2b1a6bb5e9471b1dec87cbcb",
+    "byte_identical": true
+  },
+  {
+    "publication_artifact": "artifacts/publication_validation/article3/figure_data/figure3_adjusted_leaderboard.json",
+    "sprint4_source": "artifacts/sprint4/figure3_adjusted_leaderboard.json",
+    "sha256": "c4d6ac2ebd36cb04d2dd002f620bc32af3a77bf466089366cdd1f6acdd55c477",
+    "byte_identical": true
+  },
+  {
+    "publication_artifact": "artifacts/publication_validation/article3/figure_data/figure4_case_studies.csv",
+    "sprint4_source": "artifacts/sprint4/figure4_case_studies.csv",
+    "sha256": "ac86f34d33ff55b7f8455a332b796699f755e037b2fe384c7f87e60c2da672cb",
+    "byte_identical": true
+  },
+  {
+    "publication_artifact": "artifacts/publication_validation/article3/figure_data/figure4_case_studies.json",
+    "sprint4_source": "artifacts/sprint4/figure4_case_studies.json",
+    "sha256": "65b02ece4ca10dab16d0c47b3859b0911a0476d64de783cf78891ca999a98bce",
+    "byte_identical": true
+  }
+]

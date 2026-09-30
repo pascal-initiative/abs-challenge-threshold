@@ -1,0 +1,169 @@
+{
+  "conditions": {
+    "accepted_input_hashes_reconcile": true,
+    "complete_variant_grid": true,
+    "confirmation_window_exact": true,
+    "current_action_canary_passes": true,
+    "period_schemas_match": true,
+    "periods_do_not_overlap": true,
+    "protected_inputs_unchanged": true,
+    "reference_actions_inventory_invariant": true,
+    "reference_costs_valid": true,
+    "support_schedules_present": true
+  },
+  "confirmation": {
+    "date_max": "2026-09-27",
+    "date_min": "2026-09-11",
+    "exhausted_future_opportunities": 3017,
+    "future_stream_rows": 34842,
+    "invalid_geometry_probability_fallbacks": 13,
+    "legal_candidate_rows": 31825,
+    "negative_canonical_values": 0,
+    "nonfinite_canonical_values": 0,
+    "observed_legal_decisions": 31825,
+    "period": "confirmation",
+    "pitch_source": "data/ct_s1/reconstructed/processed/pitches.csv",
+    "probability_training": {
+      "legal_called_pitches": 312228,
+      "official_challenge_rows": 9485,
+      "pitch_rows": 645793,
+      "public_end": "2026-09-09",
+      "public_geometry_exclusions": 172,
+      "public_geometry_rows": 312056,
+      "public_start": "2026-03-25",
+      "selected_challenge_rows": 9485,
+      "selected_missing_official_outcome": 0,
+      "selected_missing_role": 0
+    },
+    "reference_action_count": 24525,
+    "reference_actions_inventory_invariant": true,
+    "reference_costs_finite": true,
+    "reference_costs_nonnegative": true,
+    "reference_current_action_canary": true,
+    "team_games": 458
+  },
+  "development": {
+    "date_max": "2026-09-09",
+    "date_min": "2026-03-25",
+    "exhausted_future_opportunities": 22720,
+    "future_stream_rows": 334948,
+    "invalid_geometry_probability_fallbacks": 172,
+    "legal_candidate_rows": 312228,
+    "negative_canonical_values": 0,
+    "nonfinite_canonical_values": 0,
+    "observed_legal_decisions": 312228,
+    "period": "development",
+    "pitch_source": "data/full_season/processed/pitches.csv",
+    "probability_training": {
+      "legal_called_pitches": 312228,
+      "official_challenge_rows": 9485,
+      "pitch_rows": 645793,
+      "public_end": "2026-09-09",
+      "public_geometry_exclusions": 172,
+      "public_geometry_rows": 312056,
+      "public_start": "2026-03-25",
+      "selected_challenge_rows": 9485,
+      "selected_missing_official_outcome": 0,
+      "selected_missing_role": 0
+    },
+    "reference_action_count": 234521,
+    "reference_actions_inventory_invariant": true,
+    "reference_costs_finite": true,
+    "reference_costs_nonnegative": true,
+    "reference_current_action_canary": true,
+    "team_games": 4390
+  },
+  "metric_version": "ct-s1.0-candidate",
+  "next_gate": "CTS4_INFORMATION_TIMING_AND_CTS5_SUPPORT",
+  "research_identity": "CT-S1",
+  "restrictions": {
+    "article_claims": false,
+    "model_spread": "not evaluated in CTS3",
+    "playbook_allowed": false,
+    "temporal_stability": "not evaluated in CTS3"
+  },
+  "status": "PASS_CTS3_READY_FOR_CTS4_CTS8",
+  "variant_specs": [
+    {
+      "cutoff": 0.05,
+      "extra_inning_restoration": true,
+      "name": "reference_fixed_0.60",
+      "probability": 0.6,
+      "value_column": "value_constrained",
+      "variant_class": "CORE"
+    },
+    {
+      "cutoff": 0.05,
+      "extra_inning_restoration": true,
+      "name": "fixed_0.50",
+      "probability": 0.5,
+      "value_column": "value_constrained",
+      "variant_class": "CORE"
+    },
+    {
+      "cutoff": 0.05,
+      "extra_inning_restoration": true,
+      "name": "fixed_0.70",
+      "probability": 0.7,
+      "value_column": "value_constrained",
+      "variant_class": "CORE"
+    },
+    {
+      "cutoff": 0.0,
+      "extra_inning_restoration": true,
+      "name": "cutoff_0.00",
+      "probability": 0.6,
+      "value_column": "value_constrained",
+      "variant_class": "CORE"
+    },
+    {
+      "cutoff": 0.1,
+      "extra_inning_restoration": true,
+      "name": "cutoff_0.10",
+      "probability": 0.6,
+      "value_column": "value_constrained",
+      "variant_class": "CORE"
+    },
+    {
+      "cutoff": 0.05,
+      "extra_inning_restoration": true,
+      "name": "re_pooled_count",
+      "probability": 0.6,
+      "value_column": "value_pooled",
+      "variant_class": "CORE"
+    },
+    {
+      "cutoff": 0.05,
+      "extra_inning_restoration": true,
+      "name": "re_raw",
+      "probability": 0.6,
+      "value_column": "value_raw",
+      "variant_class": "CORE"
+    },
+    {
+      "cutoff": 0.05,
+      "extra_inning_restoration": false,
+      "name": "no_extra_inning_restoration",
+      "probability": 0.6,
+      "value_column": "value_constrained",
+      "variant_class": "CORE"
+    },
+    {
+      "cutoff": 0.05,
+      "extra_inning_restoration": true,
+      "name": "public_tracking",
+      "probability": "p_public",
+      "value_column": "value_constrained",
+      "variant_class": "DIAGNOSTIC"
+    },
+    {
+      "cutoff": 0.05,
+      "extra_inning_restoration": true,
+      "name": "selected_transport",
+      "probability": "p_selected",
+      "value_column": "value_constrained",
+      "variant_class": "DIAGNOSTIC"
+    }
+  ],
+  "version": "ct-s1.0-cts3"
+}
