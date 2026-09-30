@@ -1,0 +1,27 @@
+{
+  "edges": [
+    [
+      "umpire call",
+      "recognition"
+    ],
+    [
+      "recognition",
+      "challenge decision"
+    ],
+    [
+      "challenge decision",
+      "resource use"
+    ],
+    [
+      "resource use",
+      "outcome"
+    ]
+  ],
+  "nodes": [
+    "umpire call",
+    "recognition",
+    "challenge decision",
+    "resource use",
+    "outcome"
+  ]
+}

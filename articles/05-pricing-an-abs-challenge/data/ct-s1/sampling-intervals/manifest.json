@@ -1,0 +1,47 @@
+{
+  "code_sha256": {
+    "build_ct_s1_uncertainty.py": "a53a84b5d9b9b285cb3bd94b5b60dac09f37c1b4ebe8824c81c6abfd2c72aabc",
+    "ct2026_core.py": "b262aa087877b92a47bdfec3ed8f91659a188607432ed0ce266a94ebd08e1929",
+    "ct_s1_assurance.py": "f38c39a7e4c7676629e239115066c3f0a88f4c4857e8427356ebe907967ca735",
+    "ct_s1_core.py": "5219a87c5dea34d8ea729b8c02b156b8287b04ed53006fee8ff55bcc862642cf"
+  },
+  "inputs": {
+    "data/ct_s1/cts3/confirmation_prepared.csv": "7b8f8d3c68dd21d9d74857265da04e1108f557f81e889518b5ea4786a4e0e67b",
+    "data/ct_s1/cts3/development_prepared.csv": "b9da818d49204646903c445f0b3f51965f050ec57717a258b3e1f59b49d123b2",
+    "data/ct_s1/cts7/validation.json": "61080a5d13e2185094544a814fba63a206a83d4191317c582892f1b519ed1616",
+    "data/ct_s1/temporal/confirmation_candidate_states.csv": "6537e102f78aa8d1fed76888e7e338d854be49cc2e26c73931a014e472198fdc",
+    "data/ct_s1/temporal/development_candidate_states.csv": "0a0a10cc047e2864975c8bfd6baf723e84441a846451e05ce9a095fc5dc18a56",
+    "data/ct_s1/temporal/matched_reference.csv": "ee8f286c29a60eb8f64f4f727017b7c933eb90901a95d0ee2e74cea012665cb0",
+    "data/ct_s1/temporal/reference_disclosure.csv": "ca2cb7bdd6be75fc26f73c49a343b7a870db061bf775a7cd6c99212996b7554a",
+    "data/ct_s1/temporal/validation.json": "94d4e818336aa093bb3c83be843da04ff545011251e2e360f696024772724671",
+    "research/article5/CT_S1_ASSURANCE_SPEC.md": "e657f8a168d73bd48ae4bf7fa0170e75bb017d56c8aa34ab144b4584ce664261",
+    "research/article5/CT_S1_CTS4_CTS8_OUTPUTS.sha256": "6b9dbc154f53ad5782f43beac1ec76d80aaf484b76a5facdcdec30245e42efa9",
+    "research/article5/CT_S1_CTS7_OUTPUTS.sha256": "604c9531e28d214b10b6ce0733cdb3262ccafe451dd5041d556703fe66835e2d",
+    "research/article5/CT_SUCCESSOR_VALIDATION_PLAN.md": "d2753047fa9e7fca98a25e426a32b0c7f49bda5136b97cb47b6323128ad1affe"
+  },
+  "outputs": {
+    "bootstrap_support_costs.csv": {
+      "bytes": 153514,
+      "sha256": "aacb7f6780d1b7f37bed4615a2b456b0567d0255f6ff99b474b6b54ac6d0a815"
+    },
+    "completeness_audit.csv": {
+      "bytes": 1121,
+      "sha256": "89219b61b954b8a5c5f32079ae61af2624e822c104eb143c01336cb6e0c237ef"
+    },
+    "reference_sampling_intervals.csv": {
+      "bytes": 19225370,
+      "sha256": "7e696d9562e762bb3b2c997576ec03731a00c3db89ee153f979cb586fa4d6f3c"
+    },
+    "validation.json": {
+      "bytes": 1779,
+      "sha256": "2614d57c05b554569e98c42295365290af225b2a7f2982b7df14acc0fd9497ff"
+    }
+  },
+  "software": {
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "python": "3.9.6"
+  },
+  "status": "PASS_CTS9_READY_FOR_CTS10",
+  "version": "ct-s1.0-cts9"
+}

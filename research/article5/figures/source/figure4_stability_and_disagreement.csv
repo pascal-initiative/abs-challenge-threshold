@@ -1,0 +1,6 @@
+metric,period,numerator,denominator,value,unit,claim_id,content_class
+median_absolute_drift,development_to_confirmation,,22584,0.00762798361108527,threshold_proportion,CTS11-C03,MODELED
+p90_absolute_drift,development_to_confirmation,,22584,0.0261425236230409,threshold_proportion,CTS11-C03,MODELED
+spearman_average_rank,development_to_confirmation,,22584,0.995354197589894,correlation,CTS11-C03,MODELED
+material_model_disagreement,development,21942,22428,0.978330658105939,share_of_complete_rows,CTS11-C04,MODELED
+material_model_disagreement,confirmation,21929,22428,0.977751025503835,share_of_complete_rows,CTS11-C04,MODELED

@@ -1,0 +1,65 @@
+{
+  "analysis_end_date": "2026-09-09",
+  "analysis_start_date": "2026-03-25",
+  "incorrect_called_strikes": 11704,
+  "legal_recognition_opportunities": 10755,
+  "monthly": [
+    {
+      "month": "2026-03",
+      "not_recognized": 325,
+      "opportunities": 391,
+      "recognition_rate": 0.16879795396419436,
+      "recognized": 66
+    },
+    {
+      "month": "2026-04",
+      "not_recognized": 1550,
+      "opportunities": 1893,
+      "recognition_rate": 0.18119387216059166,
+      "recognized": 343
+    },
+    {
+      "month": "2026-05",
+      "not_recognized": 1554,
+      "opportunities": 1929,
+      "recognition_rate": 0.19440124416796267,
+      "recognized": 375
+    },
+    {
+      "month": "2026-06",
+      "not_recognized": 1516,
+      "opportunities": 1918,
+      "recognition_rate": 0.20959332638164754,
+      "recognized": 402
+    },
+    {
+      "month": "2026-07",
+      "not_recognized": 1435,
+      "opportunities": 1794,
+      "recognition_rate": 0.20011148272017837,
+      "recognized": 359
+    },
+    {
+      "month": "2026-08",
+      "not_recognized": 1731,
+      "opportunities": 2169,
+      "recognition_rate": 0.20193637621023514,
+      "recognized": 438
+    },
+    {
+      "month": "2026-09",
+      "not_recognized": 532,
+      "opportunities": 661,
+      "recognition_rate": 0.1951588502269289,
+      "recognized": 129
+    }
+  ],
+  "not_recognized": 8643,
+  "other_exclusions": 0,
+  "outcome_definition": "1 if the batter challenged an eligible incorrect called strike; challenge success is not used",
+  "population_identity_holds": true,
+  "position_player_pitching": 160,
+  "recognized": 2112,
+  "resource_constrained": 789,
+  "unknown": 0
+}

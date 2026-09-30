@@ -1,0 +1,74 @@
+[
+  {
+    "claim": "Historical batter recognition behavior contains information about future recognition beyond measured opportunity characteristics.",
+    "status": "SUPPORTED",
+    "sprint4_evidence": "Final temporal holdout: log loss -0.012760, Brier -0.004563, ROC AUC +0.018869 versus the accepted opportunity model.",
+    "publication_safe_wording": "Historical batter recognition behavior contained information about future recognition beyond the measured characteristics of the opportunity.",
+    "limitations": "One season; predictive, not causal; recognition is challenge action; unmeasured context may remain.",
+    "prohibited_wording": "Batter identity proves who sees the strike zone best."
+  },
+  {
+    "claim": "Some batters differed in adjusted recognition behavior.",
+    "status": "SUPPORTED_WITH_QUALIFICATION",
+    "sprint4_evidence": "Empirical-Bayes batter effects remained after accepted opportunity adjustment; 123 batters met ranking support.",
+    "publication_safe_wording": "The adjusted estimates show meaningful batter-to-batter differences in observed recognition behavior, with substantial uncertainty around many players.",
+    "limitations": "Effects combine perception, decision, timing, instruction, and other unmeasured influences.",
+    "prohibited_wording": "The leaderboard identifies the batters with the best eyes."
+  },
+  {
+    "claim": "Adjusted recognition showed temporal repeatability within the season.",
+    "status": "SUPPORTED_WITH_QUALIFICATION",
+    "sprint4_evidence": "168 supported batters; split-half Spearman 0.474 (95% interval 0.333 to 0.592), Pearson 0.561 (0.417 to 0.669).",
+    "publication_safe_wording": "Adjusted recognition showed moderate within-season repeatability.",
+    "limitations": "Ordered halves are not separate seasons; repeatability is not permanence or determinism.",
+    "prohibited_wording": "Recognition is a stable, permanent trait."
+  },
+  {
+    "claim": "Raw recognition rate is not equivalent to adjusted recognition.",
+    "status": "SUPPORTED",
+    "sprint4_evidence": "Forty-six ranking-eligible batters moved at least 10 places after opportunity adjustment.",
+    "publication_safe_wording": "Raw recognition rate and adjusted recognition answer different questions; opportunity difficulty materially changed some players' standings.",
+    "limitations": "The adjusted model is an estimate, not ground truth.",
+    "prohibited_wording": "The adjusted ranks reveal the true ordering."
+  },
+  {
+    "claim": "The batter-history signal was concentrated in moderate misses rather than obvious misses.",
+    "status": "SUPPORTED_AS_SENSITIVITY_RESULT",
+    "sprint4_evidence": "Moderate misses: log loss -0.011886, Brier -0.004278, ROC AUC +0.019507. Obvious misses: no improvement and only seven supported batters.",
+    "publication_safe_wording": "In the prespecified difficulty sensitivity, the predictive gain appeared in moderate misses; the obvious-miss subgroup was too thin to support a strong comparative conclusion.",
+    "limitations": "Subgroup evidence is secondary; obvious-miss support is sparse; no mechanism is identified.",
+    "prohibited_wording": "Batters differ only on moderate misses, or moderate misses cause the batter effect."
+  },
+  {
+    "claim": "An adjusted batter-recognition leaderboard may be published.",
+    "status": "SUPPORTED_WITH_EDITORIAL_CONTROLS",
+    "sprint4_evidence": "Ranking threshold 30 opportunities; empirical-Bayes shrinkage; intervals; boundary rank correlation at least 0.941.",
+    "publication_safe_wording": "These are shrinkage-adjusted estimates among batters with at least 30 opportunities; adjacent point ranks are often statistically indistinguishable.",
+    "limitations": "Single-season estimates; most adjacent intervals overlap; rank numbers are display order, not proof of separation.",
+    "prohibited_wording": "No. 10 is meaningfully better than No. 11 because the point estimate is higher."
+  },
+  {
+    "claim": "Recognition is a skill.",
+    "status": "NOT_SUPPORTED_WITHOUT_QUALIFICATION",
+    "sprint4_evidence": "Held-out predictive gain and moderate split-half repeatability support a repeatable component of behavior.",
+    "publication_safe_wording": "The results are consistent with a repeatable batter-specific component of recognition behavior.",
+    "limitations": "Observed challenge action is not a direct test of perception or innate ability.",
+    "prohibited_wording": "ABS recognition is a proven innate skill."
+  },
+  {
+    "claim": "Recognition is persistent across seasons.",
+    "status": "NOT_SUPPORTED",
+    "sprint4_evidence": "No multi-season test was conducted.",
+    "publication_safe_wording": "Whether the differences persist across seasons remains unknown.",
+    "limitations": "Only within-season ordered halves and one future holdout are available.",
+    "prohibited_wording": "The best recognizers will remain the best in future seasons."
+  },
+  {
+    "claim": "Batter vision, experience, plate discipline, coaching, confidence, cognition, or innate ability causes the effect.",
+    "status": "NOT_SUPPORTED",
+    "sprint4_evidence": "Sprint 4 did not test causal mechanisms.",
+    "publication_safe_wording": "The analysis does not identify why batter histories differ.",
+    "limitations": "Identity effects can proxy multiple measured and unmeasured processes.",
+    "prohibited_wording": "The effect is caused by superior eyesight, discipline, experience, coaching, confidence, or intelligence."
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "code_sha256": {
+    "build_ct_s1_temporal.py": "d9f349abba4bd541c394d679d01bd67399f12a88bd76cba56dde05c6f59f111a",
+    "ct_s1_core.py": "bf5c7cfc9a8071614a37fb1501e86871c2615803e0d3d81390faf786b5483be1"
+  },
+  "inputs": {
+    "data/ct_s1/cts3/confirmation_prepared.csv": "7b8f8d3c68dd21d9d74857265da04e1108f557f81e889518b5ea4786a4e0e67b",
+    "data/ct_s1/cts3/development_prepared.csv": "b9da818d49204646903c445f0b3f51965f050ec57717a258b3e1f59b49d123b2",
+    "data/ct_s1/cts3/manifest.json": "c0ba5aeece560382a792fd3fe58b3e4b880b6b0699534d1148373e515d689fef",
+    "data/ct_s1/cts3/support_schedules.csv": "33fe93cc0d228dae07ff8199bd1e396f61e918728c390e4d793fee2025eb8a4c",
+    "data/ct_s1/cts3/validation.json": "5d4917b1a2a3634624930976773628534a5d92bc60bb7dba9beb76d697c2d8c7",
+    "research/article5/AMENDMENT_005_CT_SUCCESSOR_STANDARD.md": "5b4b65147f52869ae9b906461043898fa4787ce15dafb1138488878f0b152906",
+    "research/article5/CT_S1_CTS3_OUTPUTS.sha256": "ae0383480df1a88c1f713d88eb89ae653e38df9784b1060e0a78cc04a446b500",
+    "research/article5/CT_S1_MODEL_SCHEMA.md": "5bd82fb10ec16b4a6b3ee55dc561db010bae087cdf111ef23a9b59c040a9513a",
+    "research/article5/CT_SUCCESSOR_VALIDATION_PLAN.md": "d2753047fa9e7fca98a25e426a32b0c7f49bda5136b97cb47b6323128ad1affe"
+  },
+  "outputs": {
+    "compact_eligible.csv": {
+      "bytes": 438323,
+      "sha256": "75c2f0675d6e9c13042281897254985347d03a1e25726762590b20da832703ed"
+    },
+    "confirmation_candidate_states.csv": {
+      "bytes": 3658236,
+      "sha256": "6537e102f78aa8d1fed76888e7e338d854be49cc2e26c73931a014e472198fdc"
+    },
+    "development_candidate_states.csv": {
+      "bytes": 9485930,
+      "sha256": "0a0a10cc047e2864975c8bfd6baf723e84441a846451e05ce9a095fc5dc18a56"
+    },
+    "exclusions.csv": {
+      "bytes": 21131930,
+      "sha256": "176f118ec1ce8d8478c6bf2fb4950ea56ec65d6e985d942b0468c51b06c4bdff"
+    },
+    "matched_all_variants.csv": {
+      "bytes": 60193056,
+      "sha256": "12aac3db00c71231e245ee417e2f23c8edea3a02e366ca4c9b72b1efd5f6aefc"
+    },
+    "matched_reference.csv": {
+      "bytes": 6503888,
+      "sha256": "ee8f286c29a60eb8f64f4f727017b7c933eb90901a95d0ee2e74cea012665cb0"
+    },
+    "reference_disclosure.csv": {
+      "bytes": 21569667,
+      "sha256": "ca2cb7bdd6be75fc26f73c49a343b7a870db061bf775a7cd6c99212996b7554a"
+    },
+    "validation.json": {
+      "bytes": 3647,
+      "sha256": "94d4e818336aa093bb3c83be843da04ff545011251e2e360f696024772724671"
+    }
+  },
+  "software": {
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "python": "3.9.6"
+  },
+  "status": "PASS_CTS4_CTS5_CTS6_CTS8",
+  "version": "ct-s1.0-cts4-cts8"
+}

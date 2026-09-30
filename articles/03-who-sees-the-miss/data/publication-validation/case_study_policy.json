@@ -1,0 +1,20 @@
+[
+  {
+    "batter": "Bryce Harper",
+    "decision": "USE",
+    "role": "Strong positive adjusted example",
+    "editorial_note": "State 31 opportunities and the wide interval; do not generalize beyond the snapshot or call the result eyesight."
+  },
+  {
+    "batter": "Nick Kurtz",
+    "decision": "USE",
+    "role": "Opportunity-adjustment example",
+    "editorial_note": "His adjusted interval spans zero. Use to show a raw standing can decline after adjustment, not as a negative recognizer."
+  },
+  {
+    "batter": "Jonathan Aranda",
+    "decision": "USE",
+    "role": "Near-expectation comparison",
+    "editorial_note": "Use as the neutral comparator; his adjusted interval spans zero."
+  }
+]

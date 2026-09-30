@@ -1,0 +1,15 @@
+{
+  "auc_condition_pass": true,
+  "auc_required_range": [
+    0.48,
+    0.52
+  ],
+  "in_sample_auc_on_shuffled_labels": 0.5055897219520091,
+  "numerical_advantage_persists": true,
+  "seed": 20260925,
+  "shuffled_positive_rate": 0.0646166072756172,
+  "stream_probability_max": 0.06901404965776504,
+  "stream_probability_mean": 0.06461836906036608,
+  "stream_probability_min": 0.06007916779551478,
+  "training_rows": 312056
+}

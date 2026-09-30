@@ -1,0 +1,278 @@
+[
+  {
+    "actual_sha256": "58abbfabb9318692e14199dcd6099fe847ae6497ef27e84e22cea45f9b5561d0",
+    "artifact": "artifacts/sprint3/run_manifest.json",
+    "expected_sha256": "58abbfabb9318692e14199dcd6099fe847ae6497ef27e84e22cea45f9b5561d0",
+    "verified": true
+  },
+  {
+    "actual_sha256": "b6f7c91b9d6ee2dee0d28bfff643c78688661cad631bf69c6a5c906253a9ccd0",
+    "artifact": "data/analysis/sprint3/offensive_recognition_features.csv",
+    "expected_sha256": "b6f7c91b9d6ee2dee0d28bfff643c78688661cad631bf69c6a5c906253a9ccd0",
+    "verified": true
+  },
+  {
+    "actual_sha256": "a396972176c2ff38fb829bf59daee37650320fdcfcd454e6309ae75bf1fe3fc8",
+    "artifact": "data/analysis/sprint3/offensive_recognition_population_audit.json",
+    "expected_sha256": "a396972176c2ff38fb829bf59daee37650320fdcfcd454e6309ae75bf1fe3fc8",
+    "verified": true
+  },
+  {
+    "actual_sha256": "a7ee1d8cc8293cb74e3e32da7d819d8b429a173d68501a92d34a678ba14de9be",
+    "artifact": "artifacts/sprint3/01_recognition_vs_boundary_distance.png",
+    "expected_sha256": "a7ee1d8cc8293cb74e3e32da7d819d8b429a173d68501a92d34a678ba14de9be",
+    "verified": true
+  },
+  {
+    "actual_sha256": "bac57c71e5b24894c1c34ce27411e0717f9906704b28b2ef43e0f3f6a4f8859c",
+    "artifact": "artifacts/sprint3/02_recognition_by_miss_location.png",
+    "expected_sha256": "bac57c71e5b24894c1c34ce27411e0717f9906704b28b2ef43e0f3f6a4f8859c",
+    "verified": true
+  },
+  {
+    "actual_sha256": "87d03618495841923527e4991a9591fe189dba73be48925654189949edb220f7",
+    "artifact": "artifacts/sprint3/03_recognition_by_count.png",
+    "expected_sha256": "87d03618495841923527e4991a9591fe189dba73be48925654189949edb220f7",
+    "verified": true
+  },
+  {
+    "actual_sha256": "84d1687fe1be5fb1de398f8ff4eab3cdbd824be86e8514ce07cef7de909c5418",
+    "artifact": "artifacts/sprint3/04_recognition_by_inning.png",
+    "expected_sha256": "84d1687fe1be5fb1de398f8ff4eab3cdbd824be86e8514ce07cef7de909c5418",
+    "verified": true
+  },
+  {
+    "actual_sha256": "46a4376e95941211e5fb9e95cfa00dafa94373a2ad4e92bc63289ceaa39fb365",
+    "artifact": "artifacts/sprint3/05_recognition_by_inventory.png",
+    "expected_sha256": "46a4376e95941211e5fb9e95cfa00dafa94373a2ad4e92bc63289ceaa39fb365",
+    "verified": true
+  },
+  {
+    "actual_sha256": "33c5cc67b0eb19379f22af897341ff613a4a7ff5f8a5f0d0852b23ead1de0eca",
+    "artifact": "artifacts/sprint3/06_recognition_by_pitch_family.png",
+    "expected_sha256": "33c5cc67b0eb19379f22af897341ff613a4a7ff5f8a5f0d0852b23ead1de0eca",
+    "verified": true
+  },
+  {
+    "actual_sha256": "b086e56a352051deecf0100542e50f3e2fda318ddacc5a634ce5faf7eae2c497",
+    "artifact": "artifacts/sprint3/07_recognition_vs_horizontal_movement.png",
+    "expected_sha256": "b086e56a352051deecf0100542e50f3e2fda318ddacc5a634ce5faf7eae2c497",
+    "verified": true
+  },
+  {
+    "actual_sha256": "68a8c2897600f120368b0dcf4803ec31aa4824347773706ee1be2483b72ed672",
+    "artifact": "artifacts/sprint3/08_recognition_vs_vertical_movement.png",
+    "expected_sha256": "68a8c2897600f120368b0dcf4803ec31aa4824347773706ee1be2483b72ed672",
+    "verified": true
+  },
+  {
+    "actual_sha256": "a3110422eed7fd45904d1dca6cb7d3e69285a4f1081a88573c1121e7a724e108",
+    "artifact": "artifacts/sprint3/09_monthly_recognition.png",
+    "expected_sha256": "a3110422eed7fd45904d1dca6cb7d3e69285a4f1081a88573c1121e7a724e108",
+    "verified": true
+  },
+  {
+    "actual_sha256": "8e5436526e23d147a93e81d36233d858282c201270e23f75db402f75d7ba599d",
+    "artifact": "artifacts/sprint3/10_sprint2_vs_sprint3_models.png",
+    "expected_sha256": "8e5436526e23d147a93e81d36233d858282c201270e23f75db402f75d7ba599d",
+    "verified": true
+  },
+  {
+    "actual_sha256": "62b37dedcc960a6de2a3628541a9959f181909f2b4d35aa70c49cadd80a7110b",
+    "artifact": "artifacts/sprint3/11_calibration.png",
+    "expected_sha256": "62b37dedcc960a6de2a3628541a9959f181909f2b4d35aa70c49cadd80a7110b",
+    "verified": true
+  },
+  {
+    "actual_sha256": "5129263f4152b6bfeb55f6b98a2ac93296d0d41cf9c3a33020eac0ee78404c9e",
+    "artifact": "artifacts/sprint3/12_temporal_heldout_performance.png",
+    "expected_sha256": "5129263f4152b6bfeb55f6b98a2ac93296d0d41cf9c3a33020eac0ee78404c9e",
+    "verified": true
+  },
+  {
+    "actual_sha256": "1a9c53a4510e01195141e22a0dcf756d1a685769b29d06fa262aa9d4c1f38ea4",
+    "artifact": "artifacts/sprint3/13_batter_adjusted_effects.png",
+    "expected_sha256": "1a9c53a4510e01195141e22a0dcf756d1a685769b29d06fa262aa9d4c1f38ea4",
+    "verified": true
+  },
+  {
+    "actual_sha256": "70bc7e83d933b13d9d3d56c9e06f0954bf6847fbe5bcbb7f96ace945d77f561a",
+    "artifact": "artifacts/sprint3/batter_adjusted_recognition.csv",
+    "expected_sha256": "70bc7e83d933b13d9d3d56c9e06f0954bf6847fbe5bcbb7f96ace945d77f561a",
+    "verified": true
+  },
+  {
+    "actual_sha256": "ab64d6b1e62736b0ded3fae7ca4e5b6e35d623341f40d6e79691a79c0b76e96d",
+    "artifact": "artifacts/sprint3/calibration_metrics.csv",
+    "expected_sha256": "ab64d6b1e62736b0ded3fae7ca4e5b6e35d623341f40d6e79691a79c0b76e96d",
+    "verified": true
+  },
+  {
+    "actual_sha256": "3d878485573d351e2e271c278d78fd2ebf6d75cec2b5f1fec833261946c254c0",
+    "artifact": "artifacts/sprint3/challenge_inventory_analysis.csv",
+    "expected_sha256": "3d878485573d351e2e271c278d78fd2ebf6d75cec2b5f1fec833261946c254c0",
+    "verified": true
+  },
+  {
+    "actual_sha256": "ac08333a3994e5c60c0a4cec010fe170ec9013f39f22de8fd2be646d4cd1d20a",
+    "artifact": "artifacts/sprint3/identity_effects.csv",
+    "expected_sha256": "ac08333a3994e5c60c0a4cec010fe170ec9013f39f22de8fd2be646d4cd1d20a",
+    "verified": true
+  },
+  {
+    "actual_sha256": "bbe4eded64b349994dfe82b91970e40cb226b2d5bd24f08c3492bfbd5b8e16e1",
+    "artifact": "artifacts/sprint3/identity_model_comparisons.csv",
+    "expected_sha256": "bbe4eded64b349994dfe82b91970e40cb226b2d5bd24f08c3492bfbd5b8e16e1",
+    "verified": true
+  },
+  {
+    "actual_sha256": "b80215475028ea1118fb5056c4788b6d2968b61f5e9b5c59f69c551cc84d4c7d",
+    "artifact": "artifacts/sprint3/inning_analysis.csv",
+    "expected_sha256": "b80215475028ea1118fb5056c4788b6d2968b61f5e9b5c59f69c551cc84d4c7d",
+    "verified": true
+  },
+  {
+    "actual_sha256": "2c328b24bc50923594ca6e1840aef9de9a20c1e4da7c1ce59b22a2477a5fb0e9",
+    "artifact": "artifacts/sprint3/location_analysis.csv",
+    "expected_sha256": "2c328b24bc50923594ca6e1840aef9de9a20c1e4da7c1ce59b22a2477a5fb0e9",
+    "verified": true
+  },
+  {
+    "actual_sha256": "0b19783ec0e6b98fd29e0628fdf2e1f839ac2235d0a544bf1b69541db4a9f100",
+    "artifact": "artifacts/sprint3/model_coefficients.csv",
+    "expected_sha256": "0b19783ec0e6b98fd29e0628fdf2e1f839ac2235d0a544bf1b69541db4a9f100",
+    "verified": true
+  },
+  {
+    "actual_sha256": "f3c3b0158863acdf772bd02f0a9875d75b236dc7f5dd5178e56936aff89ae277",
+    "artifact": "artifacts/sprint3/model_comparisons.csv",
+    "expected_sha256": "f3c3b0158863acdf772bd02f0a9875d75b236dc7f5dd5178e56936aff89ae277",
+    "verified": true
+  },
+  {
+    "actual_sha256": "166d5e09f9d2451335d090d6aab092ec909e3f84b066cb015f9f541da327842b",
+    "artifact": "artifacts/sprint3/pilot_overlap_audit.json",
+    "expected_sha256": "166d5e09f9d2451335d090d6aab092ec909e3f84b066cb015f9f541da327842b",
+    "verified": true
+  },
+  {
+    "actual_sha256": "d6e988f98a7f7ff5bb35f3762b37fe13df38306f68d8454c47574f032dea80ab",
+    "artifact": "artifacts/sprint3/pitch_family_analysis.csv",
+    "expected_sha256": "d6e988f98a7f7ff5bb35f3762b37fe13df38306f68d8454c47574f032dea80ab",
+    "verified": true
+  },
+  {
+    "actual_sha256": "057ada8a8ab21f01025333992e4968ab471a77e6fa1b8829cddd6369ea39a3df",
+    "artifact": "artifacts/sprint3/pitch_shape_analysis.csv",
+    "expected_sha256": "057ada8a8ab21f01025333992e4968ab471a77e6fa1b8829cddd6369ea39a3df",
+    "verified": true
+  },
+  {
+    "actual_sha256": "e1913c1b8dad9f948875f4e180c7eac0e2305c7c0d78a0e3ecd0f93cf18f126f",
+    "artifact": "artifacts/sprint3/secondary_grouped_cv.csv",
+    "expected_sha256": "e1913c1b8dad9f948875f4e180c7eac0e2305c7c0d78a0e3ecd0f93cf18f126f",
+    "verified": true
+  },
+  {
+    "actual_sha256": "40289dcd24034979250edc51cf5ffc5b24daaa004f119ec8e105f697c2a68c56",
+    "artifact": "artifacts/sprint3/sensitivity_analysis.csv",
+    "expected_sha256": "40289dcd24034979250edc51cf5ffc5b24daaa004f119ec8e105f697c2a68c56",
+    "verified": true
+  },
+  {
+    "actual_sha256": "1e90d816e7504db1e669462ff3ee7ef4e4aa5274eb6788342404598b428822ff",
+    "artifact": "artifacts/sprint3/situation_analysis.csv",
+    "expected_sha256": "1e90d816e7504db1e669462ff3ee7ef4e4aa5274eb6788342404598b428822ff",
+    "verified": true
+  },
+  {
+    "actual_sha256": "19370b6e0b87ddbaee6137d149c540bfb09477828768ca9439e8ec114fcfa258",
+    "artifact": "artifacts/sprint3/sprint2_replication.csv",
+    "expected_sha256": "19370b6e0b87ddbaee6137d149c540bfb09477828768ca9439e8ec114fcfa258",
+    "verified": true
+  },
+  {
+    "actual_sha256": "6b490076bb866d40c4b346285c06369e148b8b12cf6a97b03720b3113f2ea289",
+    "artifact": "artifacts/sprint3/temporal_predictions.csv",
+    "expected_sha256": "6b490076bb866d40c4b346285c06369e148b8b12cf6a97b03720b3113f2ea289",
+    "verified": true
+  },
+  {
+    "actual_sha256": "b77ed1709d08998ef35af763c9de3f23a0bb796c2ea4b413b8648f60cb7fcfa1",
+    "artifact": "artifacts/sprint3/temporal_validation_metrics.csv",
+    "expected_sha256": "b77ed1709d08998ef35af763c9de3f23a0bb796c2ea4b413b8648f60cb7fcfa1",
+    "verified": true
+  },
+  {
+    "actual_sha256": "eecb52edcb5db70d05802e0865417237a5faec4598480557faa5e5fe44cc460b",
+    "artifact": "data/analysis/sprint3/batter_adjusted_recognition.csv",
+    "expected_sha256": "eecb52edcb5db70d05802e0865417237a5faec4598480557faa5e5fe44cc460b",
+    "verified": true
+  },
+  {
+    "actual_sha256": "6562bc5b8d6b9bd6377b0eba368ea65b762282f321490d28d92780ba38a13854",
+    "artifact": "data/analysis/sprint3/data_quality_report.json",
+    "expected_sha256": "6562bc5b8d6b9bd6377b0eba368ea65b762282f321490d28d92780ba38a13854",
+    "verified": true
+  },
+  {
+    "actual_sha256": "d289d40450ca57c79bfc78041f0e667779b7d51a673f65f53966cc14393dbc66",
+    "artifact": "data/analysis/sprint3/defensive_population_summary.csv",
+    "expected_sha256": "d289d40450ca57c79bfc78041f0e667779b7d51a673f65f53966cc14393dbc66",
+    "verified": true
+  },
+  {
+    "actual_sha256": "13d7e1d38ded52ce4a6ad9a2fd34494d6eea52d01c03c125f59acde7bbe43fbd",
+    "artifact": "data/analysis/sprint3/identity_support.csv",
+    "expected_sha256": "13d7e1d38ded52ce4a6ad9a2fd34494d6eea52d01c03c125f59acde7bbe43fbd",
+    "verified": true
+  },
+  {
+    "actual_sha256": "87e81237907e20efd3625f02b648936ea63123590dc463367519760a16ea6919",
+    "artifact": "data/analysis/sprint3/monthly_recognition_summary.csv",
+    "expected_sha256": "87e81237907e20efd3625f02b648936ea63123590dc463367519760a16ea6919",
+    "verified": true
+  },
+  {
+    "actual_sha256": "4e4a457283150d12977225955afdc3702f37393bef81d6c2cdd1599b80fba986",
+    "artifact": "data/analysis/sprint3/offensive_recognition_descriptive.csv",
+    "expected_sha256": "4e4a457283150d12977225955afdc3702f37393bef81d6c2cdd1599b80fba986",
+    "verified": true
+  },
+  {
+    "actual_sha256": "b6f7c91b9d6ee2dee0d28bfff643c78688661cad631bf69c6a5c906253a9ccd0",
+    "artifact": "data/analysis/sprint3/offensive_recognition_features.csv",
+    "expected_sha256": "b6f7c91b9d6ee2dee0d28bfff643c78688661cad631bf69c6a5c906253a9ccd0",
+    "verified": true
+  },
+  {
+    "actual_sha256": "024a6ca3fd05052f9d74a91ef25de67f7ec9b2d9f72f1550d7c156c3ffa2c549",
+    "artifact": "data/analysis/sprint3/offensive_recognition_model_metrics.csv",
+    "expected_sha256": "024a6ca3fd05052f9d74a91ef25de67f7ec9b2d9f72f1550d7c156c3ffa2c549",
+    "verified": true
+  },
+  {
+    "actual_sha256": "a396972176c2ff38fb829bf59daee37650320fdcfcd454e6309ae75bf1fe3fc8",
+    "artifact": "data/analysis/sprint3/offensive_recognition_population_audit.json",
+    "expected_sha256": "a396972176c2ff38fb829bf59daee37650320fdcfcd454e6309ae75bf1fe3fc8",
+    "verified": true
+  },
+  {
+    "actual_sha256": "6b490076bb866d40c4b346285c06369e148b8b12cf6a97b03720b3113f2ea289",
+    "artifact": "data/analysis/sprint3/offensive_recognition_predictions.csv",
+    "expected_sha256": "6b490076bb866d40c4b346285c06369e148b8b12cf6a97b03720b3113f2ea289",
+    "verified": true
+  },
+  {
+    "actual_sha256": "d4f0f62114c70b4ef9a1e5256b0c1d14bf5c6d3c0381792db1ec3dcc19d554b8",
+    "artifact": "data/analysis/sprint3/replication_results.csv",
+    "expected_sha256": "d4f0f62114c70b4ef9a1e5256b0c1d14bf5c6d3c0381792db1ec3dcc19d554b8",
+    "verified": true
+  },
+  {
+    "actual_sha256": "65f35145d80842b17422ecf2cf111cf0a339c14160c38e9ea0f27942e54e69ba",
+    "artifact": "data/analysis/sprint3/resource_constrained_summary.csv",
+    "expected_sha256": "65f35145d80842b17422ecf2cf111cf0a339c14160c38e9ea0f27942e54e69ba",
+    "verified": true
+  }
+]

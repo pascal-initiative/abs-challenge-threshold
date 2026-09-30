@@ -1,0 +1,101 @@
+[
+  {
+    "outlet": "Baseball Savant / MLB",
+    "title": "ABS Challenge Leaderboard",
+    "url": "https://baseballsavant.mlb.com/leaderboard/abs-challenges",
+    "accessed": "2026-09-20",
+    "status": "ACCESSIBLE",
+    "prior_work_established": "Public player challenge rates and actual-versus-expected challenges/overturns using pitch location, inventory, runners, count, and outs.",
+    "pascal_boundary": "Pascal must not claim to invent context adjustment or player ABS leaderboards; its narrower addition is the held-out value of point-in-time batter history among legal incorrect-called-strike opportunities."
+  },
+  {
+    "outlet": "Baseball Savant / MLB",
+    "title": "ABS Metrics Documentation",
+    "url": "https://baseballsavant.mlb.com/abs-metrics-documentation",
+    "accessed": "2026-09-20",
+    "status": "ACCESSIBLE",
+    "prior_work_established": "Official definitions for challenge opportunities, reasonable opportunities, confidence, expected metrics, and challenge-skill/run-value decompositions.",
+    "pascal_boundary": "Use official terminology as context, but keep Pascal's frozen recognition contract and avoid treating official use of 'skill' as validation of Pascal's behavioral mechanism."
+  },
+  {
+    "outlet": "MLB.com",
+    "title": "There's loads of ABS data from last season. What does it all mean?",
+    "url": "https://www.mlb.com/news/abs-challenge-system-statistical-breakdown-2025",
+    "accessed": "2026-09-20",
+    "status": "ACCESSIBLE",
+    "prior_work_established": "Triple-A challenge rates, success rates, count/inning patterns, player spreads, and context-adjusted expected overturns were publicly discussed before Article 3.",
+    "pascal_boundary": "Do not claim first evidence of player differences or first adjustment for opportunity context."
+  },
+  {
+    "outlet": "FanGraphs",
+    "title": "Who's Getting Their Money's Worth From the ABS Challenge System?",
+    "url": "https://blogs.fangraphs.com/whos-getting-their-moneys-worth-from-the-abs-challenge-system/",
+    "accessed": "2026-09-20",
+    "status": "ACCESSIBLE",
+    "prior_work_established": "Player and team challenge value, success, and rankings framed through run value and the limited deployment of the skill.",
+    "pascal_boundary": "Pascal's outcome is recognition action on actual legal misses, not realized challenge value or success."
+  },
+  {
+    "outlet": "SABR Analytics Conference",
+    "title": "When to Challenge a Pitch? A Reinforcement Learning Approach to ABS Challenge Strategy",
+    "url": "https://sabr.org/analytics/presentations",
+    "accessed": "2026-09-20",
+    "status": "ACCESSIBLE_ABSTRACT",
+    "prior_work_established": "A held-out, sequential decision framework for challenge strategy using simulated ABS opportunities and run optimization.",
+    "pascal_boundary": "Article 3 is not a normative strategy or inventory-optimization study."
+  },
+  {
+    "outlet": "Baseball-Reference",
+    "title": "2026 MLB Automated Ball-Strike Challenge Analysis",
+    "url": "https://www.baseball-reference.com/friv/abs-challenges.shtml",
+    "accessed": "2026-09-20",
+    "status": "INDEXED_BUT_PAGE_BLOCKED",
+    "prior_work_established": "A public descriptive ABS challenge analysis and player/team reference surface exists.",
+    "pascal_boundary": "Do not imply comprehensive review of inaccessible methodology; acknowledge the public descriptive landscape."
+  },
+  {
+    "outlet": "TapToChallenge",
+    "title": "ABS Player Metrics",
+    "url": "https://www.taptochallenge.com/players",
+    "accessed": "2026-09-20",
+    "status": "ACCESSIBLE",
+    "prior_work_established": "Independent player decision-quality and expected-aggressiveness metrics are already public.",
+    "pascal_boundary": "Pascal's differentiation is its accepted population, future prediction test, shrinkage, and frozen evidence chain—not the existence of a player metric."
+  },
+  {
+    "outlet": "ABS Charts",
+    "title": "The Full Story — The ABS Challenge",
+    "url": "https://abscharts.com/writeup/the-full-story/",
+    "accessed": "2026-09-20",
+    "status": "ACCESSIBLE",
+    "prior_work_established": "Independent season-scale work has quantified missed calls, unchallenged value, challenge success, and team value.",
+    "pascal_boundary": "Do not claim first season-scale ABS audit or first analysis of unchallenged misses."
+  },
+  {
+    "outlet": "SSRN working paper",
+    "title": "Avoiding Being Caught: Strike Calling in the ABS Era",
+    "url": "https://doi.org/10.2139/ssrn.7242822",
+    "accessed": "2026-09-20",
+    "status": "ABSTRACT_ACCESSIBLE",
+    "prior_work_established": "Academic work studies how the challenge regime changes umpire behavior and strategic incentives.",
+    "pascal_boundary": "It addresses umpire response and system incentives, not Pascal's batter-history prediction estimand."
+  },
+  {
+    "outlet": "arXiv / FAccT",
+    "title": "Inside Baseball: The Automated Ball-Strike System as an Object Lesson in Technological Rule Enforcement",
+    "url": "https://arxiv.org/abs/2605.16237",
+    "accessed": "2026-09-20",
+    "status": "ACCESSIBLE",
+    "prior_work_established": "ABS is a sociotechnical implementation whose ground truth and operational design require qualification.",
+    "pascal_boundary": "Supports careful language about reconstructed geometry and behavior, but does not test batter recognition effects."
+  },
+  {
+    "outlet": "Baseball Prospectus",
+    "title": "Targeted ABS recognition/challenge search",
+    "url": "https://www.baseballprospectus.com/",
+    "accessed": "2026-09-20",
+    "status": "NO_DIRECTLY_RELEVANT_ACCESSIBLE_RESULT_IDENTIFIED",
+    "prior_work_established": "No directly relevant accessible player-recognition study was identified in the targeted search.",
+    "pascal_boundary": "This is not evidence of absence and must not support a priority claim."
+  }
+]

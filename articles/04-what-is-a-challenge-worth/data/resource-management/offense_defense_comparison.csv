@@ -1,0 +1,3 @@
+decision_side,opportunities,actual_challenges,recommended_challenges,challenge_rate,recommended_challenge_rate,mean_P_overturn,actual_success_rate,mean_required_confidence,decision_correct_rate,suboptimal_decisions,expected_value_captured,expected_value_available,decision_efficiency
+DEFENSE,215690,5150,5118,0.0238768603088,0.023728499235,0.0440568702017,0.579805825243,0.712101910157,0.975877416663,5203,6.29882442374,58.7148863905,0.107278150584
+OFFENSE,96538,4335,5790,0.0449045971535,0.0599763823572,0.112526542504,0.487197231834,0.77168286316,0.933072986803,6461,-7.13201715814,55.7983082569,-0.127817802742

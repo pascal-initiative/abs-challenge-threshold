@@ -1,0 +1,35 @@
+{
+  "called_balls": 9914,
+  "called_pitches": 14310,
+  "called_strikes": 4396,
+  "classification_exclusions": [],
+  "classification_status": "COMPLETED",
+  "duplicate_pitch_keys": 0,
+  "expected_games": 93,
+  "failed_game_downloads": [],
+  "failed_source_downloads": [],
+  "game_exclusions": [],
+  "impossible_challenge_inventory": 0,
+  "impossible_counts": 0,
+  "missing_called_pitch_catcher_ids": 0,
+  "missing_catcher_ids": 0,
+  "missing_challenge_matches": 0,
+  "missing_movement_data": 0,
+  "missing_pitch_locations": 0,
+  "missing_umpire_ids": 0,
+  "pitch_rows_deleted": 0,
+  "source_discrepancies": {
+    "automatic_nonpitch_record": 117,
+    "documented_pitch_number_offset": 37
+  },
+  "source_record_exclusions": [
+    {
+      "percentage_of_population": 0.42259625803655276,
+      "reason": "AUTOMATIC_NONPITCH_EVENT",
+      "row_count": 117
+    }
+  ],
+  "successfully_processed_games": 93,
+  "total_pitches": 27569,
+  "unknown_classifications": 12
+}

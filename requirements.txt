@@ -1,0 +1,7 @@
+# Python >=3.9. Sprint 1 acquisition remains standard-library only.
+# Sprint 2 modeling and figures use these bounded, reproducible dependencies.
+numpy>=1.26,<2
+pandas>=2.2,<4
+scikit-learn>=1.5,<2
+statsmodels>=0.14,<1
+matplotlib>=3.9,<4

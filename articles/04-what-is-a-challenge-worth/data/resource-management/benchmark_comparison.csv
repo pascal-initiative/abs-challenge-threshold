@@ -1,0 +1,6 @@
+policy,recommended_challenges,recommended_challenge_rate,agreement_with_pascal,expected_incremental_value,description
+PASCAL_SEQUENTIAL,10908,0.0349360083016,1,114.432643091,state-dependent Bellman option value
+IMMEDIATE_VALUE_ONLY,12687,0.0406337676313,0.99430224067,85.6315961848,ignores lost future option
+FIXED_LOST_COST_0.1PP,11776,0.0377160280308,0.996906107076,99.3227230253,constant 0.1 percentage-point failure cost
+PUBLIC_CONFIDENCE_60%,19981,0.063994901162,0.969218007354,108.335961715,fixed confidence threshold benchmark
+DECLINING_CONFIDENCE_PROXY,20114,0.0644208719269,0.969009826153,108.214643494,60/50/40% early/late/ninth threshold proxy

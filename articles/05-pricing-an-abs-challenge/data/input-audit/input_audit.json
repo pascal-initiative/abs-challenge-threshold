@@ -1,0 +1,325 @@
+{
+  "article4_manifest_sha256": "1aefc20ae427015c480e0ea530a0e45c43ef320cf0cdac6f9c0b1df8b1c6179b",
+  "audit_code_sha256": "c798c88f8375462d36ed2e0a4f52c93d65bfa3afbcef3181dc1848e1c318c06e",
+  "audit_version": "abs_article5_input_audit_v1",
+  "feature_schema": {
+    "allowed_features": [
+      "affected_team_challenges_remaining",
+      "away_score",
+      "balls",
+      "bat_side",
+      "batter_id",
+      "catcher_id",
+      "defense_challenges_remaining",
+      "game_date",
+      "game_pk",
+      "half_inning",
+      "home_score",
+      "inning",
+      "offense_challenges_remaining",
+      "on_1b",
+      "on_2b",
+      "on_3b",
+      "original_call",
+      "outs",
+      "pitch_hand",
+      "pitch_type",
+      "pitcher_id",
+      "umpire_id"
+    ],
+    "allowlist_blacklist_overlap": [],
+    "blacklisted_features": [
+      "challenge_outcome",
+      "challenged",
+      "derived_abs_call",
+      "distance_from_abs_boundary",
+      "feed_plate_x",
+      "feed_plate_z",
+      "official_abs_call",
+      "opportunity_population",
+      "plate_x",
+      "plate_z",
+      "survival_class",
+      "survival_detail",
+      "wrong_way_margin_inches"
+    ]
+  },
+  "gates": {
+    "G1_PROVENANCE": "PASS",
+    "G2_POPULATION": "PASS",
+    "G3_SCHEMA_DEFINITION": "PASS",
+    "G4_LABEL_FIDELITY": "PASS"
+  },
+  "label_fidelity": {
+    "agreement_rate": 0.9996837111228255,
+    "agreements": 9482,
+    "challenges": 9485,
+    "disagreements": 3,
+    "geometry_overturns": 5098,
+    "mismatches": [
+      {
+        "challenge_outcome": "CONFIRMED",
+        "derived_abs_call": "BALL",
+        "game_date": "2026-06-16",
+        "game_pk": 823451,
+        "official_abs_call": "STRIKE",
+        "original_call": "STRIKE",
+        "pitch_key": "823451:7:2"
+      },
+      {
+        "challenge_outcome": "OVERTURNED",
+        "derived_abs_call": "STRIKE",
+        "game_date": "2026-06-26",
+        "game_pk": 823610,
+        "official_abs_call": "BALL",
+        "original_call": "STRIKE",
+        "pitch_key": "823610:68:1"
+      },
+      {
+        "challenge_outcome": "OVERTURNED",
+        "derived_abs_call": "BALL",
+        "game_date": "2026-06-03",
+        "game_pk": 823701,
+        "official_abs_call": "STRIKE",
+        "original_call": "BALL",
+        "pitch_key": "823701:65:4"
+      }
+    ],
+    "official_label_coverage": 1.0,
+    "official_overturns": 5099
+  },
+  "population": {
+    "challenge_keys_missing_from_pitches": [],
+    "challenged_pitch_keys_missing_from_official": [],
+    "duplicate_official_challenge_keys": 0,
+    "duplicate_pitch_keys": 0,
+    "end_date": "2026-09-09",
+    "games": 2195,
+    "legal_called_pitch_decisions": 312228,
+    "legal_challenges": 9485,
+    "official_challenge_rows": 9485,
+    "rows": 645793,
+    "start_date": "2026-03-25"
+  },
+  "preregistration_sha256": "73e70c487e20358a5a7a312a5fb3e4b47426ff7a06fc57a7aa98db85db60f977",
+  "provenance": {
+    "all_verified": true,
+    "checked_files": 34,
+    "checks": [
+      {
+        "actual_sha256": "4e4a457283150d12977225955afdc3702f37393bef81d6c2cdd1599b80fba986",
+        "expected_sha256": "4e4a457283150d12977225955afdc3702f37393bef81d6c2cdd1599b80fba986",
+        "path": "data/analysis/sprint3/offensive_recognition_descriptive.csv",
+        "verified": true
+      },
+      {
+        "actual_sha256": "b6f7c91b9d6ee2dee0d28bfff643c78688661cad631bf69c6a5c906253a9ccd0",
+        "expected_sha256": "b6f7c91b9d6ee2dee0d28bfff643c78688661cad631bf69c6a5c906253a9ccd0",
+        "path": "data/analysis/sprint3/offensive_recognition_features.csv",
+        "verified": true
+      },
+      {
+        "actual_sha256": "024a6ca3fd05052f9d74a91ef25de67f7ec9b2d9f72f1550d7c156c3ffa2c549",
+        "expected_sha256": "024a6ca3fd05052f9d74a91ef25de67f7ec9b2d9f72f1550d7c156c3ffa2c549",
+        "path": "data/analysis/sprint3/offensive_recognition_model_metrics.csv",
+        "verified": true
+      },
+      {
+        "actual_sha256": "a396972176c2ff38fb829bf59daee37650320fdcfcd454e6309ae75bf1fe3fc8",
+        "expected_sha256": "a396972176c2ff38fb829bf59daee37650320fdcfcd454e6309ae75bf1fe3fc8",
+        "path": "data/analysis/sprint3/offensive_recognition_population_audit.json",
+        "verified": true
+      },
+      {
+        "actual_sha256": "6b490076bb866d40c4b346285c06369e148b8b12cf6a97b03720b3113f2ea289",
+        "expected_sha256": "6b490076bb866d40c4b346285c06369e148b8b12cf6a97b03720b3113f2ea289",
+        "path": "data/analysis/sprint3/offensive_recognition_predictions.csv",
+        "verified": true
+      },
+      {
+        "actual_sha256": "78820cdca307c28c833e8e5763a6e70e167752d65504b780765c89352ce7827d",
+        "expected_sha256": "78820cdca307c28c833e8e5763a6e70e167752d65504b780765c89352ce7827d",
+        "path": "data/analysis/sprint4/batter_recognition_opportunities.csv",
+        "verified": true
+      },
+      {
+        "actual_sha256": "f7219096dab291b9209c96c17f9aa737a707e346eb363ead145bfdedc7a18c5d",
+        "expected_sha256": "f7219096dab291b9209c96c17f9aa737a707e346eb363ead145bfdedc7a18c5d",
+        "path": "data/full_season/processed/challenges.csv",
+        "verified": true
+      },
+      {
+        "actual_sha256": "8a9e1a65b3d5b13681d379aceb59f24fd6506db45a2cf5f867c6ed419837a6bd",
+        "expected_sha256": "8a9e1a65b3d5b13681d379aceb59f24fd6506db45a2cf5f867c6ed419837a6bd",
+        "path": "data/full_season/processed/data_quality_report.json",
+        "verified": true
+      },
+      {
+        "actual_sha256": "bb72cc944c632f245ebc84c6a41e78284c9e72f7a480a424c523442116958085",
+        "expected_sha256": "bb72cc944c632f245ebc84c6a41e78284c9e72f7a480a424c523442116958085",
+        "path": "data/full_season/processed/descriptive_report.json",
+        "verified": true
+      },
+      {
+        "actual_sha256": "8bbb414ee05e35c8a00dc195f142f8d3327c92f8c64fc1793b19e595f02473c3",
+        "expected_sha256": "8bbb414ee05e35c8a00dc195f142f8d3327c92f8c64fc1793b19e595f02473c3",
+        "path": "data/full_season/processed/game_manifest.csv",
+        "verified": true
+      },
+      {
+        "actual_sha256": "6755bc3175960e52bbe48ae17793f1faec059e8359b0018707d792dea11894e0",
+        "expected_sha256": "6755bc3175960e52bbe48ae17793f1faec059e8359b0018707d792dea11894e0",
+        "path": "data/full_season/processed/pitches.csv",
+        "verified": true
+      },
+      {
+        "actual_sha256": "ddce0d1346f0667d7e185418493893b8335bc113ab73f4dffcf03e7ff78892e3",
+        "expected_sha256": "ddce0d1346f0667d7e185418493893b8335bc113ab73f4dffcf03e7ff78892e3",
+        "path": "data/full_season/processed/recognition_breakdowns.csv",
+        "verified": true
+      },
+      {
+        "actual_sha256": "a6e9728dd7b38566daa965b1dcbc3677f132ffcaa2e3df61b3be23d5998a187d",
+        "expected_sha256": "a6e9728dd7b38566daa965b1dcbc3677f132ffcaa2e3df61b3be23d5998a187d",
+        "path": "data/full_season/processed/recognition_distributions.json",
+        "verified": true
+      },
+      {
+        "actual_sha256": "0039fd255416d191108c7c3204150b610843697ec4a25ee729d23970c9a7fec8",
+        "expected_sha256": "0039fd255416d191108c7c3204150b610843697ec4a25ee729d23970c9a7fec8",
+        "path": "data/full_season/processed/run_manifest.json",
+        "verified": true
+      },
+      {
+        "actual_sha256": "5341263bb66a4ccac66ba2e9c66b5b8a950179cd58d5d7dc1613e01b70079e1a",
+        "expected_sha256": "5341263bb66a4ccac66ba2e9c66b5b8a950179cd58d5d7dc1613e01b70079e1a",
+        "path": "data/full_season/processed/validation_discrepancies.csv",
+        "verified": true
+      },
+      {
+        "actual_sha256": "f708a383f2cb1ef7f72c58d9f29ffca41078cb244d68fa9530f0f55097d00407",
+        "expected_sha256": "f708a383f2cb1ef7f72c58d9f29ffca41078cb244d68fa9530f0f55097d00407",
+        "path": "data/full_season/processed/validation_report.json",
+        "verified": true
+      },
+      {
+        "actual_sha256": "abbbc19428b699cf325eb314ca886e8e88157e3e0c68930c849feeb80b1fc35b",
+        "expected_sha256": "abbbc19428b699cf325eb314ca886e8e88157e3e0c68930c849feeb80b1fc35b",
+        "path": "data/full_season/raw/receipts.jsonl",
+        "verified": true
+      },
+      {
+        "actual_sha256": "c8c2e043078a8f9b1af7390b8503402603398bfe7337eb34e6bd24dff58ce23b",
+        "expected_sha256": "c8c2e043078a8f9b1af7390b8503402603398bfe7337eb34e6bd24dff58ce23b",
+        "path": "research/article4/build.py",
+        "verified": true
+      },
+      {
+        "actual_sha256": "9fa182823aafa5ac47d472f72e83f0a3ca20c2323ad3ec407958714e941cee4c",
+        "expected_sha256": "9fa182823aafa5ac47d472f72e83f0a3ca20c2323ad3ec407958714e941cee4c",
+        "path": "research/article4/counterfactual.py",
+        "verified": true
+      },
+      {
+        "actual_sha256": "53980f754754c8090f2be8e0c68c78edebf4a12d853eb9bc9ccc93bae84d809a",
+        "expected_sha256": "53980f754754c8090f2be8e0c68c78edebf4a12d853eb9bc9ccc93bae84d809a",
+        "path": "research/article4/feeds.py",
+        "verified": true
+      },
+      {
+        "actual_sha256": "5d207d9f0e18bc321e9e07c6678a6f6a6799d59d0e3d6162fc18212bac2dafe4",
+        "expected_sha256": "5d207d9f0e18bc321e9e07c6678a6f6a6799d59d0e3d6162fc18212bac2dafe4",
+        "path": "research/article4/fetch_case_study.py",
+        "verified": true
+      },
+      {
+        "actual_sha256": "3a616d997d78f87b15cdac99f16144fe1c0d139275d6190a3de3190a2c842e32",
+        "expected_sha256": "3a616d997d78f87b15cdac99f16144fe1c0d139275d6190a3de3190a2c842e32",
+        "path": "research/article4/fields.py",
+        "verified": true
+      },
+      {
+        "actual_sha256": "e8215e3a8a480c3331fe0e93062f1fd82be2527108d98ff411806382527636d1",
+        "expected_sha256": "e8215e3a8a480c3331fe0e93062f1fd82be2527108d98ff411806382527636d1",
+        "path": "research/article4/output/article4_all_incorrect_calls.csv",
+        "verified": true
+      },
+      {
+        "actual_sha256": "9b5874dde0748c69a0cebb2ce9cab4d6e8f5f4297ba15683e91c113c837ede92",
+        "expected_sha256": "9b5874dde0748c69a0cebb2ce9cab4d6e8f5f4297ba15683e91c113c837ede92",
+        "path": "research/article4/output/article4_braves_case_study.csv",
+        "verified": true
+      },
+      {
+        "actual_sha256": "1c6a45841021131d12d5564c9e7d74b7ec54cc6871ffa6ffc7bfdc861aa9580f",
+        "expected_sha256": "1c6a45841021131d12d5564c9e7d74b7ec54cc6871ffa6ffc7bfdc861aa9580f",
+        "path": "research/article4/output/article4_braves_case_study_sequence.csv",
+        "verified": true
+      },
+      {
+        "actual_sha256": "6d58997697644252125b82d1111c73b20b2a01d0326e1965407267cfd84f7c7b",
+        "expected_sha256": "6d58997697644252125b82d1111c73b20b2a01d0326e1965407267cfd84f7c7b",
+        "path": "research/article4/output/article4_braves_game_scores.csv",
+        "verified": true
+      },
+      {
+        "actual_sha256": "c268dbc59abd3e44e9d56b788ab2243271ec1a791aeb58f22ec483f874058105",
+        "expected_sha256": "c268dbc59abd3e44e9d56b788ab2243271ec1a791aeb58f22ec483f874058105",
+        "path": "research/article4/output/article4_competing_attention.csv",
+        "verified": true
+      },
+      {
+        "actual_sha256": "4f29b5295e576eda8b48e2a3571a191ae1077c72208133b95cf31675142f9c36",
+        "expected_sha256": "4f29b5295e576eda8b48e2a3571a191ae1077c72208133b95cf31675142f9c36",
+        "path": "research/article4/output/article4_high_value_missed.csv",
+        "verified": true
+      },
+      {
+        "actual_sha256": "3be3ba0ceee3abf958269a90a338294eacf86b9cb636b6775dec9f74e38bb2cc",
+        "expected_sha256": "3be3ba0ceee3abf958269a90a338294eacf86b9cb636b6775dec9f74e38bb2cc",
+        "path": "research/article4/output/article4_opportunities.csv",
+        "verified": true
+      },
+      {
+        "actual_sha256": "822c056a746445dd69688683466678fc798836c3aafe54d8d35cdf54886c44ae",
+        "expected_sha256": "822c056a746445dd69688683466678fc798836c3aafe54d8d35cdf54886c44ae",
+        "path": "research/article4/output/article4_re24_table.csv",
+        "verified": true
+      },
+      {
+        "actual_sha256": "27a5c636235da56b4b6e4b78fcc91061be48e0b0f91780a959cfad9366564f10",
+        "expected_sha256": "27a5c636235da56b4b6e4b78fcc91061be48e0b0f91780a959cfad9366564f10",
+        "path": "research/article4/output/article4_re288_table.csv",
+        "verified": true
+      },
+      {
+        "actual_sha256": "ba436f791ba61bad2d890496135dd5390436ee138777aa4dc91853ea2a5affc5",
+        "expected_sha256": "ba436f791ba61bad2d890496135dd5390436ee138777aa4dc91853ea2a5affc5",
+        "path": "research/article4/output/article4_spot_checks.csv",
+        "verified": true
+      },
+      {
+        "actual_sha256": "80bc3d14ea11e9ea37ec10ae90bcedbbcc7e7b12fcf435e5362c3be5794597cd",
+        "expected_sha256": "80bc3d14ea11e9ea37ec10ae90bcedbbcc7e7b12fcf435e5362c3be5794597cd",
+        "path": "research/article4/output/article4_team_game_sequences.csv",
+        "verified": true
+      },
+      {
+        "actual_sha256": "1f47dd1be5145b4ba6adb0a10389c22526410d20aa06a6209e654b7ba29af93a",
+        "expected_sha256": "1f47dd1be5145b4ba6adb0a10389c22526410d20aa06a6209e654b7ba29af93a",
+        "path": "research/article4/output/article4_team_summary.csv",
+        "verified": true
+      }
+    ],
+    "failed_files": []
+  },
+  "snapshot": [
+    "2026-03-25",
+    "2026-09-09"
+  ],
+  "software": {
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "python": "3.9.6"
+  }
+}

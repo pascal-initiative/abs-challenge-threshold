@@ -1,0 +1,35 @@
+{
+  "code_sha256": {
+    "build_ct_s1_reproducibility.py": "aa9161121b5251fa4d9f3922661a47f8cb0ffd924076fd975b19b4ad674ff750",
+    "ct_s1_assurance.py": "f38c39a7e4c7676629e239115066c3f0a88f4c4857e8427356ebe907967ca735",
+    "reproducibility_core.py": "686ad5ad5484315c652d039b86ecfaf5255c1a558ec98e016563fb678b7775ab"
+  },
+  "software": {
+    "pandas": "2.3.3",
+    "python": "3.9.6"
+  },
+  "status": "PASS_CTS10_READY_FOR_CTS11",
+  "summary_outputs": {
+    "commands.json": {
+      "bytes": 4609,
+      "sha256": "261905bb20d32de2891b725f25f1a3997eddced97b83b3e7ba4799f71904115d"
+    },
+    "comparison.csv": {
+      "bytes": 4778,
+      "sha256": "68d5c68c97117616a47c071d48608f60436442e0c867dc91f623165e1e42d776"
+    },
+    "protected_inputs_after.json": {
+      "bytes": 65752,
+      "sha256": "3da7d487164515e226e06ea48b495341f037352d255019ebb371488a854621b4"
+    },
+    "protected_inputs_before.json": {
+      "bytes": 65752,
+      "sha256": "3da7d487164515e226e06ea48b495341f037352d255019ebb371488a854621b4"
+    },
+    "validation.json": {
+      "bytes": 1816,
+      "sha256": "713593a76613ff8d24a9b34cbb9b5be67394f5cb33789c3131eb2be11d51249c"
+    }
+  },
+  "version": "ct-s1.0-cts10"
+}

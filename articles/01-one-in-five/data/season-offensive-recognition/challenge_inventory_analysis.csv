@@ -1,0 +1,3 @@
+dimension,value,opportunities,recognized,not_recognized,recognition_rate,small_sample_warning,display_rate
+affected_team_challenges_remaining,1.0,3168,612,2556,0.193181818182,False,19.3%
+affected_team_challenges_remaining,2.0,7587,1500,6087,0.197706603401,False,19.8%

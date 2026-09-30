@@ -1,0 +1,34 @@
+{
+  "pitch_key": "824887:3:7",
+  "facts": {
+    "game": "Mets at Braves, 2026-08-10, top 1st",
+    "pre_pitch": "1 out, Bichette on 1st, 3-2 to Carson Benge",
+    "pitch": "-2.74 in (negative = inside the ABS zone) near the top edge",
+    "call": "ball four",
+    "official_challenge": false,
+    "later": "Baty grand slam three batters later",
+    "final": "NYM 8, ATL 5"
+  },
+  "not_in_sources": [
+    "steal attempt",
+    "catcher throw",
+    "call at second",
+    "attempted hat-tap challenge"
+  ],
+  "re_count_pooled": {
+    "RE_observed_walk": 0.919266,
+    "recorded_no_runner_action": 0.6865910000000001,
+    "bichette_safe_at_second": 0.612194,
+    "bichette_out_inning_over": 0.919266
+  },
+  "re_smoothed": {
+    "RE_observed_walk": 0.941624,
+    "recorded_no_runner_action": 0.707099,
+    "bichette_safe_at_second": 0.621457,
+    "bichette_out_inning_over": 0.941624
+  },
+  "dataset_value_pooled": 0.686591,
+  "dataset_value_sprint5": 0.707099,
+  "realized_runs_rest_of_inning": 4,
+  "note": "Realized runs are shown only to contrast with decision-point value; they are not the cost of the missed correction."
+}

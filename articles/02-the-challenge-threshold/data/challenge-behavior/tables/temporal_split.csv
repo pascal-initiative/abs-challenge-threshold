@@ -1,0 +1,4 @@
+split,start,end,opportunities,challenges,batters
+test,2026-08-01,2026-09-09,2830,567,457
+train,2026-03-25,2026-06-30,6131,1186,536
+validation,2026-07-01,2026-07-31,1794,359,399

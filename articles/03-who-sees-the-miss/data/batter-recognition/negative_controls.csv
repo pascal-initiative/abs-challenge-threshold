@@ -1,0 +1,6 @@
+control,metric,value,pass_check,detail
+SHUFFLED_PRIOR_EFFECT,delta_log_loss,0.0023437878579,True,shuffled historical effects do not match the primary improvement
+LOW_SUPPORT_SHRINKAGE,uncertainty_width_low_minus_high,0.14086485612,True,low-support estimates have wider uncertainty
+RAW_NOT_ADJUSTED,spearman_raw_rate_adjusted_effect,0.797717862677,True,adjustment does not reproduce raw rate exactly
+OPPORTUNITY_VARIATION,expected_probability_sd,0.15957995127,True,expected difficulty varies materially
+NO_FUTURE_LEAKAGE,violating_temporal_rows,0,True,every effect used for prediction is estimated before its test date

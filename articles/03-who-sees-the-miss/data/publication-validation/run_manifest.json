@@ -1,0 +1,72 @@
+{
+  "package": "ABS Article 3 publication validation",
+  "status": "READY_TO_DRAFT",
+  "execution_date": "2026-09-20",
+  "upstream": {
+    "status": "VERIFIED_UNCHANGED",
+    "accepted_sprint4_manifest": "artifacts/sprint4/run_manifest.json",
+    "accepted_sprint4_manifest_sha256": "a7d68a88c60ac3b9247f23b77e7bb66283578560b9ef6a2d0c8547bdc45fde3a",
+    "accepted_sprint4_hash_list_sha256": "9274a9921f52ad8fe96b334f02368542c960631f5c5ca671fff841ea85230905",
+    "accepted_sprint3_manifest_sha256": "58abbfabb9318692e14199dcd6099fe847ae6497ef27e84e22cea45f9b5561d0",
+    "verified_sprint4_outputs": 72,
+    "population": {
+      "analysis_end_date": "2026-09-09",
+      "analysis_start_date": "2026-03-25",
+      "legal_recognition_opportunities": 10755,
+      "not_recognized": 8643,
+      "recognized": 2112
+    }
+  },
+  "publication_decisions": {
+    "skill_language": "QUALIFIED_ONLY_PREFER_RECOGNITION_BEHAVIOR",
+    "leaderboard": "PASS_TOP_10_ARTICLE_TOP_25_DOWNLOAD",
+    "bottom_rankings": "OMIT",
+    "case_studies": [
+      "Bryce Harper",
+      "Nick Kurtz",
+      "Jonathan Aranda"
+    ]
+  },
+  "gates": {
+    "Methodology": "PASS",
+    "Claim Accuracy": "PASS",
+    "Uncertainty Communication": "PASS",
+    "Leaderboard Publication": "PASS",
+    "Prior-Work Positioning": "PASS",
+    "Novelty / Differentiation": "PASS",
+    "Figure Data": "PASS",
+    "Article 3": "READY_TO_DRAFT"
+  },
+  "output_artifact_hashes": {
+    "artifacts/publication_validation/article3/case_study_policy.csv": "952a45d668149685a2a90c0fcc7823545cf672787ffaeba746342bcf275bb211",
+    "artifacts/publication_validation/article3/case_study_policy.json": "b1e76bc85d386cb5b0b1ee08c219cb2068cf3fa02a7560764e70b9bfa0a6faa9",
+    "artifacts/publication_validation/article3/figure_data/figure1_raw_vs_adjusted.csv": "500b33f353be1fe85f3cb46ae7034ec3edd53a2fbd2e6784e79febbc0bbbc876",
+    "artifacts/publication_validation/article3/figure_data/figure1_raw_vs_adjusted.json": "36b5bc4d20aa72a9d7f9287e32565b550ecb772e020acfcb5d4ac3f2a1db61ac",
+    "artifacts/publication_validation/article3/figure_data/figure2_temporal_stability.csv": "0d7e4b4b51484162655712c84c570fa310147bef5da1378a9fc627549167a0c9",
+    "artifacts/publication_validation/article3/figure_data/figure2_temporal_stability.json": "dd30821ab878b23d0bd65b5b6b2b297349f16e3165f0bb89f64cf9d0b3fff305",
+    "artifacts/publication_validation/article3/figure_data/figure3_adjusted_leaderboard.csv": "448b80bb1a325712d0e918f82b1f8007b4fc1fae2b1a6bb5e9471b1dec87cbcb",
+    "artifacts/publication_validation/article3/figure_data/figure3_adjusted_leaderboard.json": "c4d6ac2ebd36cb04d2dd002f620bc32af3a77bf466089366cdd1f6acdd55c477",
+    "artifacts/publication_validation/article3/figure_data/figure4_case_studies.csv": "ac86f34d33ff55b7f8455a332b796699f755e037b2fe384c7f87e60c2da672cb",
+    "artifacts/publication_validation/article3/figure_data/figure4_case_studies.json": "65b02ece4ca10dab16d0c47b3859b0911a0476d64de783cf78891ca999a98bce",
+    "artifacts/publication_validation/article3/figure_policy.csv": "62b51f00d59da3fa67ac7772b7e0c435460193c624519c0519c287c294ac628d",
+    "artifacts/publication_validation/article3/figure_policy.json": "262813d05898a984454f07a2b0cde201e3aa8e82ec8c3d9fbad0700356d72a84",
+    "artifacts/publication_validation/article3/final_publication_claims_matrix.csv": "bd91700478cca01d5937e1edac76287d3acfe06756452c436a324a732229f084",
+    "artifacts/publication_validation/article3/final_publication_claims_matrix.json": "05b31783c87b18858a6145546db7e9cb804e96897bdbd429ab3d389705749a51",
+    "artifacts/publication_validation/article3/frozen_figure_source_map.csv": "2495dbf1f218c71e59aed7ac09b78e70b25176cf1f1e2aa2ffe87ab663ffca5a",
+    "artifacts/publication_validation/article3/frozen_figure_source_map.json": "259fbf3e418a3cec1a837f8867b5da0d7d5ee5d2d59a44d893c827acae830978",
+    "artifacts/publication_validation/article3/publication_gates.csv": "bbcd2f4576dd7e5fbf0e95c5e0e1173b9f81cb345f2f97fb450ac21f94dfc5f2",
+    "artifacts/publication_validation/article3/publication_gates.json": "abf01ea5ad1ce0d4ca304eac605d862b66dd2a13d4a4292c5a617debaa23c30e",
+    "artifacts/publication_validation/article3/source_inventory.csv": "a6760645487981e4094c858a0559d70edf8e763e40b2e65539eb786bacc61458",
+    "artifacts/publication_validation/article3/source_inventory.json": "1d4a4de2b3e17a7f85eff0cee652590cbdb553cf310989bb1e1b0c45657a2f6a",
+    "artifacts/publication_validation/article3/upstream_integrity.json": "1258b0a93d90b09270d102f56135e23238e283c62c650e30ff45143d7a871c62",
+    "docs/publication_validation/article3/adversarial_review.md": "cf17632e92333e6138e15caeea7f84e38cdfab4fcac1a65dc3141037752af706",
+    "docs/publication_validation/article3/case_studies.md": "5dc072096bbd56de93e9eed548d43bfb5d221ee3d087b61559dc30eacf0852b3",
+    "docs/publication_validation/article3/final_publication_claims_matrix.md": "1ebf5cca6928feecf3ff92da1495facf0ce68454213d715050345fe33ae9e937",
+    "docs/publication_validation/article3/leaderboard_policy.md": "b8081003e253f9e971755298ac5879f6cc413491ceed3f1e087176f272ce9314",
+    "docs/publication_validation/article3/methodology_limitations.md": "9b975349abfe0c7ca4b26bdbf2b39d55bf8eeb9eefed1e1acdc2d287346440a7",
+    "docs/publication_validation/article3/positioning_prior_work.md": "83513072e0bd8efd47f0cbc55be0d17617f38772440fe49e20480d2cde7d16b7",
+    "docs/publication_validation/article3/publication_validation_report.md": "032b18b86dab7f098d37fe044545e397212db0ddbf7b2cb40177392a1fc844d2",
+    "docs/publication_validation/article3/skill_language_decision.md": "4a6e71d9a2116025a686604d5cfcb958d3d9c065344bd80a4e1ec5ca03467118",
+    "docs/publication_validation/article3/title_article_structure.md": "9f6f40f3e3fbcbaee84aabe72158f35da8407722ed3b84d867d46afa93841f28"
+  }
+}

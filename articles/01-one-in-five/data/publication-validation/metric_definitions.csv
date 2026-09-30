@@ -1,0 +1,5 @@
+metric,numerator,denominator,value,definition
+recognition_rate,2112,10755,0.196373779637,Estimated incorrect called strikes challenged while a legal batter challenge was available.
+challenge_rate,4335,96538,0.0449045971535,All actual batter challenges divided by all legal offensive called-strike opportunities.
+challenge_success_rate,2112,4335,0.487197231834,Official overturned batter challenges divided by official batter challenges.
+correction_rate,2111,10755,0.196280799628,Legally challengeable reconstructed errors that were challenged and officially overturned.

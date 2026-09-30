@@ -1,0 +1,80 @@
+{
+  "research_identity": "CT-S1",
+  "metric_version": "ct-s1.0",
+  "source_registry": "research/article5/CT_S1_PUBLIC_CLAIMS.json",
+  "source_registry_sha256": "7164ad50bfe306d6fd4605830d85de2d4ae01f15d276a343f54f8fb0e361d99a",
+  "additional_allowed_numeric_tokens": ["05", "2026"],
+  "documents": {
+    "research/article5/CT_S1_ARTICLE_DRAFT.md": [
+      "CTS11-C01",
+      "CTS11-C02",
+      "CTS11-C03",
+      "CTS11-C04",
+      "CTS11-C05",
+      "CTS11-C06",
+      "CTS11-C07",
+      "CTS11-C09",
+      "CTS11-C08"
+    ],
+    "research/article5/CT_S1_METHODOLOGY_DRAFT.md": [
+      "CTS11-C01",
+      "CTS11-C02",
+      "CTS11-C03",
+      "CTS11-C04",
+      "CTS11-C05",
+      "CTS11-C06",
+      "CTS11-C07",
+      "CTS11-C09",
+      "CTS11-C08"
+    ]
+  },
+  "required_phrases": {
+    "research/article5/CT_S1_ARTICLE_DRAFT.md": [
+      "about 98%",
+      "one of three",
+      "no paired sampling interval",
+      "not a confidence interval",
+      "156 supported rows per period",
+      "reference_fixed_0.60",
+      "fixed_0.50",
+      "fixed_0.70",
+      "cutoff_0.00",
+      "cutoff_0.10",
+      "re_pooled_count",
+      "re_raw",
+      "no_extra_inning_restoration",
+      "public_tracking",
+      "selected_transport",
+      "diagnostics outside",
+      "constraint: CTS11-C08"
+    ],
+    "research/article5/CT_S1_METHODOLOGY_DRAFT.md": [
+      "about 98%",
+      "Only one of three prespecified representative contrasts qualified",
+      "No paired sampling interval",
+      "not a confidence interval",
+      "156 supported rows per period",
+      "reference_fixed_0.60",
+      "fixed_0.50",
+      "fixed_0.70",
+      "cutoff_0.00",
+      "cutoff_0.10",
+      "re_pooled_count",
+      "re_raw",
+      "no_extra_inning_restoration",
+      "public_tracking",
+      "selected_transport",
+      "diagnostics outside",
+      "constraint: CTS11-C08"
+    ]
+  },
+  "forbidden_phrases": [
+    "always challenge",
+    "should have challenged",
+    "players are too conservative",
+    "teams leave value on the table",
+    "unused challenges were wasted",
+    "the correct threshold is",
+    "pascal recommends challenging"
+  ]
+}

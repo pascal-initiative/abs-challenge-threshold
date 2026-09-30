@@ -1,0 +1,944 @@
+{
+  "agreement_count": 9482,
+  "agreement_rate": 0.9996837111228255,
+  "agreement_rate_among_comparable": 0.9996837111228255,
+  "breakdowns": {
+    "confirmed": {
+      "agreement_count": 4385,
+      "agreement_rate": 0.9997720018239854,
+      "agreement_rate_among_comparable": 0.9997720018239854,
+      "comparable_challenges": 4386,
+      "disagreement_count": 1,
+      "matched_challenges": 4386,
+      "official_challenges": 4386,
+      "uncomparable_challenges": 0,
+      "unmatched_challenges": 0
+    },
+    "original_called_ball": {
+      "agreement_count": 5149,
+      "agreement_rate": 0.9998058252427184,
+      "agreement_rate_among_comparable": 0.9998058252427184,
+      "comparable_challenges": 5150,
+      "disagreement_count": 1,
+      "matched_challenges": 5150,
+      "official_challenges": 5150,
+      "uncomparable_challenges": 0,
+      "unmatched_challenges": 0
+    },
+    "original_called_strike": {
+      "agreement_count": 4333,
+      "agreement_rate": 0.9995386389850057,
+      "agreement_rate_among_comparable": 0.9995386389850057,
+      "comparable_challenges": 4335,
+      "disagreement_count": 2,
+      "matched_challenges": 4335,
+      "official_challenges": 4335,
+      "uncomparable_challenges": 0,
+      "unmatched_challenges": 0
+    },
+    "overturned": {
+      "agreement_count": 5097,
+      "agreement_rate": 0.9996077662286723,
+      "agreement_rate_among_comparable": 0.9996077662286723,
+      "comparable_challenges": 5099,
+      "disagreement_count": 2,
+      "matched_challenges": 5099,
+      "official_challenges": 5099,
+      "uncomparable_challenges": 0,
+      "unmatched_challenges": 0
+    }
+  },
+  "comparable_challenges": 9485,
+  "daily_reconciliation": [
+    {
+      "expected": 1,
+      "game_date": "2026-03-25",
+      "observed": 1
+    },
+    {
+      "expected": 30,
+      "game_date": "2026-03-26",
+      "observed": 30
+    },
+    {
+      "expected": 29,
+      "game_date": "2026-03-27",
+      "observed": 29
+    },
+    {
+      "expected": 64,
+      "game_date": "2026-03-28",
+      "observed": 64
+    },
+    {
+      "expected": 51,
+      "game_date": "2026-03-29",
+      "observed": 51
+    },
+    {
+      "expected": 52,
+      "game_date": "2026-03-30",
+      "observed": 52
+    },
+    {
+      "expected": 59,
+      "game_date": "2026-03-31",
+      "observed": 59
+    },
+    {
+      "expected": 57,
+      "game_date": "2026-04-01",
+      "observed": 57
+    },
+    {
+      "expected": 9,
+      "game_date": "2026-04-02",
+      "observed": 9
+    },
+    {
+      "expected": 56,
+      "game_date": "2026-04-03",
+      "observed": 56
+    },
+    {
+      "expected": 62,
+      "game_date": "2026-04-04",
+      "observed": 62
+    },
+    {
+      "expected": 72,
+      "game_date": "2026-04-05",
+      "observed": 72
+    },
+    {
+      "expected": 43,
+      "game_date": "2026-04-06",
+      "observed": 43
+    },
+    {
+      "expected": 68,
+      "game_date": "2026-04-07",
+      "observed": 68
+    },
+    {
+      "expected": 61,
+      "game_date": "2026-04-08",
+      "observed": 61
+    },
+    {
+      "expected": 35,
+      "game_date": "2026-04-09",
+      "observed": 35
+    },
+    {
+      "expected": 63,
+      "game_date": "2026-04-10",
+      "observed": 63
+    },
+    {
+      "expected": 61,
+      "game_date": "2026-04-11",
+      "observed": 61
+    },
+    {
+      "expected": 59,
+      "game_date": "2026-04-12",
+      "observed": 59
+    },
+    {
+      "expected": 39,
+      "game_date": "2026-04-13",
+      "observed": 39
+    },
+    {
+      "expected": 58,
+      "game_date": "2026-04-14",
+      "observed": 58
+    },
+    {
+      "expected": 53,
+      "game_date": "2026-04-15",
+      "observed": 53
+    },
+    {
+      "expected": 61,
+      "game_date": "2026-04-16",
+      "observed": 61
+    },
+    {
+      "expected": 54,
+      "game_date": "2026-04-17",
+      "observed": 54
+    },
+    {
+      "expected": 53,
+      "game_date": "2026-04-18",
+      "observed": 53
+    },
+    {
+      "expected": 70,
+      "game_date": "2026-04-19",
+      "observed": 70
+    },
+    {
+      "expected": 37,
+      "game_date": "2026-04-20",
+      "observed": 37
+    },
+    {
+      "expected": 68,
+      "game_date": "2026-04-21",
+      "observed": 68
+    },
+    {
+      "expected": 68,
+      "game_date": "2026-04-22",
+      "observed": 68
+    },
+    {
+      "expected": 44,
+      "game_date": "2026-04-23",
+      "observed": 44
+    },
+    {
+      "expected": 61,
+      "game_date": "2026-04-24",
+      "observed": 61
+    },
+    {
+      "expected": 65,
+      "game_date": "2026-04-25",
+      "observed": 65
+    },
+    {
+      "expected": 72,
+      "game_date": "2026-04-26",
+      "observed": 72
+    },
+    {
+      "expected": 42,
+      "game_date": "2026-04-27",
+      "observed": 42
+    },
+    {
+      "expected": 53,
+      "game_date": "2026-04-28",
+      "observed": 53
+    },
+    {
+      "expected": 52,
+      "game_date": "2026-04-29",
+      "observed": 52
+    },
+    {
+      "expected": 46,
+      "game_date": "2026-04-30",
+      "observed": 46
+    },
+    {
+      "expected": 63,
+      "game_date": "2026-05-01",
+      "observed": 63
+    },
+    {
+      "expected": 55,
+      "game_date": "2026-05-02",
+      "observed": 55
+    },
+    {
+      "expected": 72,
+      "game_date": "2026-05-03",
+      "observed": 72
+    },
+    {
+      "expected": 42,
+      "game_date": "2026-05-04",
+      "observed": 42
+    },
+    {
+      "expected": 49,
+      "game_date": "2026-05-05",
+      "observed": 49
+    },
+    {
+      "expected": 66,
+      "game_date": "2026-05-06",
+      "observed": 66
+    },
+    {
+      "expected": 34,
+      "game_date": "2026-05-07",
+      "observed": 34
+    },
+    {
+      "expected": 55,
+      "game_date": "2026-05-08",
+      "observed": 55
+    },
+    {
+      "expected": 55,
+      "game_date": "2026-05-09",
+      "observed": 55
+    },
+    {
+      "expected": 66,
+      "game_date": "2026-05-10",
+      "observed": 66
+    },
+    {
+      "expected": 17,
+      "game_date": "2026-05-11",
+      "observed": 17
+    },
+    {
+      "expected": 61,
+      "game_date": "2026-05-12",
+      "observed": 61
+    },
+    {
+      "expected": 71,
+      "game_date": "2026-05-13",
+      "observed": 71
+    },
+    {
+      "expected": 56,
+      "game_date": "2026-05-14",
+      "observed": 56
+    },
+    {
+      "expected": 58,
+      "game_date": "2026-05-15",
+      "observed": 58
+    },
+    {
+      "expected": 63,
+      "game_date": "2026-05-16",
+      "observed": 63
+    },
+    {
+      "expected": 72,
+      "game_date": "2026-05-17",
+      "observed": 72
+    },
+    {
+      "expected": 54,
+      "game_date": "2026-05-18",
+      "observed": 54
+    },
+    {
+      "expected": 58,
+      "game_date": "2026-05-19",
+      "observed": 58
+    },
+    {
+      "expected": 60,
+      "game_date": "2026-05-20",
+      "observed": 60
+    },
+    {
+      "expected": 29,
+      "game_date": "2026-05-21",
+      "observed": 29
+    },
+    {
+      "expected": 53,
+      "game_date": "2026-05-22",
+      "observed": 53
+    },
+    {
+      "expected": 61,
+      "game_date": "2026-05-23",
+      "observed": 61
+    },
+    {
+      "expected": 51,
+      "game_date": "2026-05-24",
+      "observed": 51
+    },
+    {
+      "expected": 46,
+      "game_date": "2026-05-25",
+      "observed": 46
+    },
+    {
+      "expected": 63,
+      "game_date": "2026-05-26",
+      "observed": 63
+    },
+    {
+      "expected": 57,
+      "game_date": "2026-05-27",
+      "observed": 57
+    },
+    {
+      "expected": 24,
+      "game_date": "2026-05-28",
+      "observed": 24
+    },
+    {
+      "expected": 58,
+      "game_date": "2026-05-29",
+      "observed": 58
+    },
+    {
+      "expected": 63,
+      "game_date": "2026-05-30",
+      "observed": 63
+    },
+    {
+      "expected": 68,
+      "game_date": "2026-05-31",
+      "observed": 68
+    },
+    {
+      "expected": 49,
+      "game_date": "2026-06-01",
+      "observed": 49
+    },
+    {
+      "expected": 63,
+      "game_date": "2026-06-02",
+      "observed": 63
+    },
+    {
+      "expected": 61,
+      "game_date": "2026-06-03",
+      "observed": 61
+    },
+    {
+      "expected": 38,
+      "game_date": "2026-06-04",
+      "observed": 38
+    },
+    {
+      "expected": 52,
+      "game_date": "2026-06-05",
+      "observed": 52
+    },
+    {
+      "expected": 60,
+      "game_date": "2026-06-06",
+      "observed": 60
+    },
+    {
+      "expected": 85,
+      "game_date": "2026-06-07",
+      "observed": 85
+    },
+    {
+      "expected": 54,
+      "game_date": "2026-06-08",
+      "observed": 54
+    },
+    {
+      "expected": 72,
+      "game_date": "2026-06-09",
+      "observed": 72
+    },
+    {
+      "expected": 70,
+      "game_date": "2026-06-10",
+      "observed": 70
+    },
+    {
+      "expected": 27,
+      "game_date": "2026-06-11",
+      "observed": 27
+    },
+    {
+      "expected": 67,
+      "game_date": "2026-06-12",
+      "observed": 67
+    },
+    {
+      "expected": 63,
+      "game_date": "2026-06-13",
+      "observed": 63
+    },
+    {
+      "expected": 62,
+      "game_date": "2026-06-14",
+      "observed": 62
+    },
+    {
+      "expected": 35,
+      "game_date": "2026-06-15",
+      "observed": 35
+    },
+    {
+      "expected": 55,
+      "game_date": "2026-06-16",
+      "observed": 55
+    },
+    {
+      "expected": 51,
+      "game_date": "2026-06-17",
+      "observed": 51
+    },
+    {
+      "expected": 40,
+      "game_date": "2026-06-18",
+      "observed": 40
+    },
+    {
+      "expected": 56,
+      "game_date": "2026-06-19",
+      "observed": 56
+    },
+    {
+      "expected": 52,
+      "game_date": "2026-06-20",
+      "observed": 52
+    },
+    {
+      "expected": 41,
+      "game_date": "2026-06-21",
+      "observed": 41
+    },
+    {
+      "expected": 63,
+      "game_date": "2026-06-22",
+      "observed": 63
+    },
+    {
+      "expected": 68,
+      "game_date": "2026-06-23",
+      "observed": 68
+    },
+    {
+      "expected": 64,
+      "game_date": "2026-06-24",
+      "observed": 64
+    },
+    {
+      "expected": 33,
+      "game_date": "2026-06-25",
+      "observed": 33
+    },
+    {
+      "expected": 59,
+      "game_date": "2026-06-26",
+      "observed": 59
+    },
+    {
+      "expected": 57,
+      "game_date": "2026-06-27",
+      "observed": 57
+    },
+    {
+      "expected": 67,
+      "game_date": "2026-06-28",
+      "observed": 67
+    },
+    {
+      "expected": 65,
+      "game_date": "2026-06-29",
+      "observed": 65
+    },
+    {
+      "expected": 73,
+      "game_date": "2026-06-30",
+      "observed": 73
+    },
+    {
+      "expected": 50,
+      "game_date": "2026-07-01",
+      "observed": 50
+    },
+    {
+      "expected": 28,
+      "game_date": "2026-07-02",
+      "observed": 28
+    },
+    {
+      "expected": 65,
+      "game_date": "2026-07-03",
+      "observed": 65
+    },
+    {
+      "expected": 62,
+      "game_date": "2026-07-04",
+      "observed": 62
+    },
+    {
+      "expected": 80,
+      "game_date": "2026-07-05",
+      "observed": 80
+    },
+    {
+      "expected": 45,
+      "game_date": "2026-07-06",
+      "observed": 45
+    },
+    {
+      "expected": 73,
+      "game_date": "2026-07-07",
+      "observed": 73
+    },
+    {
+      "expected": 63,
+      "game_date": "2026-07-08",
+      "observed": 63
+    },
+    {
+      "expected": 44,
+      "game_date": "2026-07-09",
+      "observed": 44
+    },
+    {
+      "expected": 63,
+      "game_date": "2026-07-10",
+      "observed": 63
+    },
+    {
+      "expected": 76,
+      "game_date": "2026-07-11",
+      "observed": 76
+    },
+    {
+      "expected": 62,
+      "game_date": "2026-07-12",
+      "observed": 62
+    },
+    {
+      "expected": 4,
+      "game_date": "2026-07-16",
+      "observed": 4
+    },
+    {
+      "expected": 61,
+      "game_date": "2026-07-17",
+      "observed": 61
+    },
+    {
+      "expected": 67,
+      "game_date": "2026-07-18",
+      "observed": 67
+    },
+    {
+      "expected": 89,
+      "game_date": "2026-07-19",
+      "observed": 89
+    },
+    {
+      "expected": 70,
+      "game_date": "2026-07-20",
+      "observed": 70
+    },
+    {
+      "expected": 49,
+      "game_date": "2026-07-21",
+      "observed": 49
+    },
+    {
+      "expected": 87,
+      "game_date": "2026-07-22",
+      "observed": 87
+    },
+    {
+      "expected": 23,
+      "game_date": "2026-07-23",
+      "observed": 23
+    },
+    {
+      "expected": 69,
+      "game_date": "2026-07-24",
+      "observed": 69
+    },
+    {
+      "expected": 58,
+      "game_date": "2026-07-25",
+      "observed": 58
+    },
+    {
+      "expected": 65,
+      "game_date": "2026-07-26",
+      "observed": 65
+    },
+    {
+      "expected": 47,
+      "game_date": "2026-07-27",
+      "observed": 47
+    },
+    {
+      "expected": 71,
+      "game_date": "2026-07-28",
+      "observed": 71
+    },
+    {
+      "expected": 70,
+      "game_date": "2026-07-29",
+      "observed": 70
+    },
+    {
+      "expected": 47,
+      "game_date": "2026-07-30",
+      "observed": 47
+    },
+    {
+      "expected": 58,
+      "game_date": "2026-07-31",
+      "observed": 58
+    },
+    {
+      "expected": 77,
+      "game_date": "2026-08-01",
+      "observed": 77
+    },
+    {
+      "expected": 72,
+      "game_date": "2026-08-02",
+      "observed": 72
+    },
+    {
+      "expected": 41,
+      "game_date": "2026-08-03",
+      "observed": 41
+    },
+    {
+      "expected": 62,
+      "game_date": "2026-08-04",
+      "observed": 62
+    },
+    {
+      "expected": 61,
+      "game_date": "2026-08-05",
+      "observed": 61
+    },
+    {
+      "expected": 48,
+      "game_date": "2026-08-06",
+      "observed": 48
+    },
+    {
+      "expected": 65,
+      "game_date": "2026-08-07",
+      "observed": 65
+    },
+    {
+      "expected": 70,
+      "game_date": "2026-08-08",
+      "observed": 70
+    },
+    {
+      "expected": 61,
+      "game_date": "2026-08-09",
+      "observed": 61
+    },
+    {
+      "expected": 47,
+      "game_date": "2026-08-10",
+      "observed": 47
+    },
+    {
+      "expected": 69,
+      "game_date": "2026-08-11",
+      "observed": 69
+    },
+    {
+      "expected": 89,
+      "game_date": "2026-08-12",
+      "observed": 89
+    },
+    {
+      "expected": 44,
+      "game_date": "2026-08-13",
+      "observed": 44
+    },
+    {
+      "expected": 63,
+      "game_date": "2026-08-14",
+      "observed": 63
+    },
+    {
+      "expected": 65,
+      "game_date": "2026-08-15",
+      "observed": 65
+    },
+    {
+      "expected": 65,
+      "game_date": "2026-08-16",
+      "observed": 65
+    },
+    {
+      "expected": 53,
+      "game_date": "2026-08-17",
+      "observed": 53
+    },
+    {
+      "expected": 63,
+      "game_date": "2026-08-18",
+      "observed": 63
+    },
+    {
+      "expected": 66,
+      "game_date": "2026-08-19",
+      "observed": 66
+    },
+    {
+      "expected": 42,
+      "game_date": "2026-08-20",
+      "observed": 42
+    },
+    {
+      "expected": 71,
+      "game_date": "2026-08-21",
+      "observed": 71
+    },
+    {
+      "expected": 62,
+      "game_date": "2026-08-22",
+      "observed": 62
+    },
+    {
+      "expected": 62,
+      "game_date": "2026-08-23",
+      "observed": 62
+    },
+    {
+      "expected": 52,
+      "game_date": "2026-08-24",
+      "observed": 52
+    },
+    {
+      "expected": 91,
+      "game_date": "2026-08-25",
+      "observed": 91
+    },
+    {
+      "expected": 68,
+      "game_date": "2026-08-26",
+      "observed": 68
+    },
+    {
+      "expected": 26,
+      "game_date": "2026-08-27",
+      "observed": 26
+    },
+    {
+      "expected": 79,
+      "game_date": "2026-08-28",
+      "observed": 79
+    },
+    {
+      "expected": 72,
+      "game_date": "2026-08-29",
+      "observed": 72
+    },
+    {
+      "expected": 59,
+      "game_date": "2026-08-30",
+      "observed": 59
+    },
+    {
+      "expected": 55,
+      "game_date": "2026-08-31",
+      "observed": 55
+    },
+    {
+      "expected": 62,
+      "game_date": "2026-09-01",
+      "observed": 62
+    },
+    {
+      "expected": 70,
+      "game_date": "2026-09-02",
+      "observed": 70
+    },
+    {
+      "expected": 40,
+      "game_date": "2026-09-03",
+      "observed": 40
+    },
+    {
+      "expected": 82,
+      "game_date": "2026-09-04",
+      "observed": 82
+    },
+    {
+      "expected": 69,
+      "game_date": "2026-09-05",
+      "observed": 69
+    },
+    {
+      "expected": 75,
+      "game_date": "2026-09-06",
+      "observed": 75
+    },
+    {
+      "expected": 58,
+      "game_date": "2026-09-07",
+      "observed": 58
+    },
+    {
+      "expected": 74,
+      "game_date": "2026-09-08",
+      "observed": 74
+    },
+    {
+      "expected": 59,
+      "game_date": "2026-09-09",
+      "observed": 59
+    }
+  ],
+  "disagreement_count": 3,
+  "expected_official_challenges": 9485,
+  "gate_passed": true,
+  "geometry_method": "abs_2026_circle_rectangle_r1.45in_v1",
+  "matched_challenges": 9485,
+  "monthly_validation": [
+    {
+      "agreement_rate": 1.0,
+      "geometry_agreements": 286,
+      "geometry_disagreements": 0,
+      "month": "2026-03",
+      "official_challenges": 286
+    },
+    {
+      "agreement_rate": 1.0,
+      "geometry_agreements": 1642,
+      "geometry_disagreements": 0,
+      "month": "2026-04",
+      "official_challenges": 1642
+    },
+    {
+      "agreement_rate": 1.0,
+      "geometry_agreements": 1700,
+      "geometry_disagreements": 0,
+      "month": "2026-05",
+      "official_challenges": 1700
+    },
+    {
+      "agreement_rate": 0.9982373678025852,
+      "geometry_agreements": 1699,
+      "geometry_disagreements": 3,
+      "month": "2026-06",
+      "official_challenges": 1702
+    },
+    {
+      "agreement_rate": 1.0,
+      "geometry_agreements": 1646,
+      "geometry_disagreements": 0,
+      "month": "2026-07",
+      "official_challenges": 1646
+    },
+    {
+      "agreement_rate": 1.0,
+      "geometry_agreements": 1920,
+      "geometry_disagreements": 0,
+      "month": "2026-08",
+      "official_challenges": 1920
+    },
+    {
+      "agreement_rate": 1.0,
+      "geometry_agreements": 589,
+      "geometry_disagreements": 0,
+      "month": "2026-09",
+      "official_challenges": 589
+    }
+  ],
+  "official_challenges": 9485,
+  "stop_reasons": [],
+  "uncomparable_challenges": 0,
+  "unmatched_challenges": 0
+}

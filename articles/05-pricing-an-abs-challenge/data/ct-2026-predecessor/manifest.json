@@ -1,0 +1,63 @@
+{
+  "bootstrap_replicates": 500,
+  "bootstrap_seed": 20260926,
+  "build_status": "FAIL",
+  "code_sha256": {
+    "build_ct2026.py": "5f27fbbf2e16c7f06d1732d5f80535004b7a36ce5101289e1303d9faae96dcdb",
+    "ct2026_core.py": "b262aa087877b92a47bdfec3ed8f91659a188607432ed0ce266a94ebd08e1929",
+    "shared_build_support.py": "2b21766fff2d1070f234b2a03f32c92b2ace529d7ce028ff1a2e9aabdd090a40"
+  },
+  "inputs": {
+    "data/full_season/processed/challenges.csv": "f7219096dab291b9209c96c17f9aa737a707e346eb363ead145bfdedc7a18c5d",
+    "data/full_season/processed/pitches.csv": "6755bc3175960e52bbe48ae17793f1faec059e8359b0018707d792dea11894e0",
+    "research/article4/output/article4_re288_table.csv": "27a5c636235da56b4b6e4b78fcc91061be48e0b0f91780a959cfad9366564f10",
+    "research/article5/CT2026_SPEC.md": "4e6643f8715636ae74c7df1e78b89cad753e8bc584ac8e3f21b17304ed28a574",
+    "research/article5/CT2026_SPEC.sha256": "03db3af39d46476fdbb573f761a54b58cd00da81c2bdc266c1097eeb9b886759",
+    "research/article5/PREREGISTRATION.md": "73e70c487e20358a5a7a312a5fb3e4b47426ff7a06fc57a7aa98db85db60f977",
+    "research/article5/PREREGISTRATION.sha256": "96c8ab398d8455b2df4945b7b418a2ce81f44ccbcacff6879a32e10684ebbe04"
+  },
+  "outputs": {
+    "VALIDATION.md": {
+      "bytes": 653,
+      "sha256": "c29aedff3e1c3543e064159b98b015839695f419b8cb8c411ba198f214c8fba4"
+    },
+    "ct2026_examples.csv": {
+      "bytes": 3109,
+      "sha256": "d473021e2a32597ec26534294b0e47a20cbce8ddb28bcd5a489d2639a83b8880"
+    },
+    "ct2026_game_values.csv": {
+      "bytes": 295237,
+      "sha256": "7776eab8fb3016afafb40a4c1560d9c212d1ac4ba72b454bdfdeb36833b9c773"
+    },
+    "ct2026_inventory_schedule.csv": {
+      "bytes": 1056782,
+      "sha256": "bd3f15e5cb90de3fc672c8f3722fc542751a52dedfffe689e384f71ca25d8914"
+    },
+    "ct2026_policy_audit.csv": {
+      "bytes": 1833,
+      "sha256": "1d3b9c8b2ad21c6b7acf66956b375296f543cb7428e418a7ebeacd08e4d37a7e"
+    },
+    "ct2026_sampling_intervals.csv": {
+      "bytes": 72589,
+      "sha256": "18694ba4a190905e06a05831509a10efb5fbe238b91e96491478bbc2e87fb22c"
+    },
+    "ct2026_sensitivity.csv": {
+      "bytes": 51594632,
+      "sha256": "179af33813824cb46f3d610c009f16a61c26d5dce3f1b5bcf922869eff52061d"
+    },
+    "ct2026_table.csv": {
+      "bytes": 19246655,
+      "sha256": "983cc18e9a2ebe7c14f8ed83f658b54ea4a8336c9e1b8161ca298d58ddda223b"
+    },
+    "validation.json": {
+      "bytes": 2997,
+      "sha256": "620ad5662819f1a52cc8811e7da619640761f069d8f38b254b5c2174653f5f61"
+    }
+  },
+  "software": {
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "python": "3.9.6"
+  },
+  "version": "CT-2026.1"
+}

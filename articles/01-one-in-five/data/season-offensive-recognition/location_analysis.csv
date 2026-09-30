@@ -1,0 +1,9 @@
+dimension,value,opportunities,recognized,not_recognized,recognition_rate,small_sample_warning,display_rate
+miss_side,ABOVE,2356,371,1985,0.157470288625,False,15.7%
+miss_side,ABOVE_INSIDE,62,10,52,0.161290322581,False,16.1%
+miss_side,ABOVE_OUTSIDE,146,41,105,0.280821917808,False,28.1%
+miss_side,BELOW,2646,680,1966,0.256991685563,False,25.7%
+miss_side,BELOW_INSIDE,145,58,87,0.4,False,40.0%
+miss_side,BELOW_OUTSIDE,293,71,222,0.242320819113,False,24.2%
+miss_side,INSIDE,1321,238,1083,0.1801665405,False,18.0%
+miss_side,OUTSIDE,3786,643,3143,0.169836238774,False,17.0%

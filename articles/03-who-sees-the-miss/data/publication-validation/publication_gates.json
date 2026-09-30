@@ -1,0 +1,42 @@
+[
+  {
+    "gate": "Methodology",
+    "result": "PASS",
+    "basis": "Accepted Sprint 4 methods and artifacts were verified and left unchanged."
+  },
+  {
+    "gate": "Claim Accuracy",
+    "result": "PASS",
+    "basis": "The final claims matrix restricts claims to future prediction, adjusted behavior, and moderate within-season repeatability."
+  },
+  {
+    "gate": "Uncertainty Communication",
+    "result": "PASS",
+    "basis": "Publication policy requires opportunity counts, shrinkage, intervals, and explicit treatment of overlapping adjacent ranks."
+  },
+  {
+    "gate": "Leaderboard Publication",
+    "result": "PASS",
+    "basis": "A top-10 article display and frozen top-25 download are supportable under the specified controls; bottom rankings are omitted."
+  },
+  {
+    "gate": "Prior-Work Positioning",
+    "result": "PASS",
+    "basis": "The memo credits official, journalistic, independent, SABR, and academic work and makes no priority claim."
+  },
+  {
+    "gate": "Novelty / Differentiation",
+    "result": "PASS",
+    "basis": "Differentiation is limited to the held-out batter-history test inside Pascal's accepted population and evidence architecture."
+  },
+  {
+    "gate": "Figure Data",
+    "result": "PASS",
+    "basis": "Every publication figure dataset is a byte-identical frozen copy of an accepted Sprint 4 artifact."
+  },
+  {
+    "gate": "Article 3",
+    "result": "READY_TO_DRAFT",
+    "basis": "The quantitative basis, claims, uncertainty rules, positioning, and frozen data are publication-ready; drafting remains a separate step."
+  }
+]

@@ -1,0 +1,5 @@
+entity_type,number_of_entities,minimum,percentile_25,median,percentile_75,maximum,entities_with_10_plus,entities_with_20_plus,entities_with_30_plus,entities_with_50_plus,publishing_threshold,ranking_threshold
+batter,602,1,6,15,27,73,384,243,123,14,20,30
+pitcher,740,1,4,10,20,79,377,189,113,19,20,30
+catcher,110,1,32,84.5,161.5,286,100,92,86,70,20,30
+umpire,91,18,99.5,119,136.5,187,91,90,90,88,20,30

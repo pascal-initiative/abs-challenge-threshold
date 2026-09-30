@@ -1,0 +1,5 @@
+figure,decision,article_use,publication_rule
+Raw vs adjusted recognition,INCLUDE,Primary explanatory figure,Plot all 243 publication-eligible batters; encode opportunity support; show uncertainty; explain that adjustment is model-based.
+Temporal stability,INCLUDE,Evidence and guardrail for repeatability,Use 168 supported batters and print Spearman 0.474 with its 0.333–0.592 interval; avoid a permanent-skill caption.
+Adjusted leaderboard,OPTIONAL,Top-10 table or compact interval plot,"Main article: at most top 10. Download: frozen top 25. Always retain opportunities, raw/expected rates, shrinkage estimate, and interval; ranks are point-order only."
+Player case-study comparison,INCLUDE,Explain why adjustment changes interpretation,"Use only Harper, Kurtz, and Aranda from the accepted artifact; show intervals and avoid negative ability labels."

@@ -1,0 +1,92 @@
+[
+  {
+    "accepted_adjusted_leaderboard_rank": 1,
+    "batter_id": 547180,
+    "batter": "Bryce Harper",
+    "recognized_count_sort_position": 2,
+    "recognized": 21,
+    "opportunities": 31,
+    "adjusted_effect": 0.366682770568
+  },
+  {
+    "accepted_adjusted_leaderboard_rank": 2,
+    "batter_id": 676609,
+    "batter": "José Caballero",
+    "recognized_count_sort_position": 7,
+    "recognized": 17,
+    "opportunities": 32,
+    "adjusted_effect": 0.258689188093
+  },
+  {
+    "accepted_adjusted_leaderboard_rank": 3,
+    "batter_id": 694384,
+    "batter": "Nolan Schanuel",
+    "recognized_count_sort_position": 4,
+    "recognized": 20,
+    "opportunities": 39,
+    "adjusted_effect": 0.256130829049
+  },
+  {
+    "accepted_adjusted_leaderboard_rank": 4,
+    "batter_id": 701398,
+    "batter": "Sal Stewart",
+    "recognized_count_sort_position": 1,
+    "recognized": 27,
+    "opportunities": 49,
+    "adjusted_effect": 0.242390868294
+  },
+  {
+    "accepted_adjusted_leaderboard_rank": 5,
+    "batter_id": 514888,
+    "batter": "Jose Altuve",
+    "recognized_count_sort_position": 3,
+    "recognized": 20,
+    "opportunities": 43,
+    "adjusted_effect": 0.203889914103
+  },
+  {
+    "accepted_adjusted_leaderboard_rank": 7,
+    "batter_id": 668709,
+    "batter": "JJ Bleday",
+    "recognized_count_sort_position": 10,
+    "recognized": 15,
+    "opportunities": 31,
+    "adjusted_effect": 0.15481387382
+  },
+  {
+    "accepted_adjusted_leaderboard_rank": 13,
+    "batter_id": 805808,
+    "batter": "Kevin McGonigle",
+    "recognized_count_sort_position": 6,
+    "recognized": 18,
+    "opportunities": 51,
+    "adjusted_effect": 0.0985154719361
+  },
+  {
+    "accepted_adjusted_leaderboard_rank": 14,
+    "batter_id": 807712,
+    "batter": "Luke Keaschall",
+    "recognized_count_sort_position": 9,
+    "recognized": 16,
+    "opportunities": 48,
+    "adjusted_effect": 0.0980849197064
+  },
+  {
+    "accepted_adjusted_leaderboard_rank": 18,
+    "batter_id": 593428,
+    "batter": "Xander Bogaerts",
+    "recognized_count_sort_position": 5,
+    "recognized": 18,
+    "opportunities": 55,
+    "adjusted_effect": 0.0932230113408
+  },
+  {
+    "accepted_adjusted_leaderboard_rank": 25,
+    "batter_id": 672695,
+    "batter": "Geraldo Perdomo",
+    "recognized_count_sort_position": 8,
+    "recognized": 16,
+    "opportunities": 53,
+    "adjusted_effect": 0.0740264578732
+  }
+]

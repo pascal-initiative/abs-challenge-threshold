@@ -1,0 +1,4 @@
+inning_group,opportunities,recognized,not_recognized,recognition_rate
+EARLY,3605,591,3014,0.163938973648
+LATE,3327,811,2516,0.243763149985
+MIDDLE,3823,710,3113,0.185718022495

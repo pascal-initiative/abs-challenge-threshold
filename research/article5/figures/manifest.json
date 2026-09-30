@@ -1,0 +1,33 @@
+{
+  "environment": {
+    "matplotlib": "3.9.4",
+    "python": "3.9.6"
+  },
+  "inputs": {
+    "research/article5/CT_S1_FIGURE_SPEC.json": "7637a28e1a4e6babc67206400117ab6fbefc2b1aa59e2aeffaeb3172425ad40a",
+    "research/article5/CT_S1_PUBLIC_CLAIMS.json": "7164ad50bfe306d6fd4605830d85de2d4ae01f15d276a343f54f8fb0e361d99a"
+  },
+  "metric_version": "ct-s1.0",
+  "outputs": {
+    "FIGURE_REVIEW.md": "5b235147306382d84b5278a4fe2853d7ec5d5422695f2ee9580344d9131d4f62",
+    "rendered/figure1_three_prices.png": "9cd718d206c812f3b7157cb94dd9feedbfd3b135363670ce8469880dea62ba34",
+    "rendered/figure1_three_prices.svg": "b9d233c2537cdeea10e4955d47cb73c464f4ee5ca7306e1a4be33d975d11663e",
+    "rendered/figure2_one_state_two_counts.png": "e5efce010148ce33b491a37d02cccff193eb1a685defd98f69c709eb3654351b",
+    "rendered/figure2_one_state_two_counts.svg": "ea96abe840783b4bf1c77e9114693ccc02657f02345cb72804688bdc8d704cde",
+    "rendered/figure3_two_uncertainties.png": "28eb233c01a2637d97a44bab80a5b405619f6de09e4ce1abdabad0f684106df2",
+    "rendered/figure3_two_uncertainties.svg": "f2303cc940d8a2ff3c2cb25082397b73d3d91fe1646ad2ac77c5d01baf2e17ca",
+    "rendered/figure4_stability_and_disagreement.png": "49ffad82dd8cf8a7ec999415c7acd5bf543a57874a5229c497042d01019cca72",
+    "rendered/figure4_stability_and_disagreement.svg": "865cd8e224a2aa8ef02565c22ee8d971a4f91a69e4a3e750da5d22f275730f15",
+    "source/figure1_three_prices.csv": "4052eae2f9aedbfd2e12e27ef0f933ce248f4762f47fed89715a07e2f193cda4",
+    "source/figure2_one_state_two_counts.csv": "450ed55064b23c59df67ae372198bbc5a4d2efb29301981a492bdfde572a748d",
+    "source/figure3_two_uncertainties.csv": "9e26f7416a412abc1a9dc976271291f23eaaa6b78d3e52cc8ce2c780f24ad5a4",
+    "source/figure4_stability_and_disagreement.csv": "d685b6a1a28fb9b685d762a40714b88f46cbf09c57a5fd1c7fd3a879f8cc4598"
+  },
+  "research_identity": "CT-S1",
+  "restrictions": {
+    "playbook_authorized": false,
+    "player_grading_authorized": false,
+    "site_deployment_authorized": false
+  },
+  "status": "PASS_FIGURES_READY_FOR_EDITORIAL_REVIEW"
+}

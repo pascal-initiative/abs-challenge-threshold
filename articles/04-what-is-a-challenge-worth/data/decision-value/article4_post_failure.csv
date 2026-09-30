@@ -1,0 +1,18 @@
+table,level,n,challenge_rate,mean_ev,mean_net,model,term,odds_ratio,ci_low,ci_high,p_value
+raw_by_inventory_state,INV1_EXTRA_INNING_GRANT,89,0.325843,0.0934797,0.0888444,,,,,,
+raw_by_inventory_state,INV1_FAILURE_4_TO_12_PA,1406,0.22973,0.0814988,0.0634351,,,,,,
+raw_by_inventory_state,INV1_FAILURE_MORE_THAN_12_PA,3551,0.232047,0.0806161,0.0678348,,,,,,
+raw_by_inventory_state,INV1_FAILURE_WITHIN_3_PA,661,0.22239,0.0891724,0.0699547,,,,,,
+raw_by_inventory_state,INV2_AFTER_PRIOR_SUCCESS,4903,0.30104,0.0819346,0.0792771,,,,,,
+raw_by_inventory_state,INV2_NO_PRIOR_CHALLENGE_SUCCESS,9378,0.238217,0.0813192,0.0762553,,,,,,
+adjusted_or_vs_inv2_no_prior,INV1_FAILURE_4_TO_12_PA,19899,,,,inv_state_net_adjusted,"C(inv_state, Treatment('INV2_NO_PRIOR_CHALLENGE_SUCCESS'))[T.INV1_FAILURE_4_TO_12_PA]",0.87988,0.759025,1.01998,0.0895887
+adjusted_or_vs_inv2_no_prior,INV1_FAILURE_MORE_THAN_12_PA,19899,,,,inv_state_net_adjusted,"C(inv_state, Treatment('INV2_NO_PRIOR_CHALLENGE_SUCCESS'))[T.INV1_FAILURE_MORE_THAN_12_PA]",0.778365,0.694537,0.872311,1.63506e-05
+adjusted_or_vs_inv2_no_prior,INV1_FAILURE_WITHIN_3_PA,19899,,,,inv_state_net_adjusted,"C(inv_state, Treatment('INV2_NO_PRIOR_CHALLENGE_SUCCESS'))[T.INV1_FAILURE_WITHIN_3_PA]",0.783159,0.637074,0.962743,0.0203177
+adjusted_or_vs_inv2_no_prior,INV2_AFTER_PRIOR_SUCCESS,19899,,,,inv_state_net_adjusted,"C(inv_state, Treatment('INV2_NO_PRIOR_CHALLENGE_SUCCESS'))[T.INV2_AFTER_PRIOR_SUCCESS]",1.22368,1.11532,1.34256,1.97962e-05
+within_inv1_failure_context,log_pas,5618,,,,within_inv1,log_pas,0.968126,0.896672,1.04527,0.40763
+within_inv1_failure_context,same_side_i,5618,,,,within_inv1,same_side_i,0.933701,0.787866,1.10653,0.428538
+within_inv1_failure_context,same_player_i,5618,,,,within_inv1,same_player_i,0.717799,0.585094,0.880604,0.00147756
+adjusted_or_team_fe,INV1_FAILURE_4_TO_12_PA,19899,,,,inv_state_net_adjusted_team_fe,"C(inv_state, Treatment('INV2_NO_PRIOR_CHALLENGE_SUCCESS'))[T.INV1_FAILURE_4_TO_12_PA]",0.853979,0.736717,0.989905,0.0362068
+adjusted_or_team_fe,INV1_FAILURE_MORE_THAN_12_PA,19899,,,,inv_state_net_adjusted_team_fe,"C(inv_state, Treatment('INV2_NO_PRIOR_CHALLENGE_SUCCESS'))[T.INV1_FAILURE_MORE_THAN_12_PA]",0.746753,0.665304,0.838172,7.20022e-07
+adjusted_or_team_fe,INV1_FAILURE_WITHIN_3_PA,19899,,,,inv_state_net_adjusted_team_fe,"C(inv_state, Treatment('INV2_NO_PRIOR_CHALLENGE_SUCCESS'))[T.INV1_FAILURE_WITHIN_3_PA]",0.750014,0.608687,0.924157,0.00692612
+adjusted_or_team_fe,INV2_AFTER_PRIOR_SUCCESS,19899,,,,inv_state_net_adjusted_team_fe,"C(inv_state, Treatment('INV2_NO_PRIOR_CHALLENGE_SUCCESS'))[T.INV2_AFTER_PRIOR_SUCCESS]",1.19516,1.0887,1.31202,0.000180166

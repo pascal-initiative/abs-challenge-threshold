@@ -1,0 +1,15 @@
+{
+  "status": "VERIFIED_UNCHANGED",
+  "accepted_sprint4_manifest": "artifacts/sprint4/run_manifest.json",
+  "accepted_sprint4_manifest_sha256": "a7d68a88c60ac3b9247f23b77e7bb66283578560b9ef6a2d0c8547bdc45fde3a",
+  "accepted_sprint4_hash_list_sha256": "9274a9921f52ad8fe96b334f02368542c960631f5c5ca671fff841ea85230905",
+  "accepted_sprint3_manifest_sha256": "58abbfabb9318692e14199dcd6099fe847ae6497ef27e84e22cea45f9b5561d0",
+  "verified_sprint4_outputs": 72,
+  "population": {
+    "analysis_end_date": "2026-09-09",
+    "analysis_start_date": "2026-03-25",
+    "legal_recognition_opportunities": 10755,
+    "not_recognized": 8643,
+    "recognized": 2112
+  }
+}

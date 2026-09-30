@@ -1,0 +1,3 @@
+model,n,challenges,log_loss,brier,auc,calibration_intercept,calibration_slope
+distance_and_hand_only,2830,567,0.4856739183,0.15510831,0.6323394286,0.2061938034,1.126144473
+A_full_geometry,2830,567,0.4770157955,0.1525726899,0.6639155621,0.2334781655,1.127968162

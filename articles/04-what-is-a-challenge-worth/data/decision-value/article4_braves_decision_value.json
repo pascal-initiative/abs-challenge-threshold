@@ -1,0 +1,48 @@
+{
+  "counterfactual_states": {
+    "bichette_out_inning_over": {
+      "class": "IMMEDIATE_EXCEEDS_PRESERVATION",
+      "correction_value": 0.919266,
+      "gross_immediate_ev": 0.48797893188320757,
+      "net_vs_league_behavior_cost": 0.47921917239195455
+    },
+    "bichette_safe_at_second": {
+      "class": "IMMEDIATE_EXCEEDS_PRESERVATION",
+      "correction_value": 0.612194,
+      "gross_immediate_ev": 0.3249742449142124,
+      "net_vs_league_behavior_cost": 0.3162144854229594
+    },
+    "recorded_no_runner_action": {
+      "class": "IMMEDIATE_EXCEEDS_PRESERVATION",
+      "correction_value": 0.6865910000000001,
+      "gross_immediate_ev": 0.36446680593062664,
+      "net_vs_league_behavior_cost": 0.3557070464393736
+    }
+  },
+  "decision_time_inputs": {
+    "half": "top",
+    "inning": 1,
+    "inventory": 2,
+    "nearest_edge": "INSIDE",
+    "outs": 1,
+    "role": "HOME (Braves fielding)",
+    "unsigned_distance_in": 2.74377
+  },
+  "marginal_option_value_second_challenge": 0.018670972685658066,
+  "not_in_sources": [
+    "steal attempt",
+    "catcher throw",
+    "call at second",
+    "attempted hat-tap challenge"
+  ],
+  "p_success": 0.5308353968092017,
+  "pitch_key": "824887:3:7",
+  "preservation_cost_league_behavior": 0.008759759491253,
+  "preservation_cost_range": [
+    0.008314896074778136,
+    0.05412621705541353
+  ],
+  "realized_outcome_for_contrast_only": "Four more Mets runs scored in the inning. That realized outcome is not the decision-time value or cost.",
+  "resource_independent_challenge_propensity": 0.5638516594760501,
+  "what_happened": "Called ball four on a 3-2 pitch to Benge with one out and Bichette on first; no official challenge recorded; Baty grand slam three batters later; final NYM 8, ATL 5."
+}

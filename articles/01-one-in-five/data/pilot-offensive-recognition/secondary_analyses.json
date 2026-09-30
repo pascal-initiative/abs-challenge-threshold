@@ -1,0 +1,197 @@
+{
+  "controlled_marginal_estimates": {
+    "affected_team_challenges_remaining": [
+      {
+        "average_adjusted_probability": 0.17561106310537145,
+        "value": 1
+      },
+      {
+        "average_adjusted_probability": 0.20882047568479423,
+        "value": 2
+      }
+    ],
+    "inning": [
+      {
+        "average_adjusted_probability": 0.18205288902456962,
+        "value": 2
+      },
+      {
+        "average_adjusted_probability": 0.19856833820609268,
+        "value": 5
+      },
+      {
+        "average_adjusted_probability": 0.2160751996415808,
+        "value": 8
+      }
+    ],
+    "pitch_family": [
+      {
+        "average_adjusted_probability": 0.21938563222806343,
+        "value": "CHANGEUP"
+      },
+      {
+        "average_adjusted_probability": 0.3308228914623372,
+        "value": "CURVEBALL"
+      },
+      {
+        "average_adjusted_probability": 0.1478015066236103,
+        "value": "CUTTER"
+      },
+      {
+        "average_adjusted_probability": 0.17643955800565042,
+        "value": "FOUR_SEAM"
+      },
+      {
+        "average_adjusted_probability": 0.3475866110613038,
+        "value": "OTHER"
+      },
+      {
+        "average_adjusted_probability": 0.16636500150348058,
+        "value": "SINKER"
+      },
+      {
+        "average_adjusted_probability": 0.2787994475263349,
+        "value": "SLIDER"
+      },
+      {
+        "average_adjusted_probability": 0.22254502126265596,
+        "value": "SPLITTER"
+      },
+      {
+        "average_adjusted_probability": 0.296899594602273,
+        "value": "SWEEPER"
+      }
+    ]
+  },
+  "identity_signal": {
+    "batter": "insufficient sample",
+    "catcher": "no detectable pilot signal",
+    "pitcher": "insufficient sample",
+    "umpire": "no detectable pilot signal"
+  },
+  "identity_support": {
+    "batter_id": {
+      "groups": 257,
+      "groups_n_ge_10": 0,
+      "groups_n_ge_5": 7,
+      "maximum": 7,
+      "median": 2.0,
+      "minimum": 1,
+      "p25": 1.0,
+      "p75": 2.0
+    },
+    "catcher_id": {
+      "groups": 64,
+      "groups_n_ge_10": 22,
+      "groups_n_ge_5": 48,
+      "maximum": 18,
+      "median": 7.0,
+      "minimum": 1,
+      "p25": 4.75,
+      "p75": 10.0
+    },
+    "pitcher_id": {
+      "groups": 249,
+      "groups_n_ge_10": 0,
+      "groups_n_ge_5": 9,
+      "maximum": 8,
+      "median": 2.0,
+      "minimum": 1,
+      "p25": 1.0,
+      "p75": 3.0
+    },
+    "umpire_id": {
+      "groups": 61,
+      "groups_n_ge_10": 18,
+      "groups_n_ge_5": 48,
+      "maximum": 20,
+      "median": 7.0,
+      "minimum": 2,
+      "p25": 5.0,
+      "p75": 10.0
+    }
+  },
+  "pitch_type": [
+    {
+      "mean_boundary_distance_inches": 0.9792533605005319,
+      "model_adjusted_recognition_estimate": 0.21938563222806343,
+      "opportunities": 33,
+      "pitch_family": "CHANGEUP",
+      "recognition_rate": 0.18181818181818182,
+      "recognized": 6,
+      "supported_n_ge_20": true
+    },
+    {
+      "mean_boundary_distance_inches": 0.975365647744796,
+      "model_adjusted_recognition_estimate": 0.3308228914623372,
+      "opportunities": 45,
+      "pitch_family": "CURVEBALL",
+      "recognition_rate": 0.17777777777777778,
+      "recognized": 8,
+      "supported_n_ge_20": true
+    },
+    {
+      "mean_boundary_distance_inches": 0.9851066551563488,
+      "model_adjusted_recognition_estimate": 0.1478015066236103,
+      "opportunities": 48,
+      "pitch_family": "CUTTER",
+      "recognition_rate": 0.125,
+      "recognized": 6,
+      "supported_n_ge_20": true
+    },
+    {
+      "mean_boundary_distance_inches": 0.9502209497125004,
+      "model_adjusted_recognition_estimate": 0.17643955800565042,
+      "opportunities": 155,
+      "pitch_family": "FOUR_SEAM",
+      "recognition_rate": 0.2129032258064516,
+      "recognized": 33,
+      "supported_n_ge_20": true
+    },
+    {
+      "mean_boundary_distance_inches": 1.1760830352509208,
+      "model_adjusted_recognition_estimate": 0.3475866110613038,
+      "opportunities": 1,
+      "pitch_family": "OTHER",
+      "recognition_rate": 1.0,
+      "recognized": 1,
+      "supported_n_ge_20": false
+    },
+    {
+      "mean_boundary_distance_inches": 1.135551894804329,
+      "model_adjusted_recognition_estimate": 0.16636500150348058,
+      "opportunities": 110,
+      "pitch_family": "SINKER",
+      "recognition_rate": 0.19090909090909092,
+      "recognized": 21,
+      "supported_n_ge_20": true
+    },
+    {
+      "mean_boundary_distance_inches": 1.1213736775732912,
+      "model_adjusted_recognition_estimate": 0.2787994475263349,
+      "opportunities": 54,
+      "pitch_family": "SLIDER",
+      "recognition_rate": 0.24074074074074073,
+      "recognized": 13,
+      "supported_n_ge_20": true
+    },
+    {
+      "mean_boundary_distance_inches": 0.7689639362441885,
+      "model_adjusted_recognition_estimate": 0.22254502126265596,
+      "opportunities": 10,
+      "pitch_family": "SPLITTER",
+      "recognition_rate": 0.1,
+      "recognized": 1,
+      "supported_n_ge_20": false
+    },
+    {
+      "mean_boundary_distance_inches": 1.0029169558678175,
+      "model_adjusted_recognition_estimate": 0.296899594602273,
+      "opportunities": 28,
+      "pitch_family": "SWEEPER",
+      "recognition_rate": 0.25,
+      "recognized": 7,
+      "supported_n_ge_20": true
+    }
+  ]
+}

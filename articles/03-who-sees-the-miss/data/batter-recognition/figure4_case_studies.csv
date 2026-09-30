@@ -1,0 +1,4 @@
+batter_id,batter_name,opportunities,recognized,raw_recognition_rate,expected_recognition_rate,adjusted_effect,uncertainty_lower,uncertainty_upper,support_classification,reason
+547180,Bryce Harper,31,21,0.677419354839,0.206254723471,0.366682770568,0.223057591853,0.502491251722,RANKING_ELIGIBLE,Strongly supported high adjusted recognizer
+701762,Nick Kurtz,39,9,0.230769230769,0.26620812999,-0.0296100213949,-0.119819666197,0.0823892992704,RANKING_ELIGIBLE,Standing declines materially after opportunity adjustment
+666018,Jonathan Aranda,43,9,0.209302325581,0.204462869738,0.00035356044363,-0.0866694022199,0.113284699728,RANKING_ELIGIBLE,Well-supported comparison batter near contextual expectation

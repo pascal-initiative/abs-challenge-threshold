@@ -1,0 +1,75 @@
+{
+  "build_status": "PASS",
+  "conditions": {
+    "all_scenario_policy_team_games_present": true,
+    "bootstrap_rows_complete": true,
+    "descriptive_team_games_reconcile": true,
+    "dynamic_dominates_simple": true,
+    "game_clusters_reconcile": true,
+    "observed_legal_decisions_reconcile": true,
+    "shuffle_auc_in_falsification_range": true,
+    "static_lookup_complete": true,
+    "team_games_reconcile": true,
+    "values_finite": true,
+    "values_nonnegative": true
+  },
+  "gate": "G9_EFFECT_SIZE",
+  "numerical_benchmark_condition": "PASS",
+  "population": {
+    "exhausted_future_opportunities": 22720,
+    "future_stream_rows": 334948,
+    "invalid_geometry_probability_fallbacks": 172,
+    "legal_called_pitches": 312228,
+    "negative_canonical_values": 0,
+    "nonfinite_canonical_values": 0,
+    "observed_legal_decisions": 312228,
+    "official_challenge_rows": 9485,
+    "pitch_rows": 645793,
+    "public_end": "2026-09-09",
+    "public_geometry_exclusions": 172,
+    "public_geometry_rows": 312056,
+    "public_start": "2026-03-25",
+    "selected_challenge_rows": 9485,
+    "selected_missing_official_outcome": 0,
+    "selected_missing_role": 0,
+    "team_games": 4390
+  },
+  "primary": {
+    "best_simple_mean": 0.5674488074545184,
+    "best_simple_policy": "ev_0.05",
+    "bootstrap_repetitions": 10000,
+    "dynamic_mean": 1.4770659631458005,
+    "effect_dynamic_minus_best_simple": 0.9096171556912821,
+    "games": 2195,
+    "inventory": 2,
+    "lower_95": 0.8946254482102877,
+    "numerical_condition_pass": true,
+    "scenario": "fixed_0.60",
+    "team_games": 4390,
+    "upper_95": 0.9248343022155224
+  },
+  "restrictions": {
+    "dynamic_information": "complete remaining empirical sequence; unavailable at decision time",
+    "game_path_after_correction": "held to observed empirical sequence",
+    "observed_and_oracle": "descriptive only; excluded from comparator set",
+    "playbook_allowed": false,
+    "player_probability": "not identified by G6",
+    "win_probability": "G8 model rejected and not reused"
+  },
+  "scientific_status": "NOT_DEMONSTRATED_NONDEPLOYABLE_UPPER_BENCHMARK",
+  "shuffle": {
+    "auc_condition_pass": true,
+    "auc_required_range": [
+      0.48,
+      0.52
+    ],
+    "in_sample_auc_on_shuffled_labels": 0.5055897219520091,
+    "numerical_advantage_persists": true,
+    "seed": 20260925,
+    "shuffled_positive_rate": 0.0646166072756172,
+    "stream_probability_max": 0.06901404965776504,
+    "stream_probability_mean": 0.06461836906036608,
+    "stream_probability_min": 0.06007916779551478,
+    "training_rows": 312056
+  }
+}

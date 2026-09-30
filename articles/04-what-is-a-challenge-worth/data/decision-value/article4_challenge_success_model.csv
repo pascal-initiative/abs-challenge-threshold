@@ -1,0 +1,74 @@
+n,base_rate,mean_pred,roc_auc,log_loss,brier,calibration_intercept,calibration_slope,ece_10bin,spec,formula,selected,section,term,odds_ratio,ci_low,ci_high,p_value,d,observed,model,b,side,month,db,cross_fitted_pred
+9199,0.53745,0.535993,0.571422,0.681133,0.244032,0.00600234,0.879331,0.011612,S0_coarse_side_count,C(side) + terminal,False,spec_selection_chronological,,,,,,,,,,,,,
+9199,0.53745,0.534607,0.559909,0.686151,0.24589,0.0116926,0.641491,0.0137691,S1_distance_side,"bs(absd, df=4, lower_bound=0, upper_bound=6.0) * C(side)",False,spec_selection_chronological,,,,,,,,,,,,,
+9199,0.53745,0.535382,0.586865,0.678941,0.242572,0.00863147,0.782846,0.0150476,S2_plus_edge_terminal,"bs(absd, df=4, lower_bound=0, upper_bound=6.0) * C(side) + C(edge) + terminal",True,spec_selection_chronological,,,,,,,,,,,,,
+9199,0.53745,0.535684,0.577125,0.687616,0.246214,0.00750558,0.525465,0.0331709,S3_plus_pitch_hand,"bs(absd, df=4, lower_bound=0, upper_bound=6.0) * C(side) + C(edge) + terminal + C(pitch_family) + C(hand)",False,spec_selection_chronological,,,,,,,,,,,,,
+,,,,,,,,,,,,coefficients_full_fit_game_clustered,Intercept,1.28622,1.0145,1.63071,0.0376339,,,,,,,,
+,,,,,,,,,,,,coefficients_full_fit_game_clustered,C(side)[T.OFFENSE],0.930255,0.649264,1.33285,0.693563,,,,,,,,
+,,,,,,,,,,,,coefficients_full_fit_game_clustered,C(edge)[T.INSIDE],0.757352,0.670982,0.854839,6.83635e-06,,,,,,,,
+,,,,,,,,,,,,coefficients_full_fit_game_clustered,C(edge)[T.OUTSIDE],1.10781,1.0028,1.22383,0.0439109,,,,,,,,
+,,,,,,,,,,,,coefficients_full_fit_game_clustered,C(edge)[T.TOP],1.04588,0.922835,1.18532,0.482416,,,,,,,,
+,,,,,,,,,,,,coefficients_full_fit_game_clustered,"bs(absd, df=4, lower_bound=0, upper_bound=6.0)[0]",1.00491,0.691819,1.45969,0.979497,,,,,,,,
+,,,,,,,,,,,,coefficients_full_fit_game_clustered,"bs(absd, df=4, lower_bound=0, upper_bound=6.0)[1]",2.1909,1.27921,3.75234,0.00427742,,,,,,,,
+,,,,,,,,,,,,coefficients_full_fit_game_clustered,"bs(absd, df=4, lower_bound=0, upper_bound=6.0)[2]",1.70446,0.575105,5.05158,0.336058,,,,,,,,
+,,,,,,,,,,,,coefficients_full_fit_game_clustered,"bs(absd, df=4, lower_bound=0, upper_bound=6.0)[3]",2.41373,0.668387,8.71665,0.178624,,,,,,,,
+,,,,,,,,,,,,coefficients_full_fit_game_clustered,"bs(absd, df=4, lower_bound=0, upper_bound=6.0)[0]:C(side)[T.OFFENSE]",0.993569,0.555893,1.77585,0.982629,,,,,,,,
+,,,,,,,,,,,,coefficients_full_fit_game_clustered,"bs(absd, df=4, lower_bound=0, upper_bound=6.0)[1]:C(side)[T.OFFENSE]",0.410059,0.181954,0.924127,0.0315319,,,,,,,,
+,,,,,,,,,,,,coefficients_full_fit_game_clustered,"bs(absd, df=4, lower_bound=0, upper_bound=6.0)[2]:C(side)[T.OFFENSE]",0.748283,0.143232,3.90924,0.731029,,,,,,,,
+,,,,,,,,,,,,coefficients_full_fit_game_clustered,"bs(absd, df=4, lower_bound=0, upper_bound=6.0)[3]:C(side)[T.OFFENSE]",0.0333189,0.00415011,0.267498,0.00137082,,,,,,,,
+,,,,,,,,,,,,coefficients_full_fit_game_clustered,terminal,0.64213,0.590431,0.698357,4.49555e-25,,,,,,,,
+920,,0.375742,,,,,,,,,,calibration_deciles_chronological,,,,,,0,0.381522,success_chronological,,,,,
+920,,0.432138,,,,,,,,,,calibration_deciles_chronological,,,,,,1,0.457609,success_chronological,,,,,
+920,,0.467708,,,,,,,,,,calibration_deciles_chronological,,,,,,2,0.477174,success_chronological,,,,,
+920,,0.501497,,,,,,,,,,calibration_deciles_chronological,,,,,,3,0.56087,success_chronological,,,,,
+920,,0.52454,,,,,,,,,,calibration_deciles_chronological,,,,,,4,0.53587,success_chronological,,,,,
+919,,0.544801,,,,,,,,,,calibration_deciles_chronological,,,,,,5,0.560392,success_chronological,,,,,
+920,,0.570737,,,,,,,,,,calibration_deciles_chronological,,,,,,6,0.522826,success_chronological,,,,,
+920,,0.598479,,,,,,,,,,calibration_deciles_chronological,,,,,,7,0.580435,success_chronological,,,,,
+920,,0.635612,,,,,,,,,,calibration_deciles_chronological,,,,,,8,0.61087,success_chronological,,,,,
+920,,0.702574,,,,,,,,,,calibration_deciles_chronological,,,,,,9,0.686957,success_chronological,,,,,
+10,,0.135451,,,,,,,,,,calibration_by_probability_bucket,,,,,,,0,,"(0.0, 0.2]",,,,
+596,,0.363146,,,,,,,,,,calibration_by_probability_bucket,,,,,,,0.360738,,"(0.2, 0.4]",,,,
+2552,,0.451447,,,,,,,,,,calibration_by_probability_bucket,,,,,,,0.481191,,"(0.4, 0.5]",,,,
+3811,,0.547673,,,,,,,,,,calibration_by_probability_bucket,,,,,,,0.548412,,"(0.5, 0.6]",,,,
+1932,,0.64345,,,,,,,,,,calibration_by_probability_bucket,,,,,,,0.622153,,"(0.6, 0.7]",,,,
+250,,0.725094,,,,,,,,,,calibration_by_probability_bucket,,,,,,,0.688,,"(0.7, 0.8]",,,,
+24,,0.844978,,,,,,,,,,calibration_by_probability_bucket,,,,,,,0.708333,,"(0.8, 0.9]",,,,
+24,,0.967137,,,,,,,,,,calibration_by_probability_bucket,,,,,,,0.833333,,"(0.9, 1.0]",,,,
+4998,0.579832,0.585359,0.572381,0.67607,0.240717,-0.0234176,0.602458,0.0210851,,,,by_side_chronological,,,,,,,,,,DEFENSE,,,
+4201,0.487027,0.475923,0.575898,0.682358,0.244779,0.0453799,1.03145,0.0202814,,,,by_side_chronological,,,,,,,,,,OFFENSE,,,
+1642,0.532887,0.547178,0.607437,0.680101,0.240936,-0.060073,0.666412,0.0152086,,,,by_month_chronological,,,,,,,,,,,2026-04,,
+1700,0.518824,0.53131,0.565464,0.687842,0.247306,-0.0522168,0.608342,0.0577682,,,,by_month_chronological,,,,,,,,,,,2026-05,,
+1702,0.545828,0.524238,0.599439,0.672849,0.240159,0.0896923,1.02167,0.0292532,,,,by_month_chronological,,,,,,,,,,,2026-06,,
+1646,0.535844,0.535845,0.606377,0.669962,0.23874,-1.67611e-06,1.13492,0.0291627,,,,by_month_chronological,,,,,,,,,,,2026-07,,
+1920,0.549479,0.538064,0.562121,0.683727,0.245322,0.047694,0.625287,0.0456655,,,,by_month_chronological,,,,,,,,,,,2026-08,,
+589,0.544992,0.536414,0.58517,0.677116,0.242187,0.0357437,0.843404,0.0171027,,,,by_month_chronological,,,,,,,,,,,2026-09,,
+1410,,,,,,,,,,,,success_by_unsigned_distance,,,,,,,0.535461,,,DEFENSE,,"(-0.001, 0.5]",0.525962
+1221,,,,,,,,,,,,success_by_unsigned_distance,,,,,,,0.54136,,,DEFENSE,,"(0.5, 1.0]",0.558146
+942,,,,,,,,,,,,success_by_unsigned_distance,,,,,,,0.582803,,,DEFENSE,,"(1.0, 1.5]",0.591801
+679,,,,,,,,,,,,success_by_unsigned_distance,,,,,,,0.633284,,,DEFENSE,,"(1.5, 2.0]",0.620654
+652,,,,,,,,,,,,success_by_unsigned_distance,,,,,,,0.668712,,,DEFENSE,,"(2.0, 3.0]",0.646871
+194,,,,,,,,,,,,success_by_unsigned_distance,,,,,,,0.623711,,,DEFENSE,,"(3.0, 4.0]",0.670284
+52,,,,,,,,,,,,success_by_unsigned_distance,,,,,,,0.673077,,,DEFENSE,,"(4.0, 6.01]",0.672264
+1015,,,,,,,,,,,,success_by_unsigned_distance,,,,,,,0.495567,,,OFFENSE,,"(-0.001, 0.5]",0.497581
+937,,,,,,,,,,,,success_by_unsigned_distance,,,,,,,0.502668,,,OFFENSE,,"(0.5, 1.0]",0.495792
+780,,,,,,,,,,,,success_by_unsigned_distance,,,,,,,0.484615,,,OFFENSE,,"(1.0, 1.5]",0.494487
+597,,,,,,,,,,,,success_by_unsigned_distance,,,,,,,0.527638,,,OFFENSE,,"(1.5, 2.0]",0.49321
+668,,,,,,,,,,,,success_by_unsigned_distance,,,,,,,0.449102,,,OFFENSE,,"(2.0, 3.0]",0.488887
+228,,,,,,,,,,,,success_by_unsigned_distance,,,,,,,0.495614,,,OFFENSE,,"(3.0, 4.0]",0.448943
+110,,,,,,,,,,,,success_by_unsigned_distance,,,,,,,0.290909,,,OFFENSE,,"(4.0, 6.01]",0.295503
+185688,0.112958,0.113823,0.86351,0.255952,0.0798215,-0.0107791,1.01861,0.00189169,PUBLIC_INFORMATION_incorrect_call_rate_all_called_pitches,,,public_information_benchmark_chronological,,,,,,,,,,,,,
+8804,,,,,,,,,,,,public_information_incorrect_rate_by_unsigned_distance,,,,,,,0.435257,,,DEFENSE,,"(-0.001, 0.5]",
+8764,,,,,,,,,,,,public_information_incorrect_rate_by_unsigned_distance,,,,,,,0.293359,,,DEFENSE,,"(0.5, 1.0]",
+8885,,,,,,,,,,,,public_information_incorrect_rate_by_unsigned_distance,,,,,,,0.183568,,,DEFENSE,,"(1.0, 1.5]",
+9048,,,,,,,,,,,,public_information_incorrect_rate_by_unsigned_distance,,,,,,,0.111185,,,DEFENSE,,"(1.5, 2.0]",
+18268,,,,,,,,,,,,public_information_incorrect_rate_by_unsigned_distance,,,,,,,0.0462557,,,DEFENSE,,"(2.0, 3.0]",
+18613,,,,,,,,,,,,public_information_incorrect_rate_by_unsigned_distance,,,,,,,0.0104765,,,DEFENSE,,"(3.0, 4.0]",
+35104,,,,,,,,,,,,public_information_incorrect_rate_by_unsigned_distance,,,,,,,0.00125342,,,DEFENSE,,"(4.0, 6.01]",
+8888,,,,,,,,,,,,public_information_incorrect_rate_by_unsigned_distance,,,,,,,0.439356,,,OFFENSE,,"(-0.001, 0.5]",
+9122,,,,,,,,,,,,public_information_incorrect_rate_by_unsigned_distance,,,,,,,0.326025,,,OFFENSE,,"(0.5, 1.0]",
+8809,,,,,,,,,,,,public_information_incorrect_rate_by_unsigned_distance,,,,,,,0.224089,,,OFFENSE,,"(1.0, 1.5]",
+8541,,,,,,,,,,,,public_information_incorrect_rate_by_unsigned_distance,,,,,,,0.145885,,,OFFENSE,,"(1.5, 2.0]",
+15299,,,,,,,,,,,,public_information_incorrect_rate_by_unsigned_distance,,,,,,,0.0740571,,,OFFENSE,,"(2.0, 3.0]",
+13355,,,,,,,,,,,,public_information_incorrect_rate_by_unsigned_distance,,,,,,,0.0231374,,,OFFENSE,,"(3.0, 4.0]",
+20975,,,,,,,,,,,,public_information_incorrect_rate_by_unsigned_distance,,,,,,,0.00462455,,,OFFENSE,,"(4.0, 6.01]",

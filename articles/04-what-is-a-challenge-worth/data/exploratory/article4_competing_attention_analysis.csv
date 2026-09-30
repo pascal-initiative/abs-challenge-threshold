@@ -1,0 +1,16 @@
+spec,indicator,side,n_flagged,rate_flagged,n_unflagged,rate_unflagged,stratified_n_flagged_matched,stratified_rate_difference,adj_or,adj_or_ci_low,adj_or_ci_high,adj_p
+primary,ca_stolen_base_attempt,ALL,216,0.0972222,19908,0.25437,202,-0.21083,0.238646,0.147102,0.387159,6.48329e-09
+primary,ca_stolen_base_attempt,OFFENSE,51,0.137255,10699,0.196467,49,-0.0400909,0.71671,0.322539,1.5926,0.413571
+primary,ca_stolen_base_attempt,DEFENSE,165,0.0848485,9209,0.321642,153,-0.265511,0.138485,0.0753383,0.254559,1.95297e-10
+primary,ca_catcher_throw_any_evidence,ALL,88,0.0795455,20036,0.253444,81,-0.265765,0.153092,0.0697143,0.336188,2.92508e-06
+primary,ca_catcher_throw_any_evidence,OFFENSE,9,0.111111,10741,0.196257,9,-0.0285984,,,,
+primary,ca_catcher_throw_any_evidence,DEFENSE,79,0.0759494,9295,0.319527,72,-0.295411,0.102046,0.0428489,0.243027,2.53542e-07
+primary,ca_runner_out,ALL,43,0.0465116,20081,0.253125,39,-0.243218,0.0921452,0.0194765,0.435948,0.0026386
+primary,ca_runner_out,OFFENSE,6,0,10744,0.196296,6,-0.150012,,,,
+primary,ca_runner_out,DEFENSE,37,0.0540541,9337,0.318518,33,-0.260164,0.0736287,0.0137524,0.3942,0.00230829
+primary,ca_secondary_play_reviewed,ALL,16,0.125,20108,0.252785,16,-0.0930947,,,,
+primary,ca_secondary_play_reviewed,OFFENSE,1,0,10749,0.196204,1,-0.181818,,,,
+primary,ca_secondary_play_reviewed,DEFENSE,15,0.133333,9359,0.317769,15,-0.0871798,,,,
+primary,ca_any_secondary_action,ALL,259,0.108108,19865,0.254568,243,-0.210342,0.259591,0.17048,0.395281,3.25196e-10
+primary,ca_any_secondary_action,OFFENSE,56,0.142857,10694,0.196465,54,-0.0290331,0.747063,0.354982,1.5722,0.442422
+primary,ca_any_secondary_action,DEFENSE,203,0.0985222,9171,0.32232,189,-0.262145,0.15939,0.0951357,0.267043,3.06654e-12

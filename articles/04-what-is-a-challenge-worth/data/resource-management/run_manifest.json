@@ -1,0 +1,107 @@
+{
+  "analysis_end_date": "2026-09-09",
+  "analysis_start_date": "2026-03-25",
+  "code_commit": "UNCOMMITTED",
+  "code_hash": "11d6eecee6b89404cbc8ec330528821578e10b2d666b5d025ee8d8aabd663684",
+  "decision_gates": {
+    "best_challenger": "DEFER",
+    "decision_framework": "PROCEED",
+    "exhaustion": "YES",
+    "inventory": "INCONCLUSIVE",
+    "ranking_status": "NOT_SUPPORTED",
+    "resource_management": "YES",
+    "timing": "NOT_SUPPORTED"
+  },
+  "decision_thresholds": {
+    "indifference_wp": 0.00025,
+    "strong_wp": 0.0025
+  },
+  "execution_timestamp": "2026-09-10T00:00:00Z",
+  "model_versions": {
+    "pipeline": "pascal_sprint5_v1",
+    "sklearn": "1.6.1"
+  },
+  "output_hashes": {
+    "artifacts/sprint5/01_required_confidence_by_inning.png": "eee3df780f9c3646bf07b0c0a8c7cd859e7b0bf405c323c4b072136c21c0fbbc",
+    "artifacts/sprint5/02_required_confidence_by_count.png": "53ed3a7fee1ef462bc55d3140d1341d69bec60380547a370b4019d4fe30e92ce",
+    "artifacts/sprint5/03_required_confidence_by_inventory.png": "ccfd86e677c2c11a45438e4966833aedd9fbd168ca66642e7111ccb471722916",
+    "artifacts/sprint5/04_actual_probability_vs_required_confidence.png": "774e0dddea9c4fe356f38285d4475d3e034015b78404525e6ec5a550c8a5c338",
+    "artifacts/sprint5/05_actual_vs_recommended_rate.png": "8016d14baa2bc500e9bd17a14976aa87d2416dd58e68eeac3c4676cbaf3e946a",
+    "artifacts/sprint5/06_decision_margin_distribution.png": "283a05324e6f2bd6cc7cc272dd4bcd4d651a65676ee4ad9c8a000071f07c7c12",
+    "artifacts/sprint5/07_exhaustion_by_inning.png": "62cfd3248f14ec12f2b94b13fef95c5137bad2514e41c2e134787074c6113f18",
+    "artifacts/sprint5/08_post_exhaustion_value_lost.png": "8a9f2fc14b033f3d852bdc3b8f773fc6025f2a82e7b1619bdef4ca41e862e8e2",
+    "artifacts/sprint5/09_offense_defense_efficiency.png": "8e53a60bfdaa1b0d861ce040208b665f975413463c92d634ae4df8b653a33f8b",
+    "artifacts/sprint5/10_benchmark_comparison.png": "4e5b2e84118eab7b6a124ff860aa4c0ba43dfccc9f7d7d4ce8877de2bf8e830b",
+    "artifacts/sprint5/benchmark_comparison.csv": "8b2c970c3ffd8bc8a051785213992ba910d28be25d1ee29da0f3b02cf00c3d77",
+    "artifacts/sprint5/calibration_metrics.csv": "b70709a5716852909f3a9ac93b1d22e23d4ea4d79e9ccc591d1427ac0613f0c5",
+    "artifacts/sprint5/count_analysis.csv": "a6bf028c32d5e9e25cddbbf5ac87d739de5a7dd98d3c8874c2b2eebd1ccac625",
+    "artifacts/sprint5/counterfactual_preservation.csv": "f6d7e6c7cfb1f6245730be9af38c611f287ef48f056edcd82dececf0d01916d5",
+    "artifacts/sprint5/decision_margin_distribution.csv": "184349c5339334d3bf065c45f2a8dac1337511147eea35e4a8c4564667fcba3e",
+    "artifacts/sprint5/decision_matrix.csv": "17e069f37b174138f5253f409da0c2c06ddda515a0b7740fec42cb10d183138d",
+    "artifacts/sprint5/decision_quality_summary.csv": "34ecded5128b3ea0b87f9a91d8546747524c156d7239486f6ffbb5116a5bb9db",
+    "artifacts/sprint5/exhaustion_sequences.csv": "ce90bc56f7a3c58378505d3d20589d4fd5642247ecc92494861aa509a9c2d556",
+    "artifacts/sprint5/inventory_analysis.csv": "0b5a84a42cb19b3d0f0278d9e1af033bbe4edee2084c0fbaad3b98566452f612",
+    "artifacts/sprint5/low_value_challenges.csv": "10da354f1955f4e67ac0a5e440ec1c659b3b561348cc16a3a8b3722fa20e2282",
+    "artifacts/sprint5/offense_defense_comparison.csv": "4b863ca738aca12a06129d4321e27a60f42c93b6c62ef549078af92a3f358776",
+    "artifacts/sprint5/overturn_model_metrics.csv": "d36ef026160c47be24fc281bb7f2c2d3fc08127e0630739fe234833c382afbf0",
+    "artifacts/sprint5/policy_component_validation.csv": "8979c033c7703c6ee49ccc0b4a323550be46a3086c9615cd52e86ef3b3c7eb5a",
+    "artifacts/sprint5/policy_validation.csv": "ba7d9bd4f15a43f4822aad97b6fd88b047d9f01786dd5d9eaecbc14961214ead",
+    "artifacts/sprint5/run_expectancy_model_metrics.csv": "523e46d31ce9a255dc84be5771ff0824d33b19651e8d8099b876bde276b163c0",
+    "artifacts/sprint5/sensitivity_analysis.csv": "693c28f080d2f7c7cac8037f60675a1f92272302da6c32d2705354151c428b65",
+    "artifacts/sprint5/successful_bad_decisions.csv": "95c4f2f88c40a16282c0335fce91b065c61c49988bd991ca7743a47e2f4dae6c",
+    "artifacts/sprint5/team_resource_management.csv": "ed60e5402335613908318f934b5375acda3b05a3942b333ebfb41a5b7bc1aa07",
+    "artifacts/sprint5/timing_analysis.csv": "df46ff5d9ada8be360cb834d947813b73e8dc4017451d3b0a4b52738c4444d0c",
+    "artifacts/sprint5/unsuccessful_good_decisions.csv": "2feb5791c955ed3a26234141ae34713f948d0f1c1d4502ca0ed51a9cf57326a6",
+    "artifacts/sprint5/valuable_holds.csv": "fe3ea37090ad9ed1d1878541895378ee7a0e0c0b759f6f3e5e68de2a0a3ee27d",
+    "artifacts/sprint5/win_probability_model_metrics.csv": "f75877fbfcbdc5e5a98e8f82eee82adfab0a24b17a31867a25679a95af81f6c9",
+    "data/analysis/sprint5/challenge_decision_states.csv": "b918cbc7fb55dee33ed83b4aed7ccaae764341210563be8512876a48bfc76146",
+    "data/analysis/sprint5/challenge_inventory_history.csv": "c477336fcd4c8c652458819db1c8e50fe1145aa4137df01ec001ca7ffc87222f",
+    "data/analysis/sprint5/challenge_opportunities.csv": "d1a22ef5dff03789851937b2b1b6a09bb96dfb8d780a0b7f4d51d07fd94e97ec",
+    "data/analysis/sprint5/challenge_value_estimates.csv": "142fdd8ccbb849cce426b3a9bb74efb4f1977739625fe3e0740624ab67f8d7b4",
+    "data/analysis/sprint5/decision_quality.csv": "978736882b8fdfcd214b149595bead317df1a508a009d9b7c1fe073e9b97144f",
+    "data/analysis/sprint5/exhaustion_events.csv": "235378671bcfd1ece741e39572b616b78cde593e2c0b32bd2cdf7f3b65f7e186",
+    "data/analysis/sprint5/post_exhaustion_opportunities.csv": "ffc1c03c121cbfabd1eff2ab28fad2528b2148aee1ddbd0ea505d15265d189dc",
+    "data/analysis/sprint5/resource_cost_summary.csv": "4d2940354d6452161f793c65ff05bf7b690e65725a01b742c0d4eb92b288edcd",
+    "docs/sprint5/challenge_resource_management_report.md": "764ac60aac4301ddfcd233e29f748d880538601433327a2240da63228f600805",
+    "docs/sprint5/data_dictionary.md": "dcd755e6e7865c52b533a7e68c869a66f8d81272c7620ba9947c2ef5e7e8e1d3",
+    "docs/sprint5/methodology.md": "efab31af71fb7033bd98f736e98c0d8bbb2513c8cb96051a386693dd18b0c6fb",
+    "notebooks/05_challenge_resource_management.ipynb": "8bf96f0902c111fe5615931a4d043eb4025996f1a29f0fa0e32a4dfb490e0294"
+  },
+  "overturn_model_specification": "IPW logistic outcome model; predecision geometry/state; actual challenges",
+  "population": {
+    "actual_challenges": 9485,
+    "exhaustion_events": 1238,
+    "games": 2195,
+    "legal_opportunities": 312228,
+    "physical_pitches": 645793
+  },
+  "random_seeds": [
+    20260910
+  ],
+  "re_specification": "RE288 empirical table, base/out shrinkage prior=40",
+  "sensitivity_configurations": [
+    "PRIMARY",
+    "P_OVERTURN_-15%",
+    "P_OVERTURN_+15%",
+    "FUTURE_VALUE_HALF",
+    "FUTURE_VALUE_1.5X",
+    "WP_VALUE_-10%",
+    "INDIFFERENCE_HALF",
+    "INDIFFERENCE_DOUBLE"
+  ],
+  "sequential_policy_specification": "representative-opportunity Bellman recursion; success retains, failure loses",
+  "software_versions": {
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "python": "3.12.14",
+    "sklearn": "1.6.1"
+  },
+  "source_snapshot_hashes": {
+    "artifacts/sprint4/run_manifest.json": "68a31695c94c6c9c3f9d98ac15407cea230c72327e1173bc4673571989e0cac9",
+    "data/full_season/processed/challenges.csv": "f7219096dab291b9209c96c17f9aa737a707e346eb363ead145bfdedc7a18c5d",
+    "data/full_season/processed/pitches.csv": "6755bc3175960e52bbe48ae17793f1faec059e8359b0018707d792dea11894e0",
+    "data/full_season/processed/run_manifest.json": "0039fd255416d191108c7c3204150b610843697ec4a25ee729d23970c9a7fec8",
+    "requirements-sprint5-lock.txt": "3dc3b8cc55c83a389ad708afe74cda973ad86a34a2c1e9769ccf82019246f1c3"
+  },
+  "wp_specification": "HistGradientBoostingClassifier; inning/half/score/outs/bases/count"
+}

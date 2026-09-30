@@ -1,0 +1,3 @@
+affected_team_challenges_remaining,opportunities,actual_challenges,recommended_challenges,challenge_rate,recommended_challenge_rate,mean_P_overturn,actual_success_rate,mean_required_confidence,decision_correct_rate,suboptimal_decisions,expected_value_captured,expected_value_available,decision_efficiency
+1,91132,2605,2797,0.0285849098012,0.0306917438441,0.0643229563128,0.523992322457,0.908415719627,0.963251108282,3349,-28.1046998986,33.5726706952,-0.837130300231
+2,221096,6880,8111,0.0311177045265,0.0366854217173,0.06559971252,0.542587209302,0.657199767904,0.96239190216,8315,27.2715071642,80.9405239522,0.336932673927

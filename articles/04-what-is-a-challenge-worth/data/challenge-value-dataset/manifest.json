@@ -1,0 +1,89 @@
+{
+  "code_sha256": {
+    "build.py": "c8c2e043078a8f9b1af7390b8503402603398bfe7337eb34e6bd24dff58ce23b",
+    "counterfactual.py": "9fa182823aafa5ac47d472f72e83f0a3ca20c2323ad3ec407958714e941cee4c",
+    "feeds.py": "53980f754754c8090f2be8e0c68c78edebf4a12d853eb9bc9ccc93bae84d809a",
+    "fetch_case_study.py": "5d207d9f0e18bc321e9e07c6678a6f6a6799d59d0e3d6162fc18212bac2dafe4",
+    "fields.py": "3a616d997d78f87b15cdac99f16144fe1c0d139275d6190a3de3190a2c842e32"
+  },
+  "input_sha256": {
+    "data/analysis/sprint3/offensive_recognition_descriptive.csv": "4e4a457283150d12977225955afdc3702f37393bef81d6c2cdd1599b80fba986",
+    "data/analysis/sprint3/offensive_recognition_features.csv": "b6f7c91b9d6ee2dee0d28bfff643c78688661cad631bf69c6a5c906253a9ccd0",
+    "data/analysis/sprint3/offensive_recognition_model_metrics.csv": "024a6ca3fd05052f9d74a91ef25de67f7ec9b2d9f72f1550d7c156c3ffa2c549",
+    "data/analysis/sprint3/offensive_recognition_population_audit.json": "a396972176c2ff38fb829bf59daee37650320fdcfcd454e6309ae75bf1fe3fc8",
+    "data/analysis/sprint3/offensive_recognition_predictions.csv": "6b490076bb866d40c4b346285c06369e148b8b12cf6a97b03720b3113f2ea289",
+    "data/analysis/sprint4/batter_recognition_opportunities.csv": "78820cdca307c28c833e8e5763a6e70e167752d65504b780765c89352ce7827d",
+    "data/full_season/processed/challenges.csv": "f7219096dab291b9209c96c17f9aa737a707e346eb363ead145bfdedc7a18c5d",
+    "data/full_season/processed/data_quality_report.json": "8a9e1a65b3d5b13681d379aceb59f24fd6506db45a2cf5f867c6ed419837a6bd",
+    "data/full_season/processed/descriptive_report.json": "bb72cc944c632f245ebc84c6a41e78284c9e72f7a480a424c523442116958085",
+    "data/full_season/processed/game_manifest.csv": "8bbb414ee05e35c8a00dc195f142f8d3327c92f8c64fc1793b19e595f02473c3",
+    "data/full_season/processed/pitches.csv": "6755bc3175960e52bbe48ae17793f1faec059e8359b0018707d792dea11894e0",
+    "data/full_season/processed/recognition_breakdowns.csv": "ddce0d1346f0667d7e185418493893b8335bc113ab73f4dffcf03e7ff78892e3",
+    "data/full_season/processed/recognition_distributions.json": "a6e9728dd7b38566daa965b1dcbc3677f132ffcaa2e3df61b3be23d5998a187d",
+    "data/full_season/processed/run_manifest.json": "0039fd255416d191108c7c3204150b610843697ec4a25ee729d23970c9a7fec8",
+    "data/full_season/processed/validation_discrepancies.csv": "5341263bb66a4ccac66ba2e9c66b5b8a950179cd58d5d7dc1613e01b70079e1a",
+    "data/full_season/processed/validation_report.json": "f708a383f2cb1ef7f72c58d9f29ffca41078cb244d68fa9530f0f55097d00407",
+    "data/full_season/raw/receipts.jsonl": "abbbc19428b699cf325eb314ca886e8e88157e3e0c68930c849feeb80b1fc35b"
+  },
+  "numpy": "1.26.4",
+  "outputs": {
+    "article4_all_incorrect_calls.csv": {
+      "rows": 21831,
+      "sha256": "e8215e3a8a480c3331fe0e93062f1fd82be2527108d98ff411806382527636d1"
+    },
+    "article4_braves_case_study.csv": {
+      "rows": 504,
+      "sha256": "9b5874dde0748c69a0cebb2ce9cab4d6e8f5f4297ba15683e91c113c837ede92"
+    },
+    "article4_braves_case_study_sequence.csv": {
+      "rows": 44,
+      "sha256": "1c6a45841021131d12d5564c9e7d74b7ec54cc6871ffa6ffc7bfdc861aa9580f"
+    },
+    "article4_braves_game_scores.csv": {
+      "rows": 158,
+      "sha256": "6d58997697644252125b82d1111c73b20b2a01d0326e1965407267cfd84f7c7b"
+    },
+    "article4_competing_attention.csv": {
+      "rows": 296,
+      "sha256": "c268dbc59abd3e44e9d56b788ab2243271ec1a791aeb58f22ec483f874058105"
+    },
+    "article4_high_value_missed.csv": {
+      "rows": 250,
+      "sha256": "4f29b5295e576eda8b48e2a3571a191ae1077c72208133b95cf31675142f9c36"
+    },
+    "article4_opportunities.csv": {
+      "rows": 20164,
+      "sha256": "3be3ba0ceee3abf958269a90a338294eacf86b9cb636b6775dec9f74e38bb2cc"
+    },
+    "article4_re24_table.csv": {
+      "rows": 24,
+      "sha256": "822c056a746445dd69688683466678fc798836c3aafe54d8d35cdf54886c44ae"
+    },
+    "article4_re288_table.csv": {
+      "rows": 288,
+      "sha256": "27a5c636235da56b4b6e4b78fcc91061be48e0b0f91780a959cfad9366564f10"
+    },
+    "article4_spot_checks.csv": {
+      "rows": 85,
+      "sha256": "ba436f791ba61bad2d890496135dd5390436ee138777aa4dc91853ea2a5affc5"
+    },
+    "article4_team_game_sequences.csv": {
+      "rows": 26218,
+      "sha256": "80bc3d14ea11e9ea37ec10ae90bcedbbcc7e7b12fcf435e5362c3be5794597cd"
+    },
+    "article4_team_summary.csv": {
+      "rows": 886,
+      "sha256": "1f47dd1be5145b4ba6adb0a10389c22526410d20aa06a6209e654b7ba29af93a"
+    }
+  },
+  "pandas": "2.3.3",
+  "python": "3.9.6",
+  "re_max_inning": 8,
+  "re_prior": 40,
+  "seed": 20260923,
+  "snapshot": [
+    "2026-03-25",
+    "2026-09-09"
+  ],
+  "version": "pascal_article4_dataset_v1"
+}
