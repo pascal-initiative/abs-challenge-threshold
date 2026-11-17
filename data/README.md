@@ -30,7 +30,9 @@ We then reconstructed the ABS strike zone from MLB's published rules: a 17-inch-
 | --- | ---: | ---: | ---: | ---: |
 | Pilot, August 24 to 30 | 93 | 27,569 | 447 | 447 (100.0%) |
 | Season, March 25 to September 9 | 2,195 | 645,793 | 9,485 | 9,482 (99.97%) |
-| Confirmation, September 11 to 27 | 230 | 67,355 | 1,050 | 1,049 (99.90%) |
+| Confirmation, September 11 to 27 | 229 | 67,355 | 1,050 | 1,049 (99.90%) |
+
+The confirmation window had 230 scheduled games. One, Baltimore at New York (AL) on September 27 (game 823490), was cancelled and has no pitches or challenges, so the table counts the 229 games that were played.
 
 Agreement on challenged pitches does not prove the reconstruction is perfect for every unchallenged pitch, because challenged pitches are a selected sample. It does show that the geometry reproduces ABS rulings closely where the official answer is known. The pipeline methodology is documented in [docs/methodology.md](../docs/methodology.md), and the field definitions are in [docs/data_dictionary.md](../docs/data_dictionary.md).
 
